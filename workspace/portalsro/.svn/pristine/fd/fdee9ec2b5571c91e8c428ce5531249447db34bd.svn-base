@@ -1,0 +1,49 @@
+ultima.transmissao.dr=select t.LAS_UNICEP as uni_cep, u.uni_name, u.uni_code,\
+                        t.LAS_EVENTTYPECODE as et_eventtypecode, t.LAS_LASTTIME as UTR_DH_TRANSMISSAO, \
+                        r.rd_acronym, u.uni_reope, sro.datediffex(LAS_LASTTIME,sysdate)  as tempo  \
+                      from sro.LASTTRANSMISSION t, sro.unit u, sro.regionaldirectorate r, sro.unit n \
+                      where t.LAS_UNICEP = u.uni_cep \
+                        and n.uni_rdcode = r.rd_code \
+                        and n.uni_cep = u.uni_cep \
+                        and u.uni_rdcode = ?\
+                        and t.las_lasttime > (sysdate -120)
+
+#out_acronym = tipo de unidade
+ultima.transmissao.dr.tipo.unidade=select t.LAS_UNICEP as uni_cep, u.uni_name, u.uni_code,\
+                        t.LAS_EVENTTYPECODE as et_eventtypecode, t.LAS_LASTTIME as UTR_DH_TRANSMISSAO, \
+                        r.rd_acronym, u.uni_reope, sro.datediffex(LAS_LASTTIME,sysdate)  as tempo  \
+                           from sro.LASTTRANSMISSION t, sro.unit u, sro.regionaldirectorate r, sro.operationalunittypes o, sro.unit n \
+                           where t.LAS_UNICEP = u.uni_cep \
+                             and n.uni_rdcode = r.rd_code \
+                             and n.uni_cep = u.uni_cep \
+                             and u.uni_type   = o.out_code \
+                             and u.uni_rdcode = ? \
+                             and o.out_acronym = ? \
+                             and t.las_lasttime > (sysdate -120)
+
+ultima.transmissao.dr.reop.tipo.unidade=select t.LAS_UNICEP as uni_cep, u.uni_name, u.uni_code,\
+                        t.LAS_EVENTTYPECODE as et_eventtypecode, t.LAS_LASTTIME as UTR_DH_TRANSMISSAO, \
+                        r.rd_acronym, u.uni_reope, sro.datediffex(LAS_LASTTIME,sysdate)  as tempo  \
+                                        from sro.LASTTRANSMISSION t, sro.unit u, sro.regionaldirectorate r, sro.operationalunittypes o, sro.unit n \
+                                        where t.LAS_UNICEP = u.uni_cep \
+                                          and n.uni_rdcode = r.rd_code \
+                                          and n.uni_cep = u.uni_cep \
+                                          and u.uni_type   = o.out_code \
+                                          and u.uni_rdcode = ? \
+                                          and u.uni_reope = ? \
+                                          and o.out_acronym = ? \
+                                          and t.las_lasttime > (sysdate -120)
+                                          
+ultima.transmissao.dr.reop=select t.LAS_UNICEP as uni_cep, u.uni_name, u.uni_code,\
+                        t.LAS_EVENTTYPECODE as et_eventtypecode, t.LAS_LASTTIME as UTR_DH_TRANSMISSAO, \
+                        r.rd_acronym, u.uni_reope, sro.datediffex(LAS_LASTTIME,sysdate)  as tempo  \
+                           from sro.LASTTRANSMISSION t, sro.unit u, sro.regionaldirectorate r, sro.operationalunittypes o, sro.unit n \
+                           where t.LAS_UNICEP = u.uni_cep \
+                             and n.uni_rdcode = r.rd_code \
+                             and n.uni_cep = u.uni_cep \
+                             and u.uni_type   = o.out_code \
+                             and u.uni_rdcode = ? \
+                             and u.uni_reope = ?\
+                             and t.las_lasttime > (sysdate -120)
+                             
+                                    

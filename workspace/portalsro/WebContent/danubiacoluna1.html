@@ -1,0 +1,270 @@
+<html>
+    <head>
+         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/menu2.css">
+        <link rel="stylesheet" href="styles/basic.css">
+        <title>Portal SRO</title>
+        <style type="text/css">
+<!--
+.style2 { margin-bottom:4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-align="left";
+	text-indent:-5px;}
+-->
+        </style>
+</head>
+	 
+<script type="text/javascript">
+var hoje       = new Date();
+var dia         = hoje.getDate();
+var mes         = hoje.getMonth();
+var ano         = hoje.getFullYear();
+
+function fnc_gravar_data( p_objeto )
+{
+ var objeto   = document.getElementById( p_objeto );
+ var semana   = [ 'Domingo' , 'Segunda' , 'Ter' + String.fromCharCode( 231 ) + 'a' , 'Quarta' , 'Quinta' , 'Sexta' , 'S' + String.fromCharCode( 225 ) + 'bado' ];
+ var meses    = [ 'Janeiro' , 'Fereveiro' , 'Mar' + String.fromCharCode( 231) + 'o' , 'Abril' , 'Maio' , 'Junho' , 'Julho' , 'Agosto' , 'Setembro' ,'Outubro' , 'Novembro' , 'Dezembro' ];
+ var retorno  = '';
+
+
+
+ retorno += semana[ hoje.getDay() ] + ', <br>' + dia + ' de ' + meses[ mes ] + ' de ' + ano ;
+
+
+ objeto.innerHTML = retorno;
+}
+
+
+
+function mostra(item){
+ if (item.style.display=='none'){
+  item.style.display='';
+ }
+ else{
+  item.style.display='none';
+ }
+}
+
+
+</script>
+
+    <body>
+          <div>
+            <div class="menu"> 
+			<table>
+               <img src="images/logo.jpg"  alt="ECT" class="logo" />
+               <div id="data_atual" class="data"></div>
+			</table>
+			    
+			  <table>
+				<tr id="menu0" onClick="mostra(subMenu0)" style="cursor:hand;">
+              		<td class="menutitulo" >
+    					<img src="images/seta.gif">&nbsp;Sistemas
+   			  		</td>
+		    	</tr>   
+				<tr id="subMenu0" style="display:'none'">
+			 		<td>
+			    		<ul>                    
+							<li><a target="_blank" href="http://sac0170/mir">MIR - Módulo Indicadores &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de Rastreamento</a></li>
+							<li><a target="_blank" href="http://sac0720/sro_monitor"> SRO Monitor</a></li>
+							<li><a target="_blank" href="http://intranetect/intranet/AEmpresa/Estrutura/Diretorias/Diope/Denco/relatorios_qualidade.cfm 
+"> Qualidade</a></li>					
+							<li><a target="_blank" href="http://websro2.correiosnet.int/rastreamento/">Rastreamento Unificado</a></li>
+							<li><a  href = "javascript:mostra(SRORCR)"> Atualizações </a>
+							
+	<tr id="SRORCR" style="display:'none'">
+    <td>
+	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='' class="style2"> SRORCR </a><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='' class="style2">Coletores HHP</a>	</td>
+	
+</tr>
+</li>
+</ul>
+</td> 
+</tr>
+				 <BR>
+				
+				 <tr id="menu1" onClick="mostra(subMenu1)" style="cursor:hand;">
+              		<td class="menutitulo" >
+    					<img src="images/seta.gif">&nbsp;Desempenho de Qualidade
+   			  		</td>
+		    	</tr>   
+				<tr id="subMenu1" style="display:'none'">
+			 		<td>
+                		<ul>                    
+							<li><a target="_blank" href="\\sac0170\denco\DSRO\Indices\Graficos-Resumo"> SRO</a></li>
+							<li><a target="_blank" href="\\sac0170\denco\dpoe\sroxdw"> DW</a></li>
+							<li><a target="_blank" href="\\sac0170\denco\dsro\ocorrencias"> Ocorrências</a></li>					
+						</ul>
+				 	</td> 
+				</tr>
+								
+				<br>
+				 <tr id="menu2" onClick="mostra(subMenu2)" style="cursor:hand;">
+              		<td class="menutitulo" >
+    					<img src="images/seta.gif">&nbsp;Equipamentos
+   			  		</td>
+		    	</tr>   
+				<tr id="subMenu2" style="display:'none'">
+			 		<td>
+						<ul>                    
+							<li><a target="_blank" href="\\sac0170\denco\DSRO\Equipamentos">Equipamentos DRs</a></li>
+							<li><a target="_blank" href="\\sac0170\rsro\Plano de Aqusição"> Plano de Aquisição</a></li>
+						</ul>
+				 	</td> 
+				</tr>
+				
+				<br>
+                 <tr id="menu3" onClick="mostra(subMenu3)" style="cursor:hand;">
+              		<td class="menutitulo" >
+    					<img src="images/seta.gif">&nbsp;Documentos/Publicações
+   			  		</td>
+		    	</tr>   
+				<tr id="subMenu3" style="display:'none'">
+			 		<td>
+						<ul>                    
+							<li><a target="_blank" href="\\sac0170\sro\Documentos">Documentos Oficiais</a></li>
+							<li><a target="_blank" href="\\sac0170\sro\Motivos de Não Entrega"> Motivos de Não Entrega</a></li>
+							<li><a target="_blank" href="\\sac0170\sro\diversos\2006">Tipos Postais</a></li>					
+							<li><a target="_blank" href="\\sac0170\sro\encontros_2006">Apresentações</a></li>
+							<li><a target="_blank" href="\\sac0170\denco\dsro\nota bi"> Notas de BI </a></li>
+						</ul>
+				 	</td> 
+				</tr>
+				
+				<tr>
+					<td class="menutitulo" >
+						<img src="images/seta.gif"><a target="_blank" href="\\sac0170\rsro\politica de rastreamento">Política de Rastreamento</a>
+					</td>
+				</tr>
+				    
+					<tr id="menu5" onClick="mostra(subMenu5)" style="cursor:hand;">
+              			<td class="menutitulo" >
+    						<img src="images/seta.gif">&nbsp;Treinamento
+   			  			</td>
+		    		</tr>   
+					<tr id="subMenu5" style="display:'none'">
+						<td>
+							<ul>                    
+								<li><a target="_blank" href="\\sac0170\sro\TLT"> TLT</a></li>
+							</ul>
+					 	</td> 
+					</tr>
+					<br>
+					
+					 <tr id="menu6" onClick="mostra(subMenu6)" style="cursor:hand;">
+              			<td class="menutitulo" >
+    						<img src="images/seta.gif">&nbsp;Diversos
+   			  			</td>
+		    		</tr>   
+					<tr id="subMenu6" style="display:'none'">
+						<td>
+							<ul>                    
+								<li><a target="_blank" href="\\sac0170\sro\Diversos\2006">Alteração de Unidades</a></li>
+							</ul>
+					 	</td> 
+					</tr>
+					<br>
+					 <tr id="menu7" onClick="mostra(subMenu7)" style="cursor:hand;">
+              			<td class="menutitulo" >
+    						<img src="images/seta.gif">&nbsp;Contatos
+   			  			</td>
+		    		</tr>   
+					<tr id="subMenu7" style="display:'none'">
+						<td>
+							<ul>                    
+								<li><a target="_blank" href="\\sac0170\sro\Contatos\Coordenadores SRO 27092006_1.xls">Coordenadores SRO</a></li>
+							</ul>
+					 	</td> 
+					</tr>
+					<br>
+					<tr>
+					<td class="menutitulo" >
+						<img src="images/seta.gif"><a target="linha2" href="http://sac0126/rastreamento/sro?opcao=INICIO&portal=portal">Rastreamento Unificado</a>
+					</td>
+				</tr>
+					<br>
+					
+					<tr>
+					<td class="menutitulo" >
+						<img src="images/seta.gif"><a href="mailto:ac - denco - suporte sro - caixa postal">Críticas e Sugestões</a>
+					</td>
+				</tr>
+				<td>&nbsp;
+					
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;
+					
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;
+					
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;
+					
+					</td>
+				</tr><tr>
+					<td>&nbsp;
+					
+					</td>
+				</tr><tr>
+					<td>&nbsp;
+					
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;
+					
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;
+					
+					</td>
+				</tr><tr>
+					<td>&nbsp;
+					
+					</td>
+				</tr><tr>
+					<td>&nbsp;
+					
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;
+					
+					</td>
+				</tr>
+				<tr>
+					<td >
+					    <a href="http://validator.w3.org/check?uri=referer" class="w3c"><img
+                    	src="images/valid-html401.png"
+                    	alt="Valid HTML 4.01 Transitional" height="31" width="88" class="w3c"></a>
+               
+					</td>
+				</tr>
+			</table>
+            </div>
+            <div class="content" >
+                <br/>
+                
+                   
+                <hr/>                 
+                <br/>
+              </div>
+        </div>
+        
+    </body>
+</html>
+<script type="text/javascript">
+window.onload = function(){ fnc_gravar_data('data_atual'); }
+</script>

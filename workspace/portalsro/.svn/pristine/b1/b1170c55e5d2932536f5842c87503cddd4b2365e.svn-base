@@ -1,0 +1,10 @@
+db.error=Problemas no acesso aos dados, contacte o administrador.
+no.result=Pesquisa sem resultados.
+not.null=Valor não pode ser nulo, nem vazio.
+
+unidade.nao.encontrada=Unidade operacional não encontrada.
+faixa.nao.encontrada=Não foi encontrada nenhuma faixa de CEP para a unidade operacional informada.
+existe.faixa.unidade=Já existem faixas de CEP cadastradas para a unidade operacional informada. Se deseja realizar uma atualização de faixas, primeiro exclua as atuais e depois tente incluir novamente.
+nao.existe.faixa.unidade=Não existem faixas de CEP cadastradas para a unidade operacional informada.
+sucesso.inclusao.faixa=Faixa de CEP incluída com sucesso.
+sucesso.exclusao.faixa=Faixa de CEP excluída com sucesso.

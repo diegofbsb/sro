@@ -1,0 +1,226 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Ajustes</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:14px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs2 { width:242.21px; height:214.20px; border-style:none; }
+p.whs3 { margin-top:47px; margin-left:51px; margin-right:0px; text-align:center; }
+p.whs4 { margin-top:15px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs5 { width:242.21px; height:211.14px; border-style:none; }
+img_whs6 { width:242.21px; height:201.96px; border-style:none; }
+img_whs7 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-right:1pt; }";
+  strNSS += "p.whs3 {margin-right:1pt; }";
+  strNSS += "p.whs4 {margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Recomendações Finais\nAjustes I");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle50
+	style="margin-left: 50px;
+			margin-right: 0px;
+			font-size: 14pt;
+			text-align: center;
+			margin-top: 0px;
+			margin-bottom: 0pt;"
+	align=center>&nbsp;</p>
+
+<p class=PdfParaStyle50
+	style="margin-left: 50px;
+			margin-right: 0px;
+			font-size: 14pt;
+			text-align: center;
+			margin-top: 0px;
+			margin-bottom: 0pt;"
+	align=center>&nbsp;Recomendações 
+ Finais &nbsp;</p>
+
+<p class=PdfParaStyle50
+	style="margin-left: 50px;
+			margin-right: 0px;
+			font-size: 14pt;
+			text-align: center;
+			margin-top: 0px;
+			margin-bottom: 0pt;"
+	align=center>&nbsp;</p>
+
+<p class=PdfParaStyle31
+	style="text-align: justify; font-size: 12pt;">Após a instalação, sempre 
+ que o SRO.exe for acionado, será verificado se no servidor (concentrador) 
+ existe uma versão do SRO.jar atualizada, ou seja, com data superior à 
+ do arquivo SRO.jar existente no coletor. Isto também se aplica para os 
+ demais arquivos necessários para o funcionamento correto do sistema. Se 
+ necessário, pressione o conjunto de teclas ALT+I na tela de Logon (figura 
+ anterior) para forçar a reinstalação, sobrescrevendo os arquivos existentes 
+ no coletor. </p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt;">Essa característica poderá ficar comprometida 
+ caso o fuso horário (em Regional Setting e Data/Time Settings) estiver 
+ diferente do servidor de instalação. É necessário garantir que o GMT esteja 
+ em &#8211;03:00 
+ (de Brasîlia) e a data / hora iguais às do servidor de instalação. </p>
+
+<p class=PdfParaStyle50
+	style="margin-top: 10px;
+			margin-left: 90px;
+			margin-right: 0px;
+			text-indent: 0px;
+			font-size: 12pt;">Para proceder esta garantia siga os passos 
+ abaixo: </p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt;">Saia da aplicação SRO, para o ambiente do 
+ sistema operacional Windows CE &#8211; 
+ Somente </p>
+
+<p class=PdfParaStyle33
+	style="font-size: 12pt;">usuários com perfil de administrador poderão 
+ realizar esta operação. </p>
+
+<p class=PdfParaStyle16><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Em START &gt;&gt; 
+ SETTING &gt;&gt; CONTROL PANEL</font></span> </p>
+
+<p align="center" class="whs1"><img x-orientation="0" src="ManualSROII_56_02.gif" width="242.21px" height="214.20px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle16
+	style="text-align: center; font-size: 12pt;"
+	align=center>Click duas vezes em DATA/TIME</p>
+
+<p align="center" class="whs3"><img x-orientation="0" src="ManualSROII_57_01.gif" width="242.21px" height="214.20px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle16
+	style="text-align: center; font-size: 12pt;"
+	align=center>Digite e data e o horário local depois de selecionar o 
+ fuso horário GMT -03:00 Brasilia (ou ao fuso de sua região) </p>
+
+<p align="center" class="whs4"><img x-orientation="0" src="ManualSROII_57_02.gif" width="242.21px" height="211.14px" border="0" class="img_whs5"></p>
+
+<p class=PdfParaStyle70
+	style="text-align: center; font-size: 12pt;"
+	align=center>Pressione o botão APPLY, em seguida OK. </p>
+
+<p class=PdfParaStyle40
+	style="text-align: center; font-size: 12pt;"
+	align=center>Continue a configuração de todos os parâmetros do Windows 
+ CE. </p>
+
+<p class=PdfParaStyle16
+	style="text-align: center; font-size: 12pt;"
+	align=center>Inicie em START &gt;&gt; SETTINGS &gt;&gt; CONTROL PANEL 
+ </p>
+
+<p align="center" class="whs1"><img x-orientation="0" src="ManualSROII_57_03.gif" width="242.21px" height="201.96px" border="0" class="img_whs6"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 82 Painel de Controle </p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt; margin-left: 0px;">&nbsp;<a 
+ href="Topicos.htm">Voltar ao Menu Principal</a> 
+ </p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt; text-align: right;"
+	align=right><a href="Reinstalacao_do_Aplicativo.htm">&nbsp;&nbsp;&lt;&lt;Tópico 
+ &nbsp;Anterior</a> 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Ajustes_II.htm">Próximo 
+ Tópico&gt;&gt;</a> &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt; text-align: right;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt;
+			text-align: center;
+			line-height: 150%;
+			margin-left: 0px;"
+	align=center><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs7"></p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

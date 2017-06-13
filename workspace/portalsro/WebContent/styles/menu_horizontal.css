@@ -1,0 +1,39 @@
+/* 
+    Document   : menu
+    Created on : 21 de Agosto de 2006, 17:25
+    Author     : jeans
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    float: left;
+    /*width: 6em;*/
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+a:hover {
+    background-color: #ff3300
+}
+
+li {
+    display: inline
+}
+

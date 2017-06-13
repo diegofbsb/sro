@@ -1,0 +1,239 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Parâmetros</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:14px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs2 { width:335.67px; height:281.52px; border-style:none; }
+img_whs3 { width:573.86px; height:312.12px; border-style:none; }
+img_whs4 { width:312.56px; height:320.28px; border-style:none; }
+img_whs5 { width:234.17px; height:247.86px; border-style:none; }
+img_whs6 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Manual de Operação do SROServer\nParâmetros");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle17
+	style="font-size: 12pt;"><span class=PdfCharStyle7
+									style="font-size: 12pt; font-weight: bold;"><font size=3 style="font-size:12pt;"><B>5</B></font></span>.5 
+ Parâmetros para os Coletores (PARA) </p>
+
+<p class=PdfParaStyle18
+	style="font-size: 12pt; text-align: justify;"><span class=PdfCharStyle7
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Os 
+ parâmetros de configuração do SRO, utilizados pelo </font></span><span class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">SRO.JAR</font></span><span class=PdfCharStyle7
+												style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> 
+ são lidos de um arquivo denominado </font></span><span class=PdfCharStyle11
+												style="font-size: 12pt;"><font size=3 style="font-size:12pt;">PARA</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">. </font></span></p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt; text-align: justify;"><span class=PdfCharStyle7
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Durante 
+ a instalação do </font></span><span class=PdfCharStyle11
+								style="font-size: 12pt;"><font size=3 style="font-size:12pt;">SRO.JAR</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> no coletor, o arquivo </font></span><span class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">PARA</font></span><span class=PdfCharStyle7
+												style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> 
+ é copiado do servidor para </font></span>coletor. </p>
+
+<p class=PdfParaStyle32
+	style="font-size: 12pt; text-align: justify;">Sendo assim, antes de 
+ iniciar a instalação dos coletores em uma unidade, deve-se editar o <span 
+ class=PdfCharStyle7
+	style="text-align: justify; font-size: 12pt;"><font size=3 style="font-size:12pt;">arquivo </font></span><span 
+ class=PdfCharStyle11
+	style="text-align: justify; font-size: 12pt;"><font size=3 style="font-size:12pt;">PARA</font></span><span class=PdfCharStyle7
+	style="text-align: justify; font-size: 12pt;"><font size=3 style="font-size:12pt;"> no servidor e ajustar 
+ os parâmetros de acordo com esta unidade. </font></span></p>
+
+<p class=PdfParaStyle43><span class=PdfCharStyle7
+								style="font-size: 12pt;"><font size=3 style="font-size:12pt;">A edição do arquivo 
+ </font></span><span class=PdfCharStyle11
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">PARA</font></span><span class=PdfCharStyle7
+															style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> 
+ no servidor é feita através do software </font></span><span class=PdfCharStyle11
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">EDITPARA</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> que é chamado através do bat </font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">EDITPARA.BAT, </font></span><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">disponível</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> na pasta</font></span><span class=PdfCharStyle11
+													style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> 
+ \SROSERVER</font></span><span class=PdfCharStyle7
+						style="font-size: 12pt;"><font size=3 style="font-size:12pt;">.</font></span><span class=PdfCharStyle7> 
+ </span></p>
+
+<p align="center" class="whs1"><img x-orientation="0" src="ManualSROII_20_01.gif" width="335.67px" height="281.52px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 18 - Conteúdo da pasta SROserver </p>
+
+<p class=PdfParaStyle06
+	style="font-size: 12pt;">Tela do EditPara </p>
+
+<p align="center" class="whs1"><img x-orientation="0" src="ManualSROII_20_03.gif" width="573.86px" height="312.12px" border="0" class="img_whs3"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 19 - Inicialização editpara.bat </p>
+
+<p class=PdfParaStyle10
+	style="margin-top: 34px;
+			margin-left: 51px;
+			text-align: center;"
+	align=center><img x-orientation="0" src="ManualSROII_21_01.gif" width="312.56px" height="320.28px" border="0" class="img_whs4"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 20 - Editor de Parâmetros </p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">Importante </p>
+
+<p class=PdfParaStyle34
+	style="font-size: 12pt; text-align: justify;">Cada alteração realizada 
+ em um desses campos somente será gravada quando o foco estiver no próximo 
+ campo e for pressionado o botão OK ao final do cadastro. </p>
+
+<p class=PdfParaStyle40
+	style="font-size: 12pt;">Por exemplo: </p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt;">Para alterar o endereço IP do servidor de 
+ instalação, posicione o cursor no campo <span class=PdfCharStyle11
+												style="font-size: 12pt;"><font size=3 style="font-size:12pt;">IPInstalador</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> e digite o novo endereço.</font></span><span class=PdfCharStyle7> 
+ </span></p>
+
+<p align="center" class="whs1"><img x-orientation="0" src="ManualSROII_21_02.gif" width="234.17px" height="247.86px" border="0" class="img_whs5"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 21 - Editando parâmetros </p>
+
+<p class=PdfParaStyle40
+	style="font-size: 12pt;">Clique sobre o próximo campo sem alterar o 
+ seu valor. </p>
+
+<p class=PdfParaStyle40
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle40
+	style="font-size: 12pt; font-weight: bold;"><a href="Topicos.htm">Voltar 
+ ao Menu Principal</a></p>
+
+<p class=PdfParaStyle40
+	style="text-align: right;
+			font-size: 12pt;
+			font-weight: bold;"
+	align=right><a href="Arquivos_de_Configuracao.htm">&lt;&lt; Tópico 
+ Anterior</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Par_metros_II.htm" style="font-weight: bold;">Próximo Tópico 
+ &gt;&gt;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle40
+	style="text-align: right;
+			font-size: 12pt;
+			font-weight: bold;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle40
+	style="font-size: 12pt;
+			font-weight: bold;
+			text-align: center;
+			line-height: 150%;"
+	align=center><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs6"></p>
+
+<p class=PdfParaStyle40
+	style="text-align: right;
+			font-size: 12pt;
+			font-weight: bold;"
+	align=right>&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

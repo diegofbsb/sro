@@ -1,0 +1,27 @@
+estacoesDeTrabalho.dr=select r.RD_ACRONYM,e. EST_CO_UNICEP, u.UNI_NAME, u.UNI_CODE, o.out_acronym, e.EST_NO, e.EST_CO_IP, \
+            case when i.WKS_ID_TIPO_ESTACAO_TRABALHO = 1 then 'Concentrador SRO' else 'SRO Operacional' end as tipoEstacao, \
+            i.INS_NU, i.INS_TX_DIRETORIO, i.INS_NO_VERSAO, (select max(ca.con_dh_login) as con_dh_login \
+              from sro.CONTROLE_ACESSO ca \
+                where e.EST_CO_UNICEP=ca.EST_CO_UNICEP \
+                  and e.EST_CO_IP = ca.EST_CO_IP \
+                  and i.INS_TX_DIRETORIO = ca.INS_TX_DIRETORIO \
+              group by ca.EST_CO_UNICEP, ca.EST_CO_IP, ca.INS_TX_DIRETORIO)  as EST_DH_INSERCAO_SRO \
+ from sro.estacao_trabalho e JOIN sro.instalacao_aplicacao i on e.EST_CO_UNICEP=i.EST_CO_UNICEP and e.EST_CO_IP = i.EST_CO_IP \
+            left join SRO.UNIT u on e.EST_CO_UNICEP = u.uni_cep \
+            left join sro.regionaldirectorate r on u.UNI_RDCODE = r.rd_code \
+            left join sro.operationalunittypes o on u.uni_type = o.out_code where u.uni_rdcode =?  \                              
+
+estacoesDeTrabalho.tipo=    and o.out_acronym like ? \                         
+                                                
+
+estacoesDeTrabalho.unidade=    and u.uni_name like ? \
+
+
+estacoesDeTrabalho.universao=  and i.ins_no_versao like ? \
+
+
+estacoesDeTrabalho.tipoEstacao= and i.WKS_ID_TIPO_ESTACAO_TRABALHO = ? \
+
+
+estacoesDeTrabalho.orderBy= order by r.RD_ACRONYM, e.EST_CO_UNICEP, u.UNI_NAME, u.UNI_CODE, o.out_acronym, e.EST_NO, e.EST_CO_IP, \
+             tipoEstacao, i.INS_NU, i.INS_TX_DIRETORIO, i.INS_NO_VERSAO, e.EST_DH_INSERCAO_SRO

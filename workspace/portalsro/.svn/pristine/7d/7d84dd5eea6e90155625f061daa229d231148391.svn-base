@@ -1,0 +1,60 @@
+/* 
+    Document   : robo
+    Created on : 21/09/2009, 14:09:21
+    Author     : jeans
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    
+    color: #110d65;
+    background-color: #f7f5d4;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 4em;
+}
+
+div.content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+ul {
+    list-style-image: url("lgli.png");
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+span.destaque {
+    font-style:italic;
+    font-weight:bold;
+    font-family:monospace;
+    font-size: 1.5em;
+}
+
+span {
+    font-weight:bold;
+}

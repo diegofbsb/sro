@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/menu2.css">
+        <link rel="stylesheet" href="styles/basic.css">
+        <title>Portal SRO</title>
+     </head>
+	 
+<script type="text/javascript">
+var hoje       = new Date();
+var dia         = hoje.getDate();
+var mes         = hoje.getMonth();
+var ano         = hoje.getFullYear();
+
+function fnc_gravar_data( p_objeto )
+{
+ var objeto   = document.getElementById( p_objeto );
+ var semana   = [ 'Domingo' , 'Segunda' , 'Ter' + String.fromCharCode( 231 ) + 'a' , 'Quarta' , 'Quinta' , 'Sexta' , 'S' + String.fromCharCode( 225 ) + 'bado' ];
+ var meses    = [ 'Janeiro' , 'Fereveiro' , 'Mar' + String.fromCharCode( 231) + 'o' , 'Abril' , 'Maio' , 'Junho' , 'Julho' , 'Agosto' , 'Setembro' ,'Outubro' , 'Novembro' , 'Dezembro' ];
+ var retorno  = '';
+
+
+
+ retorno += semana[ hoje.getDay() ] + ', <br>' + dia + ' de ' + meses[ mes ] + ' de ' + ano ;
+
+
+ objeto.innerHTML = retorno;
+}
+</script>
+
+
+
+
+    <body>
+  
+            <div class="menu"> 
+                          
+                <img src="images/logo.jpg"  alt="ECT" class="logo" />
+                <div id="data_atual" class="data"></div>
+            <br><br><br>
+			
+                <p align="left"><font color="#FFFFCC"><b>Sistemas</b></font></p>
+                <ul>                    
+					<li><a href="http://sac0170/mir">MIR - Módulo Indicadores &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de Rastreamento</a></li>
+					<li><a href="http://sac0720/sro_monitor"> SRO Monitor</a></li>
+					<li><a href="http://intranetect/intranet/AEmpresa/Estrutura/Diretorias/Diope/Denco/relatorios_qualidade.cfm 
+"> Qualidade</a></li>					
+					<li><a href="http://websro2.correiosnet.int/rastreamento/">Rastreamento Unificado</a></li>
+					<li><a href="">Atualizações </a></li>
+				</ul>
+				 
+				 <BR>
+				 <p class="A" align="left"><font color="#FFFFCC"><b>Desempenho de Qualidade</b></font></p>
+                <ul>                    
+					<li><a href="\\sac0170\denco\DSRO\Indices\Graficos-Resumo"> SRO</a></li>
+					<li><a href="\\sac0170\denco\dpoe\sroxdw"> DW</a></li>
+					<li><a href="\\sac0170\denco\dsro\ocorrencias"> Ocorrências</a></li>					
+				</ul>
+								
+								
+				<br>
+				 <p align="left"><font color="#FFFFCC"><b>Equipamentos</b></font></p>
+                <ul>                    
+					<li><a href="\\sac0170\denco\DSRO\Equipamentos">Equipamentos DRs</a></li>
+					<li><a href="\\sac0170\rsro\Plano de Aqusição"> Plano de Aquisição</a></li>
+				</ul>
+				
+				
+				<br>
+                 <p align="left"><font color="#FFFFCC"><b>Documentos/Publicações</b></font></p>
+                <ul>                    
+					<li><a href="\\sac0170\sro\Documentos">Documentos Oficiais</a></li>
+					<li><a href="\\sac0170\sro\Motivos de Não Entrega"> Motivos de Não Entrega</a></li>
+					<li><a href="\\sac0170\sro\diversos\2006">Tipos Postais</a></li>					
+					<li><a href="\\sac0170\sro\encontros_2006">Apresentações</a></li>
+					<li><a href="\\sac0170\denco\dsro\nota bi"> Notas de BI </a></li>
+				</ul>
+				
+				<br>
+				 <a href="\\sac0170\rsro\politica de rastreamento"><font color="#FFFFCC"><p align="left"><b>Equipamentos</b></font></a></p>
+				 <br>
+				 <p align="left"><font color="#FFFFCC"><b>Treinamento</b></font></p>
+					<ul>                    
+						<li><a href="\\sac0170\sro\TLT"> TLT</a></li>
+					</ul>
+					
+					<br>
+					<p align="left"><font color="#FFFFCC"></a><b>Diversos</b></font></p>
+					<ul>                    
+						<li><a href="\\sac0170\sro\Diversos\2006">Alteração de Unidades</a></li>
+					</ul>
+					<br>
+				
+				
+				<p>
+				    <a href="http://validator.w3.org/check?uri=referer" class="w3c"><img
+                    src="images/valid-html401.png"
+                    alt="Valid HTML 4.01 Transitional" height="31" width="88" class="w3c"></a>
+                </p>
+            </div>
+            <div class="content" >
+                <br/>
+                
+                <h2>PORTAL SRO </h2>
+				<P align="center"> Versão 1.4.0</P>
+                
+                <table class="home">
+                    <tr>
+                        <td>
+                            <a href="http://portalsro" class="home"><img src="images/Home.gif" alt="HOME" class="home" />P&aacute;gina inicial.</a>                
+                        </td>
+                       
+                    </tr>
+                </table>
+                <hr/>                 
+                <br/>
+                
+
+ 
+
+                
+            </div>
+        
+    </body>
+</html>
+<script type="text/javascript">
+window.onload = function(){ fnc_gravar_data('data_atual'); }
+</script>

@@ -1,0 +1,212 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Instalação do Net Base</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:14px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs2 { width:573.86px; height:436.56px; border-style:none; }
+img_whs3 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Instalação da Net Base\nInstalação do Net Base");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle06
+	style="text-align: center; font-size: 14pt;"
+	align=center>&nbsp;Instalação 
+ da Net Base </p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt; text-align: justify;">A instalação da Net Base 
+ é simples, basta a Net Base, a fonte de alimentação que se adapta automaticamente 
+ à tensão da rede elétrica e um cabo de rede RJ 45 EIA TIA 532 A. </p>
+
+<p class=PdfParaStyle31
+	style="text-align: justify;"><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Além de 
+ realizar a conexão entre o coletor e o outros dispositivos da rede de 
+ coletores, como o roteador, a Net Base proporciona a recarga das baterias 
+ do coletor.</font></span> </p>
+
+<p align="center" class="whs1"><img x-orientation="0" src="ManualSROII_44_02.gif" width="573.86px" height="436.56px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 54 - Instalação da Net Base </p>
+
+<p class=PdfParaStyle07
+	style="font-size: 12pt;">Indicadores da Net Base </p>
+
+<ul>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle28><p class=PdfParaStyle28
+										style="font-size: 12pt; text-align: justify;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">LED DOCK</font></span><span class=PdfCharStyle7
+													style="font-size: 12pt;"> 
+ <font size=3 style="font-size:12pt;">&#8211; O 
+ coletor está corretamente colocado no Net Base. </font></span></p></li>
+	
+	<li style="margin-top: 13px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle21>
+	<p class=PdfParaStyle21
+		style="font-size: 12pt; text-align: justify;"><span class=PdfCharStyle11
+															style="font-size: 12pt;"><font size=3 style="font-size:12pt;">LED 
+ COMM</font></span><span class=PdfCharStyle7
+					style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> -</font></span><span class=PdfCharStyle11
+															style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> 
+ Vermelho</font></span><span class=PdfCharStyle7
+						style="font-size: 12pt;"> <font size=3 style="font-size:12pt;">&#8211; 
+ dados sendo enviados do roteador para a Net Base; </font></span></p>
+	
+	<p class=PdfParaStyle26
+		style="font-size: 12pt; text-align: justify;"><span class=PdfCharStyle7
+															style="font-size: 12pt;"><font size=3 style="font-size:12pt;">- 
+ </font></span><span class=PdfCharStyle11
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Verde</font></span><span class=PdfCharStyle7
+															style="font-size: 12pt;"> 
+ <font size=3 style="font-size:12pt;">&#8211; dados 
+ sendo enviados do Net Base para o roteador; - </font></span><span class=PdfCharStyle11
+															style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Laranja</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"> <font size=3 style="font-size:12pt;">&#8211; 
+ dados sendo enviados em alta taxa de transferência. </font></span></p>
+	</li>
+</ul>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt; text-align: justify;">Importante </p>
+
+<p class=PdfParaStyle37
+	style="text-align: justify; font-size: 12pt;">A Net Base utiliza o 
+ protocolo DHCP e deverá estar conectada a uma das 4 portas LAN do roteador. 
+ Qualquer alteração no roteador deverá levar em conta esta característica. 
+ <span class=PdfCharStyle6
+		style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Recomenda-se não alterar os parâmetros 
+ default do roteador.</font></span></p>
+
+<p class=PdfParaStyle37
+	style="text-align: justify; font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 10px;
+			margin-right: 0px;
+			font-weight: bold;
+			font-size: 12pt;
+			margin-left: 0px;"><span style="font-weight: bold; font-size: 12pt;"><font size=3 style="font-size:12pt;"><B><a 
+ href="Topicos.htm">Voltar ao Menu Principal</a> </B></font></span></p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 10px;
+			margin-left: 70px;
+			margin-right: 0px;
+			text-align: right;
+			font-weight: bold;
+			font-size: 12pt;"
+	align=right><a href="Instala_ao_da_impressao_LPR_III.htm">&lt;&lt; 
+ Tópico Anterior</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="1__Etapa.htm" style="font-size: 12pt;">&nbsp;&nbsp;Próximo 
+ Tópico&gt;&gt;</a> </p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 10px;
+			margin-left: 70px;
+			margin-right: 0px;
+			text-align: right;
+			font-weight: bold;
+			font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 10px;
+			margin-left: 70px;
+			margin-right: 0px;
+			font-weight: bold;
+			font-size: 12pt;
+			text-align: center;"
+	align=center><span style="line-height: 150%;"><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs3"></span> 
+ &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=pdfparastyle09>&nbsp;</p>
+
+<p class=PdfParaStyle37>&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

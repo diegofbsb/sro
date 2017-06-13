@@ -1,0 +1,190 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Preparando o Ambiente</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+img_whs1 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Implantação do Ambiente\nPreparando o Ambiente");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle24
+	style="font-size: 12pt;">1.5 Preparação do Ambiente </p>
+
+<p class=PdfParaStyle18
+	style="font-size: 12pt; text-align: justify;">O ambiente é a integração 
+ entre a Rede Corporativa e a Rede de Coletores, através da interconexão 
+ do roteador ao switch da unidade. Somente uma porta comum é necessária, 
+ sendo possîvel lançar mão de um equipamento existente na unidade, considerando 
+ o cabo de rede RJ45, para interconexão, como direto EIA TIA 582A (ponto-a-ponto). 
+ </p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt; text-align: justify;">Uma vez conectado um 
+ cabo de rede do switch ao roteador e feita a parametrização deste último, 
+ é importante lembrar que: </p>
+
+<ul>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle21><p class=PdfParaStyle21
+										style="font-size: 12pt; text-align: justify;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">A porta do roteador que recebe o cabo do switch 
+ é identificada como WAN. É necessário que a rede existente disponha neste 
+ segmento de um servidor DHCP para fornecer um endereço IP à porta WAN 
+ do roteador. Se esta condição não puder ser atendida, deverá ser alterado 
+ o parâmetro do roteador, registrando um endereço IP à porta WAN do roteador. 
+ </font></span></p></li>
+	
+	<li style="margin-top: 0px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22>
+	<p class=PdfParaStyle22
+		style="font-size: 12pt; text-align: justify;"><span class=PdfCharStyle7
+															style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Para 
+ maiores informações consulte o Capîtulo 05 deste documento (Procedimento 
+ de instalação do Roteador) ou o Manual do Equipamento. </font></span></p>
+	
+	<p class=PdfParaStyle32
+		style="font-size: 12pt; text-align: justify;">A impressora de relatórios 
+ poderá ser conectada e adicionada à Rede de Coletores a </p>
+	</li>
+</ul>
+
+<p class=PdfParaStyle33
+	style="font-size: 12pt; text-align: justify;">qualquer momento, visto 
+ que nenhuma parametrização é requerida. Deve-se atentar para utilizar 
+ sempre um cabo paralelo com comprimento inferior a 15 (quinze) metros. 
+ </p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt; text-align: justify;">A Net Base é o equipamento 
+ utilizado para acondicionar os coletores no momento da transferência dos 
+ dados para o concentrador, quando estes não estão em uso e para recarga 
+ das baterias. Poderá ser fixado em trilhos DIN em lugar seco e limpo. 
+ Os cabos de interconexão com o roteador são EIA TIA 582A (RJ45) direto, 
+ de comprimento inferior a 100 (cem) metros e sua ligação à rede elétrica 
+ deverá ser realizada somente com a fonte de alimentação que acompanha 
+ o equipamento. </p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt; text-align: justify;">O coletor HHP Dolphin 
+ 7300 estará pronto para o uso após terem sido executados os Procedimentos 
+ de Instalação do Coletor (vide Capîtulo 09 deste documento). </p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt; text-align: justify;">A instalação do roteador 
+ é simples e não requer intervenção após sua realização. Cada coletor receberá 
+ um endereço IP do roteador. A Rede de Coletores tem como endereçamento 
+ default 192.168.1.0, netmask 255.255.255.0 fornecidos via serviço DHCP 
+ interno do roteador. As rotas são geradas automaticamente, não sendo necessária 
+ a sua alteração. O roteador dispõe de quatro portas LANs, porém este número 
+ pode ser ampliado com a utilização de HUBs. </p>
+
+<p class=PdfParaStyle34
+	style="font-size: 12pt;">A instalação da Rede de Coletores deve ser 
+ executada por pessoal qualificado para a garantia do perfeito funcionamento 
+ dos equipamentos. </p>
+
+<p class=PdfParaStyle34
+	style="font-style: normal; font-size: 12pt;"><a href="Topicos.htm">Voltar 
+ ao Menu Principal</a> </p>
+
+<p class=PdfParaStyle34
+	style="font-style: normal;
+			text-align: right;
+			font-size: 12pt;"
+	align=right><a href="Ambiente.htm">&lt;&lt; Tópico Anterior</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a 
+ href="Instalacao.htm"
+	style="font-size: 12pt;">&nbsp;</a><a href="Instalacao.htm">Próximo 
+ Tópico&gt;&gt;</a> </p>
+
+<p class=PdfParaStyle34
+	style="font-style: normal;
+			text-align: right;
+			font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle34
+	style="font-style: normal;
+			font-size: 12pt;
+			text-align: center;
+			line-height: 150%;"
+	align=center><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs1"></p>
+
+<p class=PdfParaStyle34
+	style="font-style: normal;
+			text-align: right;
+			font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

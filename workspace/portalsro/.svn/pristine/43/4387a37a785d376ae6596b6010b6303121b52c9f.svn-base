@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<style type="text/css">
+			img.logo {
+			    width: 180px;
+			    height: 48px;
+			}
+	    </style>
+	</head>
+	
+	<body>
+		<font  size="+2"><center>Links Interessantes</center></font></b><br /><br /><br /><br /><br />
+		
+		<table align="center">
+			<tr>
+				<td>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="HTTP://www.correios.com.br"><font color="#003399"><b>CORREIOS</b></font><br /><br /></a><br />
+					<a target="_self"  href="HTTP://www.correios.com.br"><img border="0" src="images/NCorreios_hori_duo_neg_CMYK.png" class="logo" /></a>
+				</td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</td>
+				<td>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://intranetect/intranet/AEmpresa/Estrutura/Diretorias/Diope/Denco/Denco.cfm"><font color="#003399"><b>DENCO</b></font><br /><br /></a>
+					<a target="_self" href="http://intranetect/intranet/AEmpresa/Estrutura/Diretorias/Diope/Denco/Denco.cfm"><img border="0" src="images/Linkdenco.jpg" /></a>
+				</td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp </td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+				</td>
+				<td>
+					&nbsp;&nbsp;&nbsp;<a href="http://DWECT"><font color="#003399"><b>DW</b></font></a><br /><br />
+					<a target="_self"  href="http://DWECT"><img  border="0" width="60" src="images/DW.gif" /></a>
+				</td>
+			</tr>
+		</table>
+	</body>
+	
+</html>

@@ -1,0 +1,201 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>1ª Etapa</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:15px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs2 { width:242.21px; height:210.12px; border-style:none; }
+img_whs3 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Instalação do Aplicatico SRO no Coletor\n1ª Etapa");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle06
+	style="text-align: center; font-size: 14pt;"
+	align=center>Instalação do Aplicativo SRO no Coletor </p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">10.1 Objetivo </p>
+
+<p class=PdfParaStyle18
+	style="font-size: 12pt; text-align: justify;">A instalação do SRO.exe, 
+ aplicativo que iniciará o Sistema de Rastreamento de Objetos, ocorrerá 
+ em duas etapas: </p>
+
+<ul>
+	
+	<li style="margin-top: 13px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle21><p class=PdfParaStyle21
+										style="font-size: 12pt; text-align: justify;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">A primeira etapa levará o aplicativo SRO.exe 
+ para o coletor. Este, por sua vez, se encarregará de instalar o aplicativo 
+ SRO.jar no coletor, bem como atualizá-lo cada vez que isto for processado 
+ no servidor SROserver (concentrador). Facilitando em muito a administração 
+ do sistema. </font></span></p></li>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle21><p class=PdfParaStyle21
+										style="font-size: 12pt; text-align: justify;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">A Segunda etapa descreve o que está acontecendo 
+ no coletor quando o SRO.exe for acionado. </font></span></p></li>
+</ul>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt; text-align: justify;">10.2 Primeira Etapa </p>
+
+<p class=PdfParaStyle18
+	style="text-align: justify;"><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Os Coletores 
+ Dolphin 7300 estão equipados com o Sistema Operacional Windows CE 3.0 
+ e um dos aplicativos previamente instalados é o browser Internet Explorer.</font></span> 
+ </p>
+
+<p align="center" class="whs1"><img x-orientation="0" src="ManualSROII_45_01.gif" width="242.21px" height="210.12px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 55 - Conexão à rede de coletores </p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt; text-align: justify;"><span class=PdfCharStyle7
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">No 
+ Coletor, o IE está acessîvel pelo îcone no Desktop através do menu </font></span><span 
+ class=PdfCharStyle12
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">START &gt; &gt; Programs &gt; Internet Explorer</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">. </font></span><span class=PdfCharStyle20
+											style="font-size: 12pt;"><font size=3 style="font-size:12pt;">&nbsp;</font></span></p>
+
+<p class=PdfParaStyle40
+	style="font-size: 12pt; text-align: justify;">Antes de realizar o acesso 
+ via browser, é necessário conectar-se à rede de coletores. </p>
+
+<p class=PdfParaStyle17
+	style="x-text-underline: normal;
+			font-size: 12pt;
+			text-align: justify;
+			/*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Importante 
+ </p>
+
+<p class=PdfParaStyle34
+	style="font-size: 12pt; text-align: justify;">O Coletor deverá estar 
+ na doca para a conexão, pois é esta que realiza a comunicação entre a 
+ interface do coletor (infrared) e o cabeamento de rede (par trançado). 
+ </p>
+
+<p class=PdfParaStyle34
+	style="font-size: 12pt; text-align: justify;">&nbsp;</p>
+
+<p class=PdfParaStyle34
+	style="font-style: normal; font-size: 12pt;"><span style="font-style: normal; font-size: 12pt;"><font size=3 style="font-size:12pt;"><a 
+ href="Topicos.htm">Voltar ao Menu Principal</a> </font></span></p>
+
+<p class=PdfParaStyle34
+	style="font-style: normal;
+			text-align: right;
+			font-size: 12pt;"
+	align=right><a href="Instalacao_do_Net_Base.htm">&lt;&lt; Tópico Anterior</a> 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="1__Etapa_II.htm">Próximo 
+ Tópico&gt;&gt;</a> &nbsp;</p>
+
+<p class=PdfParaStyle34
+	style="font-style: normal;
+			text-align: right;
+			font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle34
+	style="font-style: normal;
+			font-size: 12pt;
+			text-align: center;
+			text-indent: -2px;
+			margin-left: 0px;"
+	align=center><span style="line-height: 150%;"><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs3"></span> 
+ &nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle34>&nbsp;</p>
+
+<p class=PdfParaStyle34>&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

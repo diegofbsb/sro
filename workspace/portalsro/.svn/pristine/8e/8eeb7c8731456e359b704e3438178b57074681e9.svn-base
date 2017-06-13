@@ -1,0 +1,230 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Instalação Java II</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:0px; margin-left:0px; margin-right:0px; text-align:center; }
+table.whs2 { x-cell-content-align:top; width:100%; border-spacing:0px; }
+col.whs3 { width:50%; }
+tr.whs4 { x-cell-content-align:top; }
+td.whs5 { width:50%; padding-right:10px; padding-left:10px; border-right-style:none; border-left-style:none; border-top-style:none; border-bottom-style:none; }
+p.whs6 { text-align:center; }
+img_whs7 { width:292.46px; height:223.38px; border-style:none; }
+td.whs8 { width:50%; padding-right:10px; padding-left:10px; border-top-style:none; border-bottom-style:none; }
+p.whs9 { font-size:12pt; text-align:justify; }
+p.whs10 { text-align:justify; font-size:12pt; }
+p.whs11 { margin-top:14px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs12 { width:292.46px; height:224.40px; border-style:none; }
+img_whs13 { width:258.29px; height:196.86px; border-style:none; }
+img_whs14 { width:280.40px; height:219.30px; border-style:none; }
+p.whs15 { margin-top:15px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs16 { width:280.40px; height:205.02px; border-style:none; }
+img_whs17 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-top:1pt;margin-left:1pt;margin-right:1pt; }";
+  strNSS += "p.whs11 {margin-right:1pt; }";
+  strNSS += "p.whs15 {margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Instalação Java Run Time\nInstalação Java II");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p align="center" class="whs1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle39
+	style="font-weight: bold; font-size: 12pt;">Aceite os termos de licenciamento.</p>
+
+<p class=PdfParaStyle39
+	style="font-weight: bold; font-size: 12pt;">&nbsp;</p>
+
+<table x-use-null-cells cellspacing="0" width="100%" class="whs2">
+<col class="whs3">
+<col class="whs3">
+
+<tr valign="top" class="whs4">
+<td width="50%" class="whs5">
+<p align="center" class="whs6"><img x-orientation="0" src="ManualSROII_12_01.gif" width="292.46px" height="223.38px" border="0" class="img_whs7"></p>
+<p align="center" class="whs6">Figura 6 - Aceitação dos termos de licenciamento </td>
+<td width="50%" class="whs8">
+<p class="whs9">&nbsp;</p>
+<p class="whs10">&nbsp;</p>
+<p class="whs10">&nbsp;</p>
+<p class="whs10">&nbsp;</p>
+<p class="whs10">&nbsp;</p>
+<p class="whs10">&nbsp;</p>
+<p class="whs10"><span class=PdfCharStyle7
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Escolha 
+ a opção </font></span><span class=PdfCharStyle11
+						style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Typical, </font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">clique no botão </font></span><span class=PdfCharStyle11
+															style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Next 
+ &gt; </font></span><span class=PdfCharStyle7
+					style="font-size: 12pt;"><font size=3 style="font-size:12pt;">e aguarde o término da instalação. 
+ </font></span></td></tr>
+</table>
+
+<p class=PdfParaStyle10>&nbsp;</p>
+
+<p class=PdfParaStyle10>&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p align="center" class="whs11"><img x-orientation="0" src="ManualSROII_12_02.gif" width="292.46px" height="224.40px" border="0" class="img_whs12"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 7 - Escolha do tipo de instalação </p>
+
+<p class=PdfParaStyle40
+	style="text-align: center;"
+	align=center>&nbsp;</p>
+
+<p class=PdfParaStyle40
+	style="text-align: center;"
+	align=center><span class=PdfCharStyle7><img x-orientation="0" src="ManualSROII_12_03.gif" width="258.29px" height="196.86px" border="0" class="img_whs13"></span></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 8 - Status da instalação </p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="margin-top: 34px;
+			margin-left: 51px;
+			text-align: center;"
+	align=center><img x-orientation="0" src="ManualSROII_13_01.gif" width="280.40px" height="219.30px" border="0" class="img_whs14"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 9 - Status da instalação </p>
+
+<p align="center" class="whs15"><img x-orientation="0" src="ManualSROII_13_02.gif" width="280.40px" height="205.02px" border="0" class="img_whs16"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 10 - Término da instalação </p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt;"><span class=PdfCharStyle7
+									style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Clique no 
+ botão </font></span><span class=PdfCharStyle11
+					style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Finish</font></span><span class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> para concluir o processo de instalação do 
+ aplicativo </font></span><span class=PdfCharStyle11
+						style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Java Run Time. </font></span></p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle31
+	style="font-weight: bold;
+			font-size: 12pt;
+			text-indent: -2px;
+			margin-left: 0px;"><span style="font-weight: bold; font-size: 12pt;"><font size=3 style="font-size:12pt;"><B>&nbsp;&nbsp;<a 
+ href="Topicos.htm">Voltar ao Menu Principal</a></B></font></span></p>
+
+<p class=PdfParaStyle31
+	style="font-weight: bold;
+			text-align: right;
+			font-size: 12pt;"
+	align=right><a href="Instalacao_Java.htm">&lt;&lt; Tópico Anterior</a> 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Instalacao_MDAC.htm"
+	style="font-size: 12pt;">Próximo Tópico 
+ &gt;&gt;</a> &nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle31
+	style="font-weight: bold;
+			font-size: 12pt;
+			text-align: center;"
+	align=center>&nbsp;</p>
+
+<p class=PdfParaStyle31
+	style="font-weight: bold;
+			font-size: 12pt;
+			text-align: center;
+			line-height: 150%;"
+	align=center><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs17"></p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

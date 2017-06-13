@@ -1,0 +1,343 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Tópicos</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:0px; margin-left:0px; margin-right:0px; text-indent:51px; text-align:center; }
+img_whs2 { border:none; width:792px; height:113px; float:none; border-style:none; }
+table.whs3 { x-cell-content-align:top; width:100%; border-spacing:0px; }
+col.whs4 { width:50%; }
+tr.whs5 { x-cell-content-align:top; }
+td.whs6 { width:50%; padding-right:10px; padding-left:10px; border-right-style:none; border-left-style:none; border-top-style:none; border-bottom-style:none; }
+td.whs7 { width:50%; padding-right:10px; padding-left:10px; border-top-style:none; border-bottom-style:none; border-right-style:none; }
+img_whs8 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-top:1pt;margin-left:1pt;margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Tópicos\nTópicos");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p align="center" class="whs1"><img src="Cabecalho_Manuais.gif" x-maintain-ratio="TRUE" width="792px" height="113px" border="0" class="img_whs2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle06
+	style="text-align: center;
+			color: #ff0000;
+			x-text-underline: normal;
+			font-size: 36pt;
+			/*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "
+	align=center>Tópicos</p>
+
+<p class=PdfParaStyle06
+	style="text-align: center;
+			color: #ff0000;
+			x-text-underline: normal;
+			font-size: 12pt;
+			/*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "
+	align=center>&nbsp;</p>
+
+<table x-use-null-cells cellspacing="0" width="100%" class="whs3">
+<col class="whs4">
+<col class="whs4">
+
+<tr valign="top" class="whs5">
+<td width="50%" class="whs6">
+<p class=PdfParaStyle07
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			margin-top: 0px;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: PMingLiU, serif;
+			font-size: 14pt;"><span class=PdfCharStyle11
+									style="font-size: 14pt; font-family: PMingLiU, serif;"><font size=4 style="font-size:14pt;">1- 
+ <a href="Cenario_de_Implantacao.htm"
+	style="font-size: 14pt; font-family: 'Arial CE', sans-serif;">Implantação 
+ do Ambiente</a></font></span></p>
+<p class=PdfParaStyle07
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			margin-top: 0px;
+			font-size: 14pt;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: PMingLiU, serif;">&nbsp;</p>
+<p class=PdfParaStyle09
+	style="margin-right: 0px;
+			margin-bottom: 0pt;
+			line-height: 200%;
+			margin-top: 0px;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: PMingLiU, serif;
+			font-size: 14pt;"><span class=PdfCharStyle11
+									style="font-size: 14pt; font-family: PMingLiU, serif;"><font size=4 style="font-size:14pt;">2- 
+ <a href="Instalacao.htm"
+	style="font-size: 14pt; font-family: 'Arial CE', sans-serif;">Instalação 
+ do SROServer</a></font></span></p>
+<p class=PdfParaStyle08
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			font-size: 14pt;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: PMingLiU, serif;">&nbsp;</p>
+<p class=PdfParaStyle10
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: PMingLiU, serif;
+			font-size: 14pt;"><span class=PdfCharStyle11
+									style="font-size: 14pt; font-family: PMingLiU, serif;"><font size=4 style="font-size:14pt;">3- 
+ <a href="Instalacao_Java.htm"
+	style="font-size: 14pt; font-family: 'Arial CE', sans-serif;">Instalação 
+ do Java Run Time</a></font></span></p>
+<p class=PdfParaStyle10
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			font-size: 14pt;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: PMingLiU, serif;">&nbsp;</p>
+<p class=PdfParaStyle10
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: PMingLiU, serif;
+			font-size: 14pt;"><span class=PdfCharStyle11
+									style="font-size: 14pt; font-family: PMingLiU, serif;"><font size=4 style="font-size:14pt;">4- 
+ <a href="Instalacao_MDAC.htm"
+	style="font-size: 14pt; font-family: 'Arial CE', sans-serif;">Instalação 
+ do MDAC</a></font></span></p>
+<p class=PdfParaStyle08
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			font-size: 14pt;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: PMingLiU, serif;">&nbsp;</p>
+<p class=PdfParaStyle10
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: PMingLiU, serif;
+			font-size: 14pt;"><span class=PdfCharStyle11
+									style="font-size: 14pt; font-family: PMingLiU, serif;"><font size=4 style="font-size:14pt;">5- 
+ <a href="Estrutura_de_Diretorios.htm"
+	style="font-size: 14pt; font-family: 'Arial CE', sans-serif;">Manual 
+ de Operação do SROServer</a></font></span></p>
+<p class=PdfParaStyle08
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			font-size: 14pt;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: PMingLiU, serif;">&nbsp;</p>
+<p class=PdfParaStyle08
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: PMingLiU, serif;
+			font-size: 14pt;"><span class=PdfCharStyle11
+									style="font-size: 14pt; font-family: PMingLiU, serif;"><font size=4 style="font-size:14pt;">&nbsp;6- 
+ <a href="Instalando_o_Roteador.htm"
+	style="font-size: 14pt; font-family: 'Arial CE', sans-serif;">Instalação 
+ do Roteador</a></font></span></td>
+<td width="50%" class="whs7">
+<p class=PdfParaStyle10
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: 'Arial CYR', sans-serif;
+			font-size: 14pt;"><span class=PdfCharStyle11
+									style="font-size: 14pt; font-family: PMingLiU, serif;"><font size=4 style="font-size:14pt;">7-</font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;"> <font size=4 style="font-size:14pt;"><a 
+ href="Instalacao_da_Impressora_de_Relatorios.htm"
+	style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;">Instalação 
+ da Impressora de Relatórios</a></font></span></p>
+<p class=PdfParaStyle08
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			font-size: 14pt;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: 'Arial CYR', sans-serif;">&nbsp;</p>
+<p class=PdfParaStyle10
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: 'Arial CYR', sans-serif;
+			font-size: 14pt;"><span class=PdfCharStyle11
+									style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;"><font size=4 style="font-size:14pt;">&nbsp;</font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 14pt; font-family: PMingLiU, serif;"><font size=4 style="font-size:14pt;">8-</font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;"> <font size=4 style="font-size:14pt;"><a 
+ href="Instalacao_da_Impressora_de_Etiquetas.htm"
+	style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;">Instalação 
+ da Impressora de Etiquetas</a></font></span></p>
+<p class=PdfParaStyle08
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			font-size: 14pt;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: 'Arial CYR', sans-serif;">&nbsp;</p>
+<p class=PdfParaStyle10
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: 'Arial CYR', sans-serif;
+			font-size: 14pt;"><span class=PdfCharStyle11
+									style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;"><font size=4 style="font-size:14pt;">&nbsp;</font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 14pt; font-family: PMingLiU, serif;"><font size=4 style="font-size:14pt;">9-</font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;"> <font size=4 style="font-size:14pt;">&nbsp;<a 
+ href="Instalacao_do_Net_Base.htm"
+	style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;">Instalação 
+ da Net Base</a> </font></span></p>
+<p class=PdfParaStyle10
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			font-size: 14pt;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: 'Arial CYR', sans-serif;">&nbsp;</p>
+<p class=PdfParaStyle10
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: 'Arial CYR', sans-serif;
+			font-size: 14pt;"><span class=PdfCharStyle11
+									style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;"><font size=4 style="font-size:14pt;">&nbsp;</font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 14pt; font-family: PMingLiU, serif;"><font size=4 style="font-size:14pt;">10-</font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;"> <font size=4 style="font-size:14pt;"><a href="1__Etapa.htm" style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;">Instalação 
+ do Aplicativo SRO no Coletor</a></font></span></p>
+<p class=PdfParaStyle08
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			font-size: 14pt;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: 'Arial CYR', sans-serif;">&nbsp;</p>
+<p class=PdfParaStyle10
+	style="margin-bottom: 0pt;
+			line-height: 200%;
+			text-align: justify;
+			margin-left: 0px;
+			font-family: 'Arial CYR', sans-serif;
+			font-size: 14pt;"><span class=PdfCharStyle11
+									style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;"><font size=4 style="font-size:14pt;">&nbsp;</font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 14pt; font-family: PMingLiU, serif;"><font size=4 style="font-size:14pt;">11-</font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;"> <font size=4 style="font-size:14pt;"><a 
+ href="Ajustes.htm"
+	style="font-size: 14pt; font-family: 'Arial CYR', sans-serif;">Ajustes 
+ Finais</a></font></span></td></tr>
+</table>
+
+<p class=PdfParaStyle10
+	style="text-align: right; margin-left: 130px;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="text-align: right; margin-left: 130px;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;
+			line-height: 150%;
+			margin-left: 0px;"
+	align=center><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs8"></p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,353 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/menu2.css">
+        <link rel="stylesheet" href="styles/basic.css">
+        <title>Portal SRO</title>
+    </head>
+    
+    <style type="text/css">	 
+        .style2 { margin-bottom:4px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:11px;
+        font-weight:bold;
+        text-align: left;
+        text-indent:-5px;}	 
+        
+    </style>
+    
+    
+    <script type="text/javascript">
+var hoje       = new Date();
+var dia         = hoje.getDate();
+var mes         = hoje.getMonth();
+var ano         = hoje.getFullYear();
+
+function fnc_gravar_data( p_objeto )
+{
+ var objeto   = document.getElementById( p_objeto );
+ var semana   = [ 'Domingo' , 'Segunda' , 'Ter' + String.fromCharCode( 231 ) + 'a' , 'Quarta' , 'Quinta' , 'Sexta' , 'S' + String.fromCharCode( 225 ) + 'bado' ];
+ var meses    = [ 'Janeiro' , 'Fereveiro' , 'Mar' + String.fromCharCode( 231) + 'o' , 'Abril' , 'Maio' , 'Junho' , 'Julho' , 'Agosto' , 'Setembro' ,'Outubro' , 'Novembro' , 'Dezembro' ]; 
+ var retorno  = '';
+
+
+
+ retorno += semana[ hoje.getDay() ] + ', <br>' + dia + ' de ' + meses[ mes ] + ' de ' + ano ;
+
+
+ objeto.innerHTML = retorno;
+}
+
+
+
+function mostra(item,subitem){
+ if (item.style.display=='none'){
+  item.style.display='';
+ }         
+ else{
+  item.style.display='none';
+  if (subitem !=''){
+  subitem.style.display='none';
+  }
+ }
+}
+
+
+    </script>
+    
+    <body>
+        <div>
+            <div class="menu"> 
+                <table>
+                    <img src="images/logo.jpg"  alt="ECT" class="logo" />
+                    <div id="data_atual" class="data"></div>
+                </table>
+                
+                <table>
+                    <tr id="menu0" onClick="mostra(subMenu0,SRORCR)" style="cursor:hand;">
+                        <td class="menutitulo" >
+                            <img src="images/seta.gif">&nbsp;Sistemas
+                        </td>
+                    </tr>   
+                    <tr id="subMenu0" style="display:'none'">
+                        <td align="left">
+                            <ul>                    
+                                <!--<li><a target="linha2" href="http://intranetsistemas/mir">MIR - Módulo Indicadores &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de Rastreamento</a></li>-->
+                                <!--<li><a target="linha2" href="http://10.8.62.254:8084/sroMonitor/"> SRO Monitor</a></li>-->
+                                <li><a href = "javascript:mostra(monitor)"> SRO Monitor </a>
+                                    <table>
+                                        <tr id="monitor" style="display:'none'">
+                                            <td>&nbsp;&nbsp;<a target="linha2" href="faces/ultimaTransmissao.jsp"  class="style2">Última Transmissão</a>	
+                                                <br>
+                                                &nbsp;&nbsp;<a target="linha2" href="faces/semTransmissao.jsp"  class="style2">Sem Transmissão</a>
+                                                <br>
+                                                &nbsp;&nbsp;<a target="linha2" href="faces/controleTransmissao.jsp" class="style2">Controle Transmissão</a>
+                                                <br>
+                                                &nbsp;&nbsp;<a target="linha2" href="faces/arquivosRepetidos.jsp" class="style2">Arquivos Duplicados</a>		
+												<br>
+                                                &nbsp;&nbsp;<a target="linha2" href="faces/DifusaoWebSROII.jsp" class="style2">Web Difus&atilde;o</a>
+                                                <br>		
+                                                &nbsp;&nbsp;<a target="linha2" href="faces/faixaCep.jsp" class="style2">Faixa de CEP</a>		
+						<!--<br>
+						&nbsp;&nbsp;<a target="linha2" href="http://portalsro:8084/sro_monitor/DifusaoWebSROII.jsp" class="style2">Web Difus&atilde;o SROII</a>		-->
+<!--						&nbsp;&nbsp;<a target="linha2" href="difusao.html" class="style2">Web Difus&atilde;o SROII</a>
+-->
+						<br>
+
+                                                &nbsp;&nbsp;<a target="linha2" href="robo/robo.html" class="style2">Robô SRO II</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                
+                         <li><a href = "javascript:mostra(faixa)"> Faixa CEP - Unidades </a>
+                                    <table>
+                                        <tr id="faixa" style="display:'none'">
+                                            <td>&nbsp;&nbsp;<a target="linha2" href="faces/faixaCep.jsp"  class="style2">Pesquisar Faixa Cep</a>	
+                                                <br>
+                                                &nbsp;&nbsp;<a target="linha2" href="faces/incluirFaixaCep.jsp"  class="style2">Incluir Faixa Cep</a>
+                                                <br>
+                                                &nbsp;&nbsp;<a target="linha2" href="faces/excluirFaixaCep.jsp" class="style2">Excluir Faixa Cep</a>
+                                                <br>
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                		
+                                <li><a target="linha2" href="http://websro2/rastreamento/sro">Rastreamento Unificado</a></li>
+				<li><a target="linha2" href="http://portalsro:8084/painelSRO">Painel de Bordo do SROII</a></li>
+				<li><a target="linha2" href="\\sac0424\ac_ii\diope\Cronogramas\Cronograma_Geral_SRO_070508_v4.mpp">Cronograma</a></li>
+                                <li><a href = "javascript:mostra(SRORCR)"> Atualizações/Configurações</a>
+                                    <table>
+                                        <tr id="SRORCR" style="display:'none'">
+                                            <td>&nbsp;&nbsp;<a target="linha2" href="\\sac0424\AC_II\DIOPE\DENCO\DSRO\SOFTWARES\SRORCR" class="style2"> SRORCR </a>
+                                                <br>
+                                                &nbsp;&nbsp;<a target="linha2" href="HelpColetor/Seja_Bem_Vindo.htm" class="style2">Coletores HHP</a>	
+                                                
+                                                <br>
+                                                &nbsp;&nbsp;<a target="linha2" href="CDInstalacaoSRO.zip" class="style2">Coletores Cipher</a>	
+						<br>
+                                                &nbsp;&nbsp;<a target="linha2" href="\\sac0424\AC_II\DIOPE\DENCO\DSRO\SOFTWARES\CONCENTRADOR" class="style2">Concentradores</a>
+						<br/>
+                                                &nbsp;&nbsp;<a target="linha2" href="srocorreios.jar" class="style2">SRO Operacional</a>
+						<br/>
+						&nbsp;&nbsp;<a target="linha2" href="sro/Migracao.rar" class="style2">Migra&ccedil;&atilde;o</a>
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                
+                                <li><a target="_blank" href="\\sac0424\AC_II\DIOPE\DENCO\DSRO\SOFTWARES\SROMCL">SROMCL</a></li>			
+
+                                
+                            </ul>
+                        </td> 
+                    </tr>
+                    <BR>
+                    
+                    <tr id="menu1" onClick="mostra(subMenu1)" style="cursor:hand;">
+                        <td class="menutitulo" >
+                            <img src="images/seta.gif">&nbsp;Desempenho de Qualidade
+                        </td>
+                    </tr>   
+                    <tr id="subMenu1" style="display:'none'">
+                        <td>
+                            <ul>                  
+                                <li><a target="linha2" href="faces/pendenciaBaixa2.jsp" class="style2"> Sintético - Pendências de Baixa - DR </a></li>								
+                                <li><a target="linha2" href="faces/pendenciaBaixa.jsp" class="style2"> Pendências de Baixa - Unidade </a></li>  	
+                            </ul>
+                        </td> 
+                    </tr>
+                    
+                    <br>
+                    <tr id="menu2" onClick="mostra(subMenu2)" style="cursor:hand;">
+                        <td class="menutitulo" >
+                            <img src="images/seta.gif">&nbsp;Equipamentos
+                        </td>
+                    </tr>   
+                    <tr id="subMenu2" style="display:'none'">
+                        <td>
+                            <ul>                    
+                                <li><a target="linha2" href="MapaEquipamentos.html">Equipamentos DRs</a></li>
+                                <li><a target="_blank" href="\\sac0424\AC_II\DIOPE\RSRO\Processos_Compra_2006"> Situação dos Processos</a></li>
+                                <li><a target="linha2" href="\\sac0424\AC_II\DIOPE\RSRO\Contratos">Contratos/Configurações</a></li>
+                            </ul>
+                        </td> 
+                    </tr>
+                    
+                    <br>
+                    <tr id="menu3" onClick="mostra(subMenu3)" style="cursor:hand;">
+                        <td class="menutitulo" >
+                            <img src="images/seta.gif">&nbsp;Documentos/Publicações
+                        </td>
+                    </tr>   
+                    <tr id="subMenu3" style="display:'none'">
+                        <td>
+                            <ul>                    
+                                <li><a target="linha2" href="FiguraDocOficiais.html">Documentos Oficiais</a></li>
+                                <li><a target="linha2" href="\\sac0424\INSTITUCIONAL\VICOP\DEPLA\GPIS\Rastreamento\IntranetSRO\Motivos_Baixa.xls"> Motivos de Baixa</a></li>
+                                <li><a target="linha2" href="\\sac0424\INSTITUCIONAL\VICOP\DEPLA\GPIS\Rastreamento\IntranetSRO\Tipos_Postais.xls">Tipos Postais</a></li>					
+                                <li><a target="linha2" href="FiguraApresentacoes.html">Apresentações</a></li>
+                                <li><a target="linha2" href="FiguraNotas.html"> Notas de BI </a></li>
+                                <li><a target="linha2" href="contratos/index.html">Contratos</a></li>
+                            </ul>
+                        </td> 
+                    </tr>
+                    
+                    <tr>
+                        <td class="menutitulo" >
+                            <img src="images/seta.gif"><a target="linha2" href="FiguraPolitica.html">Política de Rastreamento</a>
+                        </td>
+                    </tr>
+                    
+                    <tr id="menu5" onClick="mostra(subMenu5)" style="cursor:hand;">
+                        <td class="menutitulo" >
+                            <img src="images/seta.gif">&nbsp;Treinamento
+                        </td>
+                    </tr>   
+                    <tr id="subMenu5" style="display:'none'">
+                        <td>
+                            <ul>                    
+                                <li><a target="linha2" href="\\sac0424\AC_II\DIOPE\DENCO\DSRO\Treinamento\TLT\Baixas"> TLT</a></li>
+                                <li><a target="linha2" href="\\sac0424\AC_II\DIOPE\DENCO\DSRO\Treinamento\Documentos"> Documentos</a></li>
+                                <li><a target="linha2" href="manuaisSro.html"> Manuais SRO</a></li>
+				<li><a target="linha2" href="apostilaColetor.html">Apostila - Aplicativo do Coletor de Dados</a></li>
+                            </ul>
+                        </td> 
+                    </tr>
+                    <br>
+                    
+                    <tr id="menu6" onClick="mostra(subMenu6)" style="cursor:hand;">
+                        <td class="menutitulo" >
+                            <img src="images/seta.gif">&nbsp;Diversos
+                        </td>
+                    </tr>   
+                    <tr id="subMenu6" style="display:'none'">
+                        <td>
+                            <ul>                    
+                                <li><a target="linha2" href="\\sac0424\AC_II\DIOPE\DENCO\DSRO\Atualizacoes\Unidades\Modelo_Alteracao_UnidadesSRO.xls">Alteração de Unidades</a></li>
+                            </ul>
+                        </td> 
+                    </tr>
+                    <br>
+                    <tr id="menu7" onClick="mostra(subMenu7)" style="cursor:hand;">
+                        <td class="menutitulo" >
+                            <img src="images/seta.gif">&nbsp;Contatos
+                        </td>
+                    </tr>   
+                    <tr id="subMenu7" style="display:'none'">
+                        <td>
+                            <ul>                    
+                                <li><a target="linha2" href="\\sac0424\AC_II\DIOPE\DENCO\DSRO\Administrativo\CoordenadoresSRO.xls">Coordenadores SRO</a></li>
+                               <li><a target="linha2" href="mailto:sronacional@correios.com.br">AC - SRO-Nacional - Caixa Postal</a></li>
+		    </ul>
+                        </td> 
+                    </tr>
+                    <br>
+                    <tr>
+                        <td class="menutitulo" >
+                            <img src="images/seta.gif"><a target="linha2" href="FiguraLinks.html">Links Interessantes</a>
+                        </td>
+                    </tr>
+                    
+                    <br>
+                    <tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr>
+                    <tr align="center" >
+                        <td class="menutitulo" >
+                            <a href="mailto:ac - denco - suporte sro - caixa postal"><center><img border="0" src="images/email3.gif" ></center></a><br><a href="mailto:ac - denco - suporte sro - caixa postal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Críticas e Sugestões</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr><tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            <a href="http://validator.w3.org/check?uri=referer" class="w3c"><img
+                                    src="images/valid-html401.png"
+                                alt="Valid HTML 4.01 Transitional" height="31" width="88" class="w3c"></a>
+                            
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="content" >
+                <br/>
+                
+                
+                <hr/>                 
+                <br/>
+            </div>
+        </div>
+        
+    </body>
+</html>
+<script type="text/javascript">
+window.onload = function(){ fnc_gravar_data('data_atual'); }
+</script>

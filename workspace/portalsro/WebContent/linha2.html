@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Centro</title>
+
+    <script type="text/javascript" language="javascript" src="ModalDialog.js"></script>
+    <script type="text/javascript" language="javascript" src="fade.js"></script>
+
+    <style type="text/css">
+    <!--
+        /**
+        * Modal Dialog
+        */
+        .modalBg {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            filter: Alpha(Opacity=50);
+            -moz-opacity: 0.5;
+            background-color: #ddd;
+            visibility: hidden;
+            width: expression(document.body.clientWidth);
+            height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight);
+            z-index: 100;
+        }
+
+        .modalDialog {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            visibility: hidden;
+            z-index: 101;
+            background-color: white;
+            top: 0;
+            left: 0;
+            top: expression(document.body.clientHeight / 2 - this.offsetHeight / 2);
+            left: expression(document.body.clientWidth / 2 - this.offsetWidth / 2);
+            border: 1px solid #777;
+            border-top: 0;
+            padding: 20px;
+        }
+
+        .modalDialog .modalDialogHeader {
+            margin:0;
+            padding: 0px;
+            color: #333;
+            font-weight: bold;
+            background-color: #ccc;
+            border: 1px solid #989898;
+            position: absolute;
+            top: 0px;
+            left: -1px;
+            height: 7px;
+        }
+
+        .modalShadow {
+            position: absolute;
+            background-color: black;
+            top: 0px;
+            left: 0px;
+            z-index: 99;
+            left: expression(document.getElementById('linksro').style.left);
+            top: expression(document.getElementById('linksro').style.top);
+        }
+        
+        /**
+        * This is not part of the core Modal Dialog styles, instead it's just so that the dialog looks
+        * respectable.
+        */
+        h4 {
+            font-family: Verdana, Arial;
+            padding-top: 10px;
+        }
+    // -->
+    </style>
+
+</head>
+
+
+
+<body onload="ModalDialog_Show('linksro', 450)">
+
+<table>
+
+  <tbody>
+
+    <tr>
+
+      <td align="center" background="images/water.jpg" height="400" width="730">
+      <p style="text-indent: 1.25cm; margin-top: 0.21cm; line-height: 0.64cm;" align="center"></p>
+
+      <p style="margin: 0.1cm 0.74cm 0.1cm 0.77cm; text-indent: 1.25cm; line-height: 100%;" align="justify">
+      <font face="Arial Unicode MS, sans-serif"><font size="2"><font face="Arial, sans-serif"><font color="#003366"><b>O
+Sistema de Rastreamento de Objetos - SRO</b><b>,
+imprescind&iacute;vel
+&agrave; empresa,&nbsp;&eacute; tamb&eacute;m uma
+importante
+ferramenta de trabalho,&nbsp;que tem como objetivo principal
+registrar a movimenta&ccedil;&atilde;o de todos os objetos sob
+registro, oferecendo a possibilidade de acompanhamento
+e&nbsp;controle
+dos objetos, a fim de atender as necessidades dos clientes internos e
+externos&nbsp;&nbsp;com&nbsp;qualidade&nbsp;nas
+informa&ccedil;&otilde;es
+prestadas. </b></font></font></font></font>
+      </p>
+
+      <p style="margin-left: 0.79cm; margin-right: 0.85cm; margin-top: 0.21cm; line-height: 100%; page-break-before: auto;" align="justify">
+      <b><font face="Arial Unicode MS, sans-serif"><font size="2"><font face="Arial, sans-serif"><font color="#003366">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>O
+Portal SRO</b> &eacute; a ferramenta que disponibiliza
+informa&ccedil;&otilde;es
+gerenciais de dados constantes no SRO e foi criado com os
+seguintes objetivos:</font></font></font></font></b></p>
+
+      <ul>
+
+        <b> <li>
+          <p style="margin-right: 0.85cm; margin-top: 0.1cm; margin-bottom: 0.1cm; line-height: 100%;" align="justify"> <font color="#003366"><font face="Arial, sans-serif"><font size="2">Facilitar
+e prover o gerenciamento das informa&ccedil;&otilde;es
+constantes no Banco de dados do SRO;</font></font></font></p>
+
+        </li>
+
+        <li>
+          <p style="margin-right: 0.85cm; margin-top: 0.1cm; margin-bottom: 0.1cm; line-height: 100%;" align="justify"> <font color="#003366"><font face="Arial, sans-serif"><font size="2">Promover
+o gerenciamento da Qualidade da Informa&ccedil;&atilde;o de
+grandes clientes atrav&eacute;s do Sistema de Qualidade da
+Informa&ccedil;&atilde;o*;</font></font></font></p>
+
+        </li>
+
+        <li>
+          <p style="margin-right: 0.85cm; margin-top: 0.1cm; margin-bottom: 0.1cm; line-height: 100%;" align="justify"> <font color="#003366"><font face="Arial, sans-serif"><font size="2">Promover
+o gerenciamento na Qualidade da Transmiss&atilde;o dos dados para o
+Servidor Nacional do SRO;</font></font></font></p>
+
+        </li>
+
+        <li>
+          <p style="margin-right: 0.85cm; margin-top: 0.1cm; margin-bottom: 0.1cm; line-height: 100%;" align="justify"> <font color="#003366"><font face="Arial, sans-serif"><font size="2">Acompanhar
+o Desempenho dos Indicadores de Rastreamento;</font></font></font></p>
+
+        </li>
+
+        <li>
+          <p style="margin-right: 0.85cm; margin-top: 0.1cm; margin-bottom: 0.1cm; line-height: 100%;" align="justify"> <font color="#003366"><font face="Arial, sans-serif"><font size="2">Disponibilizar
+a Macro Rastreamento, possibilitando rastrear at&eacute; 3000
+objetos de uma s&oacute; vez*;</font></font></font></p>
+
+        </li>
+
+        <li>
+          <p style="margin-right: 0.85cm; margin-top: 0.1cm; margin-bottom: 0.1cm; line-height: 100%;" align="justify"> <font color="#003366"><font face="Arial, sans-serif"><font size="2">Disponibilizar
+uma grande variedade de informa&ccedil;&otilde;es, bem como a
+Pol&iacute;tica de Rastreamento de Objetos, treinamentos sobre o
+SRO, ect.</font></font></font></p>
+
+        </li>
+
+        </b>
+      </ul>
+
+      <p style="margin: 0.11cm 0.85cm 0.11cm 0.79cm; line-height: 100%;" align="justify">
+      <b><font color="#003366"><font face="Arial, sans-serif"><font size="2"> A
+Ger&ecirc;ncia Corporativa de Distribui&ccedil;&atilde;o de
+Encomendas,
+pertencente ao Departamento Operacional de Encomendas &ndash; DENCO
+se coloca &agrave; disposi&ccedil;&atilde;o para outros
+esclarecimentos, atrav&eacute;s do link: <a href="mailto:dencosuporte@correios.com.br">Cr&iacute;ticas
+e Sugest&otilde;es</a>. </font></font></font>
+      </b></p>
+
+      <p style="margin-left: 0.79cm; margin-right: 0.85cm; margin-top: 0.21cm; line-height: 0.64cm;" align="justify">
+      <b><font color="#003366"><font face="Arial, sans-serif"><font size="2">*
+Usu&aacute;rio dever&aacute; estar cadastrado para
+utiliza&ccedil;&atilde;o.</font></font></font></b></p>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td>
+      <p style="margin-top: 0.21cm; line-height: 0.64cm;" align="justify"> </p>
+
+      <p class="western" style="margin-bottom: 0cm;" align="center"><font color="#000000"><img src="images/sro.jpg" name="figura2" align="bottom" border="0" height="36" width="73"></font></p>
+
+      <p class="western" style="margin-bottom: 0cm;"><br>
+
+      </p>
+
+      </td>
+
+    </tr>
+
+  </tbody>
+</table>
+
+<div id="linksro" style="display: none" class="modalDialog">
+    <h4>O link do rastreamento &eacute;:</h4>
+    <a href="http://websro2/rastreamento/sro">http://websro2/rastreamento/sro</a>
+    <br><br><br>
+    <a href="#" onclick="ModalDialog_Close();">Fechar</a>
+</div>
+
+</body>
+</html>

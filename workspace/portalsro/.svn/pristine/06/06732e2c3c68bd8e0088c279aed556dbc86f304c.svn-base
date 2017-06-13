@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=us-ascii" plain; text 
+Content-Type: 7bit Content-Transfer-Encoding:>
+<META content="MSHTML 6.00.6000.16481" name=GENERATOR></HEAD>
+<BODY>
+<DIV dir=ltr align=left><SPAN class=248260317-18062007><FONT face=Arial 
+color=#0000ff size=2>If your login has the proper roll you could execute 
+</FONT></SPAN></DIV>
+<DIV dir=ltr align=left><SPAN class=248260317-18062007><FONT face=Arial 
+color=#0000ff size=2>SET CHAINED OFF</FONT></SPAN></DIV>
+<DIV dir=ltr align=left><SPAN class=248260317-18062007><FONT face=Arial 
+color=#0000ff size=2></FONT></SPAN>&nbsp;</DIV>
+<DIV dir=ltr align=left><SPAN class=248260317-18062007><FONT face=Arial 
+color=#0000ff size=2>just prior to executing your stored procedure. My guess is 
+that you don't. Altering the procedure can be a way around it but you've already 
+stated that you cannot change this in the production system.</FONT></SPAN></DIV>
+<DIV dir=ltr align=left><SPAN class=248260317-18062007><FONT face=Arial 
+color=#0000ff size=2></FONT></SPAN>&nbsp;</DIV>
+<DIV dir=ltr align=left><SPAN class=248260317-18062007><FONT face=Arial 
+color=#0000ff size=2>You are left with only one alternative. You MUST execute 
+the stored procedure from within a transaction. That is what the error message 
+is so poorly trying to tell you. You can do one of two things. 1) Set auto 
+Commit to true. This will allow the stored proc to execute without this error 
+message. 2) start a transaction prior to executing the stored proc and commit 
+when complete. </FONT></SPAN></DIV><BR>
+<DIV class=OutlookMessageHeader lang=en-us dir=ltr align=left>
+<HR tabIndex=-1>
+<FONT face=Tahoma size=2><B>From:</B> SvetlanaR &lt;sreznikov@actionet.com&gt;
+
+[mailto:SvetlanaR &lt;sreznikov@actionet.com&gt;] <BR><B>Sent:</B>
+Monday, June 
+18, 2007 6:51 AM<BR><B>To:</B> user-java@ibatis.apache.org<BR><B>Subject:</B>
+
+Sybase stored procedure 'SET CHAINED OFF' (transaction mode) 
+problem<BR></FONT><BR></DIV>
+<DIV></DIV><BR>Hi. <BR>I have a problem when call my_sp stored procedure
+
+(Sybase). The problem is <BR>listed below. <BR><BR><BR>--- Check the
+results 
+(failed to retrieve results). <BR>--- Cause: 
+com.sybase.jdbc2.jdbc.SybSQLException: Stored procedure 'my_sp' <BR>may be run 
+only in unchained transaction mode. The 'SET CHAINED OFF' command <BR>will cause 
+the current session to use unchained transaction mode. <BR><BR>Caused by: 
+com.sybase.jdbc2.jdbc.SybSQLException: Stored procedure 'my_sp' <BR>may be run 
+only in unchained transaction mode. The 'SET CHAINED OFF' command <BR>will cause 
+the current session to use unchained transaction mode. <BR><BR>I can fix it on
+
+Sybase side by adding to the stored procedure: <BR>EXECUTE sp_procxmode 'my_sp', 
+'anymode' <BR><BR>The problem is that I am not allowed to make this change in
+
+"Production". Is <BR>there any way to configure iBatis, so it will not expect 
+uchained mode? <BR>For example, another DB client works with my_sp just fine. 
+<BR>Thanks. <BR>-- <BR>View this message in context: 
+http://www.nabble.com/Sybase-stored-procedure-%27SET-CHAINED-OFF%27-%28transaction-mode%29-problem-tf3940420.html#a11176043
+
+<BR>Sent from the iBATIS - User - Java mailing list archive at Nabble.com. 
+<BR><BR><BR></BODY></HTML>

@@ -1,0 +1,407 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Arquivos de Configuração</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+table.whs1 { width:100%; float:aligncenter; x-border-left:1px table-solid; x-border-top:1px table-solid; x-border-right:1px table-solid; x-border-bottom:1px table-solid; border-collapse:separate; }
+col.whs2 { width:25.737%; }
+td.whs3 { background-color:#ffffff; x-cell-content-align:top; border-left-width:0px; border-right-width:1px; border-bottom-width:1px; border-top-width:1px; }
+td.whs4 { background-color:#ffffff; x-cell-content-align:top; border-left-width:1px; border-right-width:1px; border-bottom-width:1px; border-top-width:1px; }
+td.whs5 { width:25.737%; background-color:#ffffff; x-cell-content-align:top; border-left-width:1px; border-right-width:1px; border-bottom-width:1px; border-top-width:1px; }
+td.whs6 { x-cell-content-align:top; border-left-width:1px; border-right-width:1px; border-bottom-width:1px; border-top-width:1px; }
+p.whs7 { font-weight:bold; font-family:Arial, sans-serif; font-size:12pt; }
+p.whs8 { text-align:right; font-weight:bold; font-family:Arial, sans-serif; font-size:12pt; }
+p.whs9 { font-weight:bold; font-family:Arial, sans-serif; font-size:12pt; text-align:center; }
+img_whs10 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Manual de Operação do SROServer\nArquivos de Configuração");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle43
+	style="font-weight: bold; font-size: 12pt;"><span class=PdfCharStyle7
+														style="font-weight: bold; font-size: 12pt;"><font size=3 style="font-size:12pt;"><B>5.3 
+ </B></font></span><span class=PdfCharStyle7
+				style="font-weight: bold;
+						font-style: italic;
+						font-size: 12pt;"><font size=3 style="font-size:12pt;"><I><B>Arquivos de Configuração</B></I></font></span><span 
+ class=PdfCharStyle7
+	style="font-weight: bold; font-size: 12pt;"> <font size=3 style="font-size:12pt;"><B></B></font></span></p>
+
+<p class=PdfParaStyle43
+	style="font-size: 12pt;"><span class=PdfCharStyle7
+									style="font-size: 12pt;"><font size=3 style="font-size:12pt;">O Arquivo 
+ </font></span><span class=PdfCharStyle6
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">sroserver.conf &#8211; 
+ </font></span><span class=PdfCharStyle7
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">contém os itens configuráveis 
+ para determinar o comportamento do aplicativo SROserver.jar. </font></span></p>
+
+<p class=PdfParaStyle43><span class=PdfCharStyle7
+								style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Esse arquivo só 
+ precisa ser editado se os valores default precisarem ser alterados, a 
+ saber, se o diretório de instalação utilizado não foi o padrão conforme 
+ definido anteriormente neste procedimento ou se o diretório do CTS não 
+ for padrão (\cts).</font></span><span class=PdfCharStyle7> </span></p>
+
+<p class=PdfParaStyle43>&nbsp;</p>
+
+<div align=center>
+<table x-use-null-cells width="100%" border="1" class="whs1">
+<col>
+<col>
+<col class="whs2">
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle45><span class=PdfCharStyle11>Parâmetro</span><span 
+ class=PdfCharStyle11> </span></td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle46>Descrição </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle45>Valor Default </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>port </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48
+	style="text-align: justify; margin-left: 12px;"><span class=PdfCharStyle7>É 
+ a porta que o servidor </span><span class=PdfCharStyle11>SROserver</span><span 
+ class=PdfCharStyle7> “ouve” a comunicação requisitada pelos coletores. 
+ Esta <br>
+pode ser alterada para atender caracterîsticas da rede onde o sistema for 
+ implantado. </span></td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>9090 </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>downloadDir </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48
+	style="text-align: justify;">É a pasta que recebe os arquivos enviados 
+ pelo coletor. </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>/SROserver/download </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>uploadDir </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48
+	style="text-align: justify;">É a pasta que contém os arquivos que deverão 
+ ser enviados ao coletor. </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>/SROserver/upload </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>setupDir </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48
+	style="text-align: justify;">É a pasta que contém os aplicativos e 
+ bibliotecas necessárias para o funcionamento do coletor. </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>/SROserver/setup </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>finalDir </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Pasta que contém os arquivos reformatados 
+ enviados pelo coletor para o concentrador. </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>/cts/mcpm/received </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>errDir </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Pasta que armazena os arquivos com erro 
+ em qualquer etapa do processamento. </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>/SROserver/erro </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>dsn </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48
+	style="text-align: justify;"><span class=PdfCharStyle7>São componentes 
+ da string de conexão com o banco de dados que contém os pré-alertas. A 
+ <br>
+criação da conexão ODBC completa é executada pelo arquivo de lote </span><span 
+ class=PdfCharStyle11>sroserver.bat</span><span class=PdfCharStyle7>, portanto 
+ o <br>
+nome padrão da DSN não deverá ser alterado. A identificação do usuário 
+ é fornecida pelos <br>
+responsáveis do banco de dados, assim como a senha. </span></td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>SROSVR </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>uid </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Identificação do usuário. </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>system </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>pwd </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Senha do mdb. </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>ZGF0X3hrejM= </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>LPD </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Porta para o serviço de impressão TCP/IP 
+ da Microsoft. Somente para teste! Exclua esta linha <br>
+na operação normal. Por default, esta linha não existe. </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>515 </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>idRegFile </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Local para o arquivo que contém a referência 
+ do número de cada coletor. Para facilitar o <br>
+gerenciamento e atribuição do número de cada coletor, o aplicativo SROserver 
+ organiza um <br>
+mapa que atribui o número de série do coletor a um número do coletor no 
+ sistema SRO. Este <br>
+arquivo (idreg.txt) deve ser manipulado somente pelo SROserver e não dever 
+ ser alterado, mas <br>
+somente consultado por usuários ou <span style="text-align: justify;">administradores. 
+ </span></td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>/SROserver/idreg.txt </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>todendDir</td>
+<td colspan="1" rowspan="1" valign="top" class="whs6">
+<p class=PdfParaStyle49
+	style="margin-top: 0px;
+			margin-left: 10px;
+			margin-right: 0px;
+			color: #000000;
+			text-align: justify;">É a pasta que contém os arquivos gerados 
+ pelo <br>
+concentrador e que devem ser enviados aos <br>
+coletores a cada alteração. </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>/cts/mcpm/tosend </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>fromopeDir </p>
+<p class=pdfparastyle47>&nbsp;</td>
+<td colspan="1" rowspan="1" valign="top" class="whs6">
+<p class=PdfParaStyle49
+	style="margin-top: 0px;
+			margin-left: 10px;
+			margin-right: 0px;
+			color: #000000;
+			text-align: justify;">É a pasta que receberá os arquivos gerados 
+ <br>
+pelos coletores. </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>/cts/mcpm/fromope </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>backupMaxAge </td>
+<td colspan="1" rowspan="1" valign="top" class="whs6">
+<p class=PdfParaStyle49
+	style="margin-top: 0px;
+			margin-left: 10px;
+			margin-right: 0px;
+			color: #000000;
+			text-align: justify;">Para aumentar a confiabilidade do SROserver, 
+ o <br>
+mesmo encarrega-se de manter uma cópia de <br>
+segurança, por um (um) dia, evitando que falhas <br>
+com outros sistemas afetem a entrega de <br>
+arquivos da sincronização. </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>1</td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>autoIncFile </td>
+<td colspan="1" rowspan="1" valign="top" class="whs6">
+<p class=PdfParaStyle49
+	style="margin-top: 0px;
+			margin-left: 10px;
+			margin-right: 0px;
+			color: #000000;
+			text-align: justify;">Indica o nome e local do arquivo sro-autoinc.txt. 
+ <br>
+Este arquivo, sro-autoinc.txt, contem e <br>
+incrementa o numero do evento em baixa de <br>
+distribuição externa. </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>ADEL=1 </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>&nbsp;</td>
+<td colspan="1" rowspan="1" valign="top" class="whs6">
+<p class=PdfParaStyle49
+	style="margin-top: 0px;
+			margin-left: 10px;
+			margin-right: 0px;
+			color: #000000;
+			text-align: justify;">&nbsp;</td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>&nbsp;</td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle47>syncInterval </td>
+<td colspan="1" rowspan="1" valign="top" class="whs6">
+<p class=PdfParaStyle49
+	style="margin-top: 0px;
+			margin-left: 10px;
+			margin-right: 0px;
+			color: #000000;
+			text-align: justify;">Para manter a independência entre o SRO 
+ e os demais sistemas que a este estão integrados, <br>
+principalmente ao processo NETOPE, foi desenvolvida a sincronização entre 
+ pastas. O NETOPE, que gera diversos arquivos, entre eles <span style="text-align: justify;">“uacc” 
+ para o cadastro de usuários e controle </span><span class=PdfCharStyle7
+													style="text-align: justify;">de 
+ acesso nos coletores, dispõe deste arquivo em duas pastas: to send, que 
+ recebe arquivos de retorno do coletor através do fromope. O SROserver 
+ de tempos em tempos, realiza uma cópia do arquivo “uacc” disposto no folder 
+ to send para o folder \SROserver\upload; em segundo momento, copia os 
+ arquivos que o coletor dispôs em \SROserver\download, passa por uma formatação 
+ no próprio SROserver e entrega-os em \SROserver\final para que a sincronização 
+ encarregue-se de copiá-los no folder fromope mesmo folder \SROserver\upload. 
+ Isto acontece em tempos regulares, determinado pela variável syncInterval 
+ que está em segundos. </span></td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" width="25.737%" class="whs5">
+<p class=PdfParaStyle48>3600 </td></tr>
+</table>
+</div>
+<p class=PdfParaStyle50
+	style="margin-top: 40px;
+			margin-left: 50px;
+			margin-right: 0px;">Tabela 1 - Arquivo SROserver.conf </p>
+
+<p class=PdfParaStyle17>&nbsp;</p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">Importante </p>
+
+<p class=PdfParaStyle51
+	style="font-size: 12pt;">Um exemplo padrão do arquivo SROSVR.CONF está 
+ disponîvel na pasta SROServer. </p>
+
+<p class=PdfParaStyle52
+	style="font-size: 12pt;">5.4 Arquivo AutoIncFile.txt </p>
+
+<p class=PdfParaStyle16><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Este arquivo contém 
+ um contador para a função de Baixa de Distribuição Externa e se auto-incrementa 
+ a cada evento desta função. Inicialmente recebe o valor ADEL=1.</font></span> 
+ </p>
+
+<p class=PdfParaStyle16>&nbsp;</p>
+
+<p class=PdfParaStyle16>&nbsp;</p>
+
+<p class="whs7"><a href="Topicos.htm">Voltar ao Menu Principal</a></p>
+
+<p align="right" class="whs8"><a href="Estrutura_de_Diretorios.htm">&lt;&lt; Tópico Anterior</a> 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Parametros.htm">Próximo 
+ Tópico&gt;&gt;</a> &nbsp;</p>
+
+<p align="right" class="whs8">&nbsp;</p>
+
+<p align="center" class="whs9"><span style="line-height: 150%;"><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs10"></span> 
+ &nbsp;&nbsp;</p>
+
+<p align="right" class="whs8">&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

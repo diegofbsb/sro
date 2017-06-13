@@ -1,0 +1,278 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>1ª Etapa III</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:14px; margin-left:51px; margin-right:0px; text-align:justify; }
+img_whs2 { width:242.21px; height:210.12px; border-style:none; }
+img_whs3 { width:242.21px; height:211.14px; border-style:none; }
+p.whs4 { margin-top:14px; margin-left:51px; margin-right:0px; text-align:center; }
+p.whs5 { margin-top:34px; margin-left:51px; margin-right:0px; text-indent:0px; }
+img_whs6 { width:242.21px; height:213.18px; border-style:none; }
+img_whs7 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-right:1pt; }";
+  strNSS += "p.whs4 {margin-right:1pt; }";
+  strNSS += "p.whs5 {margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Instalação do Aplicatico SRO no Coletor\n1ª Etapa III");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>&nbsp;</p>
+
+<ul>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle28><p class=PdfParaStyle28
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Pressione ENTER para continuar; </font></span></p></li>
+	
+	<li style="margin-top: 1px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Apresentada a tela de local para o download 
+ localizar o folder </font></span><span class=PdfCharStyle12
+								style="font-size: 12pt;"><font size=3 style="font-size:12pt;">\IPSM;</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"> <font size=3 style="font-size:12pt;"></font></span></p></li>
+	
+	<li style="margin-top: 0px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Para isso clique na pasta com a seta para 
+ cima (use uma caneta tampada para isto); </font></span></p></li>
+	
+	<li style="margin-top: 1px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22><span class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Localize o folder IPSM e clique para abrir;</font></span><span 
+ class=PdfCharStyle7> </span></p></li>
+</ul>
+
+<p class="whs1"><img x-orientation="0" src="ManualSROII_48_02.gif" width="242.21px" height="210.12px" border="0" class="img_whs2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img x-orientation="0" src="ManualSROII_48_03.gif" width="242.21px" height="211.14px" border="0" class="img_whs3"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: justify;">Figura 62 - Escolhendo diretório para 
+ gravação &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figura 
+ 63 - Gravação dos arquivos </p>
+
+<p class=pdfparastyle10>&nbsp;</p>
+
+<p class=PdfParaStyle16
+	style="text-align: justify; font-size: 12pt;">Click no folder IPSM 
+ para abrir e a tecla ENTER para salvar. </p>
+
+<p class=PdfParaStyle16
+	style="margin-top: 34px;
+			margin-left: 51px;
+			text-align: center;"
+	align=center><img x-orientation="0" src="ManualSROII_49_01.gif" width="242.21px" height="210.12px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 64 Salvando o SRO.exe </p>
+
+<ul>
+	
+	<li style="margin-top: 28px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle69><p class=PdfParaStyle69
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Quanto à imagem na tela do coletor estiver 
+ como a representada acima, pressione a tecla [enter] do coletor; </font></span></p></li>
+	
+	<li style="margin-top: 2px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Aguarde o processamento do download; </font></span></p></li>
+	
+	<li style="margin-top: 0px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Feche todas as janelas. </font></span></p></li>
+</ul>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt;">Para facilitar o uso diário do SRO.exe, aconselhamos 
+ que se realize uma copia do mesmo no desktop do coletor. Para isto: </p>
+
+<p class=PdfParaStyle16><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Click duas vezes 
+ em MY COMPUTER</font></span> </p>
+
+<p align="center" class="whs4"><img x-orientation="0" src="ManualSROII_49_02.gif" width="242.21px" height="210.12px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 65 - Acesse My Computer </p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>&nbsp;</p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt;"><span><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Localize 
+ o folder IPSM. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localize 
+ o arquivo SRO.exe neste folder </font></span></span></p>
+
+<p class="whs5"><img x-orientation="0" src="ManualSROII_50_01.gif" width="242.21px" height="210.12px" border="0" class="img_whs2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img x-orientation="0" src="ManualSROII_50_02.gif" width="242.21px" height="213.18px" border="0" class="img_whs6"></p>
+
+<p class=PdfParaStyle10>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figura 
+ 66 - Localize o IPSM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figura 
+ 67 - CTRL+C para copiar </p>
+
+<p class=PdfParaStyle16>&nbsp;</p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt;">Pressione as teclas CTRL + C (simultaneamente), 
+ para copiar o arquivo. </p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt;">Encerre esta janela pressiona em X (botão 
+ no canto superior direito) </p>
+
+<p class=PdfParaStyle16><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Pressione as teclas 
+ CTRL + V (simultaneamente), para colar o arquivo.</font></span> </p>
+
+<p align="center" class="whs4"><img x-orientation="0" src="ManualSROII_50_03.gif" width="242.21px" height="210.12px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figura 
+ 68 - CTRL+V para colar </p>
+
+<p class=PdfParaStyle52
+	style="font-size: 12pt;"><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Importante 
+ </font></span></p>
+
+<p class=PdfParaStyle34
+	style="text-align: justify;"><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Ao término 
+ da transmissão do aplicativo SRO.exe para o coletor, este deverá ser retirado 
+ da doca para que a conexão via Infrared @115200 seja encerrada. Isto acontece 
+ 2 segundos (aproximadamente) após a retirada do coletor da doca.</font></span> 
+ </p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt;
+			text-align: right;
+			font-weight: bold;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt; font-weight: bold;"><a href="Topicos.htm">Voltar 
+ ao Menu Principal</a></p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt;
+			text-align: right;
+			font-weight: bold;"
+	align=right><a href="1__Etapa_II.htm">&lt;&lt;Tópico &nbsp;Anterior</a> 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="2__Etapa.htm">Próximo 
+ Tópico&gt;&gt;</a> </p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt;
+			text-align: right;
+			font-weight: bold;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt;
+			font-weight: bold;
+			text-align: center;
+			margin-left: 0px;"
+	align=center><span style="line-height: 150%;"><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs7"></span> 
+ &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle16
+	style="text-align: center;"
+	align=center>&nbsp;</p>
+
+<p class=PdfParaStyle16
+	style="text-align: center;"
+	align=center>&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

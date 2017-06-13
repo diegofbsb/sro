@@ -1,0 +1,277 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Ambiente</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+img_whs1 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Implantação do Ambiente\nAmbiente");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle24
+	style="font-size: 12pt;">1.3 Ambiente </p>
+
+<p class=PdfParaStyle25
+	style="font-size: 12pt;">O ambiente é dividido em duas partes: </p>
+
+<ul>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle21><p class=PdfParaStyle21
+										style="font-size: 12pt; text-align: justify;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Rede Corporativa</font></span><span class=PdfCharStyle7
+															style="font-size: 12pt;"><font size=3 style="font-size:12pt;">, 
+ que corresponde aos equipamentos já existentes e onde serão </font></span><span 
+ style="font-size: 12pt; text-align: justify;"><font size=3 style="font-size:12pt;">instalados os aplicativos 
+ com sua devida parametrização; </font></span></p></li>
+	
+	<li style="margin-top: 0px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt; text-align: justify;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Rede de Coletores</font></span><span class=PdfCharStyle7
+															style="font-size: 12pt;"><font size=3 style="font-size:12pt;">,</font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"> <font size=3 style="font-size:12pt;"></font></span><span class=PdfCharStyle7
+											style="font-size: 12pt;"><font size=3 style="font-size:12pt;">que 
+ dispõe dos componentes a serem instalados e parametrizados de acordo com 
+ esta documentação. </font></span></p></li>
+</ul>
+
+<p class=PdfParaStyle22
+	style="font-size: 12pt; text-align: justify;">&nbsp;</p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">1.4 Componentes </p>
+
+<p class=PdfParaStyle19
+	style="font-size: 12pt;">Os componentes devem ser entendidos como parte 
+ da solução. </p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">1.4.1 Rede Corporativa </p>
+
+<p class=PdfParaStyle27
+	style="font-size: 12pt;">Hardware </p>
+
+<ul>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle28><p class=PdfParaStyle28
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Concentrador</font></span><span class=PdfCharStyle7
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> 
+ - servidor onde serão instalados os aplicativos </font></span><span class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">SROServer</font></span><span class=PdfCharStyle7
+													style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> 
+ e de ambiente. </font></span></p></li>
+</ul>
+
+<p class=PdfParaStyle07
+	style="font-size: 12pt;">Software </p>
+
+<ul>
+	
+	<li style="margin-top: 13px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle28><p class=PdfParaStyle28
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Windows NT 4.0 SP6a; </font></span></p></li>
+	
+	<li style="margin-top: 0px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Java Run Time 1.4.2.03; </font></span></p></li>
+	
+	<li style="margin-top: 1px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">MDAC 2.5 (recomenda-se fortemente utilizar 
+ somente esta versão); </font></span></p></li>
+	
+	<li style="margin-top: 0px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Driver para Impressora Intermec EasyCode 3400 
+ (opcional); </font></span></p></li>
+	
+	<li style="margin-top: 1px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">SROserver. </font></span></p></li>
+</ul>
+
+<p class=PdfParaStyle29
+	style="margin-top: 10px;
+			margin-left: 70px;
+			margin-right: 0px;
+			text-indent: 0px;
+			font-size: 12pt;">Os softwares para instalação nos coletores 
+ estarão disponîveis no Concentrador. </p>
+
+<p class=PdfParaStyle29
+	style="margin-top: 10px;
+			margin-left: 70px;
+			margin-right: 0px;
+			text-indent: 0px;
+			font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">1.4.2 Rede de Coletores </p>
+
+<p class=PdfParaStyle27
+	style="font-size: 12pt;">Hardware </p>
+
+<ul>
+	
+	<li style="margin-top: 13px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle28><p class=PdfParaStyle28
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Coletor de Dados HHP modelo Dolphin 7300; 
+ </font></span></p></li>
+	
+	<li style="margin-top: 1px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Net Base HHP; </font></span></p></li>
+	
+	<li style="margin-top: 1px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Roteador; </font></span></p></li>
+	
+	<li style="margin-top: 0px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Impressora de Relatórios modelo Epson C43SX. 
+ </font></span></p></li>
+</ul>
+
+<p class=PdfParaStyle07
+	style="font-size: 12pt;">Software </p>
+
+<ul>
+	
+	<li style="margin-top: 13px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle28><p class=PdfParaStyle28
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Aplicativo SRO</font></span></p></li>
+</ul>
+
+<p class=PdfParaStyle28
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle28
+	style="font-size: 12pt;"><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;"><span class=PdfCharStyle7><span 
+ class=PdfCharStyle7
+	style="font-size: 14pt; font-weight: bold;"><font size=4 style="font-size:14pt;"><B><a href="Topicos.htm">V</B></font></span></span>oltar 
+ ao Menu Principal</a> </font></span></p>
+
+<p class=PdfParaStyle28
+	style="text-align: right;
+			font-weight: bold;
+			font-size: 12pt;"
+	align=right><span class=PdfCharStyle7
+						style="font-weight: bold; font-size: 12pt;"><font size=3 style="font-size:12pt;"><B>&nbsp;<a 
+ href="Cenario_de_Implantacao.htm">&lt;&lt; 
+ Tópico Anterior</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a 
+ href="Preparando_o_Ambiente.htm"
+	style="font-weight: bold; font-size: 12pt;">Próximo 
+ Tópico &gt;&gt;</a> </B></font></span></p>
+
+<p class=PdfParaStyle28
+	style="text-align: right;
+			font-weight: bold;
+			font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle28
+	style="text-align: center;
+			font-weight: bold;
+			font-size: 12pt;"
+	align=center><span class=PdfCharStyle7
+						style="font-weight: bold; font-size: 12pt;"><font size=3 style="font-size:12pt;"><B><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></font></span></p>
+
+<p class=pdfparastyle22>&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

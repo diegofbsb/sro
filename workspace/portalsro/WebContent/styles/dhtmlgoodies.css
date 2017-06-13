@@ -1,0 +1,80 @@
+/* 
+Document   : __NAME__
+Created on : __DATE__, __TIME__
+Author     : __USER__
+Description:
+Purpose of the stylesheet follows.
+*/
+
+/* 
+TODO customize this sample style
+Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#dhtmlgoodies_leftPanel{	/* Styling the help panel */
+                
+   background-color:#3c94c8;	/* Blue background color */
+   color:#FFF;	/* White text color */
+   font-family: "Trebuchet MS", "Lucida Sans Unicode", Arial, sans-serif;	/* Which font to use */
+                
+   /* You shouldn't change these 5 options unless you need to */		
+   height:100%;
+  		
+   left:0px;
+  
+   z-index:10;
+  
+   position:absolute;
+  
+   display:none;
+  
+}
+                
+#dhtmlgoodies_leftPanel #leftPanelContent{
+  
+   padding:0px;
+  
+}
+#dhtmlgoodies_leftPanel .closeLink{
+   /* Layout of close link */
+   padding-left:2px;
+  
+  
+   padding-right:2px;
+  
+  
+   background-color:#FFF;
+  
+  
+   position:absolute;
+  
+  
+   top:2px;
+  
+  
+   right:2px;
+  
+  
+   border:1px solid #000;
+  
+  
+   color:#000;
+  
+  
+   font-size:0.8em;
+  
+  				
+}
+#dhtmlgoodies_leftPanel .closeLink:hover{
+  
+   /* Close link text  - mouseover effect*/
+   color:#FFF;
+  
+  
+  
+   background-color:#000;
+  
+  
+  
+}	
+

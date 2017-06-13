@@ -1,0 +1,138 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>Robô SRO II 20090921</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="robo.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Robô SRO II 20090921</h1>
+        <img src="splash.gif" width="259" height="252" alt="Robô SROII"/>
+        <div class="content">
+            <p>
+                Este programa foi concebido para ajudar nas atividades de suporte às unidades com SROII.
+                Algumas vantagens do uso desta versão do robô:
+            </p>
+            <ul type="disc">
+                <li>A própria área técnica da DR pode executar;</li>
+                <li>Não é mais necessário solicitar que o robô seja executado pelos técnicos da AC;</li>
+                <li>Atualização automática do próprio aplicativo (<a href="#updates">veja abaixo</a>);</li>
+                <li>Pode-se atualizar múltiplos concentradores para a versão 3.0;</li>
+                <li>Caso seja necessário, novas funcionalidades serão disponibilizadas via gerenciador de plugins(<a href="#newFunc">veja abaixo</a>).</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="content">
+            <h2>Instalação</h2>
+            <p>
+                A instalação do Robô é bem simples: basta fazer o download do arquivo <a href="robosroii.zip">robosroii.zip</a> e
+                descompactá-lo em algum diretório de um <span class="destaque">concentrador de teste</span> da área técnica (escolha
+                preferencialmente um diretório cujo nome não contenha espaços ou caracteres especiais).
+            </p>
+            <h2>Uso</h2>
+            <p>
+                Para executar o aplicativo, entre no diretório onde você descompactou o
+                arquivo zip, dentro dele você verá um diretório chamado <span>robosroii</span>,
+                dentro do qual haverá um diretório chamado <span>bin</span>.  No diretório bin,
+                você encontrará dois arquivos: robosroii e robosroii.exe.  Caso você utilize Windows,
+                execute o arquivo robosroii.exe, caso você utilize alguma variação de Unix,
+                execute o arquivo robosroii.
+            </p>
+            <p>
+                Após o aplicativo iniciar, caso ele não encontre o MySQL instalado, aparecerá a seguinte mensagem:
+                <img src="tela1.png" width="680" height="404" alt="tela1"/>
+            </p>
+            <p>
+                Clique no botão <span>OK</span>.  A tela abaixo será apresentada:
+                <img src="tela2.png" width="452" height="332" alt="tela2"/>
+            </p>
+            <p>
+                Clique em <span>Procurar</span>.  Será aberta uma tela para você procurar
+                o local onde o MySQL está instalado.
+                <img src="tela3.png" width="502" height="355" alt="tela3"/>
+            </p>
+            <p>
+                Depois de encontrar o diretório de instalação do MySQL, entre no diretório
+                <span>bin</span> e escolha o arquivo chamado <span>mysql</span>.
+                <img src="tela4.png" width="502" height="355" alt="tela4"/>
+            </p>
+            <p>
+                Feito isto, a tela abaixo será apresentada e a mensagem de erro terá desaparecido.
+                Clique no botão <span>OK</span>.
+                <img src="tela5.png" width="452" height="332" alt="tela5"/>
+            </p>
+            <p>
+                Agora você pode começar a atualizar os concentradores da sua regional!
+                Há duas formas de inserção dos endereços IP dos concentradores: na primeira,
+                você pode inserí-los diretamente na área de texto do aplicativo; na segunda,
+                você pode clicar no botão <span>Importar IPs...</span>.
+                Independente da forma escolhida, os IPs devem vir separados por vírgula,
+                espaço, tab, ponto-e-vírgula ou em múltiplas linhas.
+                <img src="tela7.png" width="677" height="399" alt="tela7"/>
+                <img src="tela8.png" width="502" height="355" alt="tela8"/>
+            </p>
+            <p>
+                Após inserir os IPs, clique em <span>Executar</span>.  No canto inferior direito
+                da tela do aplicativo, será exibida uma barra de progresso, indicando que o processo
+                de atualização dos concentradores foi iniciado.  Veja a figura abaixo.
+                <img src="tela9.png" width="677" height="399" alt="tela9"/>
+            </p>
+            <p>
+                Na figura acima, é exibida apenas a execução para um concentrador.  Caso você queira
+                ver o progresso de todos, clique em cima da barra de progresso.
+                <img src="tela10.png" width="677" height="399" alt="tela10"/>
+            </p>
+            <p>
+                Se algum concentrador estiver inacessível, será mostrada uma caixa de diálogo como a
+                exibida abaixo:
+                <img src="tela11.png" width="338" height="133" alt="tela11"/>
+            </p>
+            <p>
+                Ao finalizar com sucesso a execução para um determinado concentrador, aparecerá uma mensagem
+                semelhante a da tela abaixo:
+                <img src="tela12.png" width="677" height="399" alt="tela12"/>
+            </p>
+            <p>
+                A mensagem exibida na figura anterior aparece temporariamente.  Caso você não
+                tenha clicado nem no <span>x</span>, nem no link da mensagem, haverá um ícone
+                no canto inferior direito da tela, no qual você poderá clicar para exibir todas as mensagens
+                não vistas e, então, você poderá clicar no <span>x</span>, ou no link, para
+                que a mensagem desapareça.  Veja as figuras abaixo.
+                <img src="tela13.png" width="677" height="399" alt="tela13"/>
+                <img src="tela14.png" width="677" height="399" alt="tela14"/>
+            </p>
+
+            <h2 id="newFunc">Novas funcionalidades</h2>
+            <p>
+                Caso novas funcionalidades sejam adicionadas, será enviado email para a área técnica informando
+                este fato.  Para instalar tais funcionalidades, clique no menu <span>Ferramentas</span>,
+                depois em <span>Plug-ins</span>.  Na tela que aparece, clique na aba <span>Instalado</span>, se
+                ela ainda não estiver selecionada, depois clique em <span>Recarregar catálogo</span>.
+                Feito isto, se houver alguma funcionalidade nova, a aba <span>Plug-ins disponíveis</span>
+                será habilitada e ocê poderá marcar os plug-ins disponíveis para instalação.
+                <img src="tela15.png" width="677" height="399" alt="tela15"/>
+                <img src="tela16.png" width="547" height="380" alt="tela16"/>
+            </p>
+
+            <h2 id="updates">Atualizações</h2>
+
+            <p>
+                Você pode verificar se há atualizações manualmente, por meio do menu
+                <span>Ajuda-&gt;Verificar atualizações</span>.  Se houver atualizações disponíveis,
+                você será guiado para executar o processo de atualização.
+                <img src="tela17.png" width="677" height="399" alt="tela17"/>
+                <img src="tela18.png" width="532" height="479" alt="tela18"/>
+            </p>
+            <p>
+                Caso você não queira verificar manualmente as atualizações, Vá em
+                <span>Ferramentas-&gt;Plug-ins</span> e na aba <span>Configurações</span>,
+                escolha o intervalo das atualizações.
+                <img src="tela20.png" width="886" height="554" alt="tela20"/>
+            </p>
+        </div>
+    </body>
+</html>

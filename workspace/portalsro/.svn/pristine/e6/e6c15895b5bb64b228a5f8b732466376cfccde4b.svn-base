@@ -1,0 +1,3 @@
+difusao.web.sroii.was=update sro.unit set uni_runningdate = sysdate where uni_cep = ?
+lista.unidades.por.nome=select uni_cep, uni_name from sro.unit where uni_name like = ?
+lista.unidades.por.codigo=select uni_cep, uni_name from sro.unit where uni_cep = ? 

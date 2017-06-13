@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="refresh" content="30;url=http://portalsro:8084/sro_monitor/DifusaoWeb.jsp"/>
+        <title>Aviso</title>
+    </head>
+    <body>
+
+        <p style="font-size:1em;font-weight:bolder;text-align:center">
+            Caso voc&ecirc; esteja com problemas na difus&atilde;o via web, proceda da seguinte forma:<br/>
+        </p>
+        <ul style="margin-left:1.5em;font-size:1.5em;font-weight:bolder;">
+            <li>Mudar para 10.8.34.14</li>
+            <li>MQ.NAT01</li>
+            <li>Usar a difus&atilde;o via web do SROI</li>
+        </ul>
+	<br/>
+	<p style="font-size:1em;font-weight:bolder;text-align:justify">
+		A figura abaixo mostra o conte&uacute;do do arquivo sroClient.properties antes e depois das mudan&ccedil;as necess&aacute;rias:
+		<br/><img src="filas3.png" alt="sroClient.properties"/>
+	</p>
+        <p style="font-size:1em;font-weight:bolder;text-align:justify">
+            Esta p&aacute;gina ser&aacute; redirecionada em 30s. Caso isto n&atilde;o aconte&ccedil;a,
+            ou voc&ecirc; queira ir logo para a página da difus&atilde;o, clique no link abaixo:<br/>
+            <a href="http://portalsro:8084/sro_monitor/DifusaoWeb.jsp">
+                http://portalsro:8084/sro_monitor/DifusaoWeb.jsp
+            </a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,182 @@
+
+
+
+* {
+   padding:0;
+   margin:0;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+/* menu */
+
+BODY {
+scrollbar-face-color: #FFFFFF;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-3dlight-color: #FFFFFF;
+scrollbar-darkshadow-color: #FFFFFF;
+scrollbar-shadow-color: #FFFFFF;
+scrollbar-arrow-color: #000000;
+scrollbar-track-color: #FFFFFF;
+}
+
+.menu{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    float: left;    
+    width: 227PX;
+    height: 2000px;
+    color: #ffffff;
+    background: url('../images/Back.jpg') repeat-y;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	font-weight: bold;
+	
+	
+}
+.menutitulo{
+	color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	font-weight: bold;
+
+
+}
+.data{
+font-family: Arial, Helvetica, sans-serif; 
+font-size:11px;
+text-align:center;
+
+}
+
+.menu ul {	
+    list-style: none;
+    width: 150px;
+    margin: 0 0 0 20px;
+    padding: 0;
+    font-size: 0.7em;
+    font-weight: bold;
+}	
+
+.menu li {
+    margin-bottom:4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-align="left";
+	text-indent:-5px;
+}
+
+.menu li a {
+    margin: 5px 5px 5px 5px;
+    color: #ffffff;
+    text-decoration: none;
+	
+}	
+	
+.menu li a:hover {
+    color: #999;
+    text-decoration: none;
+}	
+
+.menu a {
+    margin: 5px 5px 5px 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+img.logo {
+    width: 180px;
+    height: 48px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    
+}
+
+a.w3c {
+    margin: 0px 0px 0px 0px;
+    color: #000000;
+    border: 0;
+}
+
+img.w3c {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-style: none;
+}
+
+.date {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    /*border-style: solid;*/
+    text-align: center;
+}
+
+.menu div {
+    position: relative;
+}
+
+
+/* content */
+
+.content {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    color:  #003399;
+    width: 90%;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:14px;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+table.home {
+    border-style: none;
+    width: 100%;
+}
+
+td.homeRight{
+    text-align: right;
+    font-size: 0.7em;
+    color: rgb(0, 51, 153);
+}
+
+
+
+a.home {
+    font-size: 0.7em;
+    color: rgb(0, 51, 153);
+    text-decoration: none;
+}
+
+.home a:hover {
+    text-decoration: underline;
+}
+
+img.home {
+    border-style: none;
+    vertical-align: text-bottom;
+}
+
+p.right {
+   font-size: 0.7em;
+   color: rgb(0, 51, 153);
+   text-align: right;
+}
+

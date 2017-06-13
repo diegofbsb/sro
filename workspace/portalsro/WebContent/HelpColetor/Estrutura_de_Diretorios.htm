@@ -1,0 +1,245 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Estrutura de Diretórios</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:16px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs2 { width:514.56px; height:393.72px; border-style:none; }
+img_whs3 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Manual de Operação do SROServer\nEstrutura de Diretórios");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle06
+	style="font-size: 14pt; text-align: center;"
+	align=center>Manual de Operação do SROServer </p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">5.1 Objetivo </p>
+
+<p class=PdfParaStyle18
+	style="font-size: 12pt; text-align: justify;">Este capítulo tem por 
+ objetivo descrever a operação do sistema SRO pela perspectiva do servidor 
+ da aplicação SROServer. Em linhas gerais, o SROServer proporciona a comunicação 
+ de arquivos entre os coletores e demais sistemas, executando o tratamento 
+ e as formatações nestes arquivos de forma a integrar o SRO dos coletores 
+ com os sistemas legados. </p>
+
+<p class=PdfParaStyle18
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">5.2 Estrutura de diretórios para o SROserver 
+ </p>
+
+<p align="center" class="whs1"><img x-orientation="0" src="ManualSROII_17_02.gif" width="514.56px" height="393.72px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 17 - Estrutura de diretório SROserver </p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt;">A figura acima representa as pastas que compões 
+ o diretório do SROServer: </p>
+
+<ul>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle21><p class=PdfParaStyle21
+										style="font-size: 12pt; text-align: justify;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Download</font></span><span class=PdfCharStyle7
+													style="font-size: 12pt;"> 
+ <font size=3 style="font-size:12pt;">&#8211; contém 
+ os arquivos recebidos dos coletores; </font></span></p></li>
+	
+	<li style="margin-top: 1px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22>
+	<p class=PdfParaStyle22
+		style="font-size: 12pt; text-align: justify;"><span class=PdfCharStyle11
+															style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Erro</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"> <font size=3 style="font-size:12pt;">&#8211; 
+ contém os arquivos com falhas de formatação durante a comunicação com 
+ o </font></span></p>
+	
+	<p class=PdfParaStyle26
+		style="font-size: 12pt; text-align: justify;">servidor; </p>
+	</li>
+	
+	<li style="margin-top: 1px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt; text-align: justify;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Final</font></span><span class=PdfCharStyle7
+												style="font-size: 12pt;"> 
+ <font size=3 style="font-size:12pt;">&#8211; contém 
+ os arquivos já formatados recebidos do coletor para serem enviados ao 
+ banco de dados ou para a pasta </font></span><span class=PdfCharStyle11
+											style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Received</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> do </font></span><span class=PdfCharStyle11
+												style="font-size: 12pt;"><font size=3 style="font-size:12pt;">CTS 
+ Operacional</font></span><span class=PdfCharStyle7
+						style="font-size: 12pt;"><font size=3 style="font-size:12pt;">; </font></span></p></li>
+	
+	<li style="margin-top: 1px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt; text-align: justify;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Install </font></span><span class=PdfCharStyle7
+													style="font-size: 12pt;"><font size=3 style="font-size:12pt;">&#8211; contém os 
+ instaladores do </font></span><span class=PdfCharStyle11
+								style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Java Run Time</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> e </font></span><span class=PdfCharStyle11
+											style="font-size: 12pt;"><font size=3 style="font-size:12pt;">MDAC</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">. </font></span></p></li>
+	
+	<li style="margin-top: 0px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22>
+	<p class=PdfParaStyle22
+		style="font-size: 12pt; text-align: justify;"><span class=PdfCharStyle11
+															style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Setup</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"> <font size=3 style="font-size:12pt;">&#8211; 
+ contém os arquivos de instalação e parametrização que serão utilizados 
+ pelos </font></span></p>
+	
+	<p class=PdfParaStyle26
+		style="font-size: 12pt; text-align: justify;">coletores; </p>
+	</li>
+	
+	<li style="margin-top: 1px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt; text-align: justify;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Temp</font></span><span class=PdfCharStyle7
+												style="font-size: 12pt;"> 
+ <font size=3 style="font-size:12pt;">&#8211; folder 
+ utilizado para processamento do SROserver; </font></span></p></li>
+	
+	<li style="margin-top: 1px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="text-align: justify;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Upload</font></span><span class=PdfCharStyle7
+												style="font-size: 12pt;"> 
+ <font size=3 style="font-size:12pt;">&#8211; contém 
+ os arquivos que serão enviados aos coletores.</font></span><span class=PdfCharStyle7> 
+ </span></p></li>
+</ul>
+
+<p class=PdfParaStyle22>&nbsp;</p>
+
+<p class=PdfParaStyle22>&nbsp;</p>
+
+<p class=PdfParaStyle22>&nbsp;</p>
+
+<p class=PdfParaStyle22
+	style="font-weight: bold; font-size: 12pt;"><a href="Topicos.htm">Voltar 
+ ao Menu Principal</a></p>
+
+<p class=PdfParaStyle22
+	style="font-weight: bold;
+			text-align: right;
+			font-size: 12pt;"
+	align=right>&nbsp;<a href="Instalacao_MDAC.htm">&lt;&lt; 
+ Tópico Anterior</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a 
+ href="Arquivos_de_Configuracao.htm">Próximo 
+ Tópico &gt;&gt;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle22
+	style="font-weight: bold;
+			text-align: right;
+			font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle17
+	style="text-align: center; line-height: 150%;"
+	align=center><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs3"></p>
+
+<p class=PdfParaStyle17>&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

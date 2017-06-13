@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/help.css">
+        <title>Ajuda: Filtros</title>
+    </head>
+    <body>
+        <div class="content">
+            
+            <div class="help">
+                <div class="title">Uso dos filtros</div>
+                <div class="helpContent">
+                    &nbsp;&nbsp;Veja, abaixo, algumas formas de utiliza&ccedil;&atilde;o dos filtros.
+                    <ul>
+                        <li>Caso haja uma caixa de sele&ccedil;&atilde;o, apenas escolha um valor</li>
+                        <li>Se for uma caixa de texto, digite parte da palavra que deseja buscar.</li>
+                        <li>Se o conte&uacute;do for apenas num&eacute;rico, pode-se usar os sinais "<strong>&lt;</strong>", 
+                            "<strong>&lt;=</strong>", "<strong>&gt;</strong>", 
+                            "<strong>&gt;=</strong>".
+                        </li>
+                        <li>
+                            Para selecionar os intervalos de tempo maiores que um dia (coluna 'Tempo'),<br/>
+                            copie e cole no campo apropriado a seguinte express&atilde;o:<br/>
+                            00A([0-9][1-9]|[1-9][0-9])D
+                        </li>
+                        <li>
+                            Para selecionar os intervalos de tempo menores que um dia (coluna 'Tempo'),<br/>
+                            copie e cole no campo apropriado a seguinte express&atilde;o:<br/>
+                            00A00D
+                        </li>
+                        <li>
+                            Use '^' seguido de uma express&atilde;o para selecionar todas as palavras que comecem com tal express&atilde;o.<br/>
+                            Exemplos:
+                            <ol>
+                                <li>^ACF : retorna todas as palavras que comecem com 'ACF'</li>
+                                <li>^SL132 : retorna todas as palavras que comecem com 'SL132'</li>
+                                <li>^8674 : retorna todos os n&uacute;meros que comecem com '8674'</li>
+                            </ol>
+                        </li>
+                        <li>Pressione enter para aplicar os filtros ap&oacute;s digit&aacute;-los em uma caixa de texto</li>
+                        <li>Clique em "Reset" para limpar os filtros.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+        </div>
+    </body>
+</html>

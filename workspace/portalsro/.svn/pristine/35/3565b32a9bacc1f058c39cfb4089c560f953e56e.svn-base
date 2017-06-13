@@ -1,0 +1,83 @@
+diferenca.dr=select distinct x.uni_cep \
+    , u.uni_name \
+    , x.qt_oec as lancamento \
+    , y.qt_bde as baixa   \
+from ( select uni_cep, et_eventtypecode, qua_qt_quantidade as qt_oec \
+           from sro.nep_quantidade_evento \
+          where et_eventtypecode = 'OEC' \
+            and qua_da_quantidade  between ? and ?) x, \
+        ( select uni_cep, et_eventtypecode, qua_qt_quantidade as qt_bde \
+           from sro.nep_quantidade_evento \
+          where et_eventtypecode = 'BDE' \
+            and qua_da_quantidade   between ? and ?) y, \
+      sro.unit u, sro.regionaldirectorate r, sro.operationalunittypes o, sro.unit n \
+where x.uni_cep = u.uni_cep \
+   and n.uni_cep = u.uni_cep \
+   and n.uni_rdcode = r.rd_code \
+   and u.uni_rdcode = ? \
+   and x.uni_cep = y.uni_cep \
+   and x.qt_oec != y.qt_bde 
+
+diferenca.dr.reop=select distinct x.uni_cep \
+    , u.uni_name \
+    , x.qt_oec as lancamento \
+    , y.qt_bde as baixa   \
+from ( select uni_cep, et_eventtypecode, qua_qt_quantidade as qt_oec \
+           from sro.nep_quantidade_evento \
+          where et_eventtypecode = 'OEC' \
+            and qua_da_quantidade  between ? and ?) x, \
+        ( select uni_cep, et_eventtypecode, qua_qt_quantidade as qt_bde \
+           from sro.nep_quantidade_evento \
+          where et_eventtypecode = 'BDE' \
+            and qua_da_quantidade   between ? and ?) y, \
+      sro.unit u, sro.regionaldirectorate r, sro.operationalunittypes o, sro.unit n \
+where x.uni_cep = u.uni_cep \
+   and n.uni_cep = u.uni_cep \
+   and n.uni_rdcode = r.rd_code \
+   and u.uni_rdcode = ? \
+   and u.uni_reope = ? \
+   and x.uni_cep = y.uni_cep \
+   and x.qt_oec != y.qt_bde 
+
+diferenca.dr.reop.tipo=select distinct x.uni_cep \
+    , u.uni_name \
+    , x.qt_oec as lancamento \
+    , y.qt_bde as baixa   \
+from ( select uni_cep, et_eventtypecode, qua_qt_quantidade as qt_oec \
+           from sro.nep_quantidade_evento \
+          where et_eventtypecode = 'OEC' \
+            and qua_da_quantidade  between ? and ?) x, \
+        ( select uni_cep, et_eventtypecode, qua_qt_quantidade as qt_bde \
+           from sro.nep_quantidade_evento \
+          where et_eventtypecode = 'BDE' \
+            and qua_da_quantidade   between ? and ?) y, \
+      sro.unit u, sro.regionaldirectorate r, sro.operationalunittypes o, sro.unit n \
+where x.uni_cep = u.uni_cep \
+   and n.uni_cep = u.uni_cep \
+   and n.uni_rdcode = r.rd_code \
+   and u.uni_rdcode = ? \
+   and u.uni_reope = ? \
+   and o.out_acronym = ? \
+   and x.uni_cep = y.uni_cep \
+   and x.qt_oec != y.qt_bde 
+
+diferenca.dr.tipo=select distinct x.uni_cep \
+    , u.uni_name \
+    , x.qt_oec as lancamento \
+    , y.qt_bde as baixa   \
+from ( select uni_cep, et_eventtypecode, qua_qt_quantidade as qt_oec \
+           from sro.nep_quantidade_evento \
+          where et_eventtypecode = 'OEC' \
+            and qua_da_quantidade  between ? and ?) x, \
+        ( select uni_cep, et_eventtypecode, qua_qt_quantidade as qt_bde \
+           from sro.nep_quantidade_evento \
+          where et_eventtypecode = 'BDE' \
+            and qua_da_quantidade   between ? and ?) y, \
+      sro.unit u, sro.regionaldirectorate r, sro.operationalunittypes o, sro.unit n \
+where x.uni_cep = u.uni_cep \
+   and n.uni_cep = u.uni_cep \
+   and n.uni_rdcode = r.rd_code \
+   and u.uni_rdcode = ? \
+   and o.out_acronym = ? \
+   and x.uni_cep = y.uni_cep \
+   and x.qt_oec != y.qt_bde 

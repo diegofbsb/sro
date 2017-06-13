@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE module_updates PUBLIC "-//NetBeans//DTD Autoupdate Catalog 2.6//EN" "http://www.netbeans.org/dtds/autoupdate-catalog-2_6.dtd">
+<module_updates timestamp="10/29/20/07/01/2011">
+
+
+<module codenamebase="br.com.correios.sroii.robo.branding" distribution="br-com-correios-sroii-robo-branding.nbm" downloadsize="3387" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/01/07" targetcluster="robosroii">
+    <manifest AutoUpdate-Show-In-Client="true" OpenIDE-Module="br.com.correios.sroii.robo.branding" OpenIDE-Module-Implementation-Version="101122" OpenIDE-Module-Java-Dependencies="Java &gt; 1.5" OpenIDE-Module-Module-Dependencies="org.netbeans.modules.autoupdate.services &gt; 1.8.2" OpenIDE-Module-Name="Branding" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module codenamebase="br.com.correios.sroii.scripts.ip.ui" distribution="br-com-correios-sroii-scripts-ip-ui.nbm" downloadsize="9157" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/01/07" targetcluster="robosroii">
+    <manifest AutoUpdate-Show-In-Client="true" OpenIDE-Module="br.com.correios.sroii.scripts.ip.ui" OpenIDE-Module-Implementation-Version="110107" OpenIDE-Module-Java-Dependencies="Java &gt; 1.5" OpenIDE-Module-Module-Dependencies="br.com.correios.sroii.robo.mysql &gt; 1.0, org.jdesktop.layout/1 &gt; 1.7.1.103, org.netbeans.modules.settings/1 &gt; 1.18.1.1, org.openide.awt &gt; 7.8.1.1, org.openide.dialogs &gt; 7.10.1, org.openide.filesystems &gt; 7.21.1.1.1, org.openide.util &gt; 7.22.1.1, org.openide.windows &gt; 6.26.1" OpenIDE-Module-Name="IpsUI" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0.2"/>
+    
+</module>
+
+<module codenamebase="br.com.correios.sroii.robo.mysql" distribution="br-com-correios-sroii-robo-mysql.nbm" downloadsize="21130" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/01/07" targetcluster="robosroii">
+    <manifest AutoUpdate-Show-In-Client="true" OpenIDE-Module="br.com.correios.sroii.robo.mysql" OpenIDE-Module-Implementation-Version="110107" OpenIDE-Module-Java-Dependencies="Java &gt; 1.5" OpenIDE-Module-Module-Dependencies="br.com.correios.sroii.robo.scripts &gt; 1.0, org.jdesktop.layout/1 &gt; 1.7.1.103, org.netbeans.api.progress/1 &gt; 1.13.1.1, org.netbeans.modules.options.api/1 &gt; 1.12.2, org.openide.awt &gt; 7.8.1.1, org.openide.dialogs &gt; 7.10.1, org.openide.filesystems &gt; 7.21.1.1.1, org.openide.io &gt; 1.16.1, org.openide.modules &gt; 7.10.1, org.openide.util &gt; 7.22.1.1, org.openide.windows &gt; 6.26.1" OpenIDE-Module-Name="MySQLUtil" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module codenamebase="br.com.correios.sroii.robo.scripts" distribution="br-com-correios-sroii-robo-scripts.nbm" downloadsize="18977" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/01/07" targetcluster="robosroii">
+    <manifest AutoUpdate-Show-In-Client="true" OpenIDE-Module="br.com.correios.sroii.robo.scripts" OpenIDE-Module-Implementation-Version="110107" OpenIDE-Module-Java-Dependencies="Java &gt; 1.5" OpenIDE-Module-Module-Dependencies="org.openide.filesystems &gt; 7.21.1.1.1, org.openide.loaders &gt; 7.5.2, org.openide.modules &gt; 7.10.1, org.openide.util &gt; 7.22.1.1" OpenIDE-Module-Name="Scripts" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.15"/>
+    
+</module>
+
+<license name="AD9FBBC9" url="licenses/AD9FBBC9.license"/>
+</module_updates>
+

@@ -1,0 +1,10 @@
+<div style="text-align: center; margin-top: 50px">
+    <hr />
+    <a href="http://validator.w3.org/check?uri=referer" class="w3c" style="position: relative; float: left">
+        <img src="images/valid-html401.png" alt="Valid HTML 4.01 Transitional" class="w3c" />
+    </a>
+    <a href="http://jigsaw.w3.org/css-validator/" class="w3c" style="position: relative; float: right"> 
+        <img src="images/vcss" alt="Valid CSS!" class="w3c" />
+    </a>
+    <!-- <p>Powered by DESUN/DSGL/CRO, Debian/GNU/Linux, NetBeans IDE</p> -->
+</div>

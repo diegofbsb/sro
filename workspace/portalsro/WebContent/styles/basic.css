@@ -1,0 +1,143 @@
+/* 
+    Document   : basic
+    Created on : 24 de Agosto de 2006, 17:08
+    Author     : jeans
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+table.blue {
+    border: thin solid gray;
+    width: 100%;
+    font-family: arial, verdana;
+}
+
+
+
+tr,td {
+    text-align: left;
+}
+
+.even {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.even2 {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.even tr:hover{
+    background-color: #99CCFF;
+}
+
+.odd {
+    text-align: left;
+    font-size: 0.9em;
+    background-color: rgb(233,233,233);    
+}
+
+.odd2 {
+    text-align: center;
+    font-size: 0.9em;
+    background-color: rgb(233,233,233);    
+}
+
+.odd tr:hover{
+    background-color: #99CCFF;
+}
+
+
+
+tbody.blue tr:hover {
+    background-color: #99CCFF;
+}
+
+caption { 
+    background-image: url('../images/table_titlebar_gradient.jpg');
+    background-repeat: repeat-x;
+    border-left: thin solid gray;
+    border-right: thin solid gray;
+    border-top: thin solid gray;
+    font-weight: bold;
+    font-size: large;
+    text-align: center; 
+    /*margin-left: auto; 
+    margin-right: auto; */
+}
+
+thead {
+    cursor: pointer;
+}
+
+thead tr {
+    background-image: url('../images/column_hdr_gradient.gif');
+    background-repeat: repeat-x;
+}
+
+thead tr th:hover {
+    background-image: url('../images/column_hdr_hov_gradient.gif');
+    background-repeat: repeat-x;
+}
+
+label {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.button {
+    background-image: url('../images/column_hdr_gradient.gif');    
+    background-repeat: repeat-x;
+    width: 80px;
+    height: 25px;
+}
+
+.button:hover {
+    background-image: url('../images/column_hdr_hov_gradient.gif');
+    background-repeat: repeat-x;
+}
+
+
+
+.Btn2 {
+    background-image: url(../images/secondary-enabled.gif);
+    background-color: #D9E6EC;
+    color: #000;
+    border-top: solid 1px #6F787F;
+    border-left: solid 1px #4E555A;
+    border-right: solid 1px #4E555A;
+    border-bottom: solid 1px #2D3235
+}
+
+.Btn2:hover {
+    background-image: url(../images/secondary-roll.gif);
+    background-color: #EAF9FF; 
+    color: #000;
+    border-top: solid 1px #6F97B2;
+    border-left: solid 1px #4E7C9C;
+    border-right: solid 1px #4E7C9C;
+    border-bottom: solid 1px #2D6086
+}
+
+.tablecaption {
+    background-image: url('../images/table_titlebar_gradient.jpg');
+    background-repeat: repeat-x;
+    border-left: thin solid gray;
+    border-right: thin solid gray;
+    border-top: thin solid gray;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    color: black;
+}

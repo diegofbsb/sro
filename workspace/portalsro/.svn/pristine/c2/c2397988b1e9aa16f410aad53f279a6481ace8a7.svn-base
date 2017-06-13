@@ -1,0 +1,343 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Instalação da impressão LPR III</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:34px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs2 { width:437.18px; height:371.28px; border-style:none; }
+p.whs3 { margin-top:14px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs4 { width:363.81px; height:263.16px; border-style:none; }
+img_whs5 { width:338.69px; height:276.42px; border-style:none; }
+img_whs6 { width:328.64px; height:232.56px; border-style:none; }
+img_whs7 { width:333.66px; height:160.14px; border-style:none; }
+img_whs8 { width:560.79px; height:357.00px; border-style:none; }
+img_whs9 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-right:1pt; }";
+  strNSS += "p.whs3 {margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Instalaçao da Impressora\n Instalação da impressão LPR III");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p align="center" class="whs1"><img x-orientation="0" src="ManualSROII_40_01.gif" width="437.18px" height="371.28px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 47 - Localizando a impressora </p>
+
+<ul>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle28><p class=PdfParaStyle28
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Selecione o arquivo “</font></span><span class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Intermec.inf</font></span><span class=PdfCharStyle7
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">” 
+ e pressione “</font></span><span class=PdfCharStyle11
+							style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Abrir</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">”. </font></span></p></li>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle21>
+	<p class=PdfParaStyle21
+		style="font-size: 12pt;"><span class=PdfCharStyle7
+										style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Selecione 
+ o modelo na lista de impressoras de acordo a Impressora de Etiquetas </font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Easy </font></span></p>
+	
+	<p class=PdfParaStyle50
+		style="margin-top: 0px;
+				margin-right: 0px;
+				text-indent: 0px;
+				margin-left: 0px;
+				font-size: 12pt;"><span class=PdfCharStyle11
+										style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Code 3400D</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> e pressione “</font></span><span class=PdfCharStyle11
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Próximo</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">”. </font></span></p>
+	</li>
+</ul>
+
+<p align="center" class="whs3"><img x-orientation="0" src="ManualSROII_40_02.gif" width="363.81px" height="263.16px" border="0" class="img_whs4"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 48 - Adicionando impressora </p>
+
+<p class=PdfParaStyle59
+	style="font-size: 12pt;">Importante </p>
+
+<p class=PdfParaStyle37
+	style="text-align: justify;"><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Para o 
+ perfeito funcionamento do SRO, o nome da impressora deverá ser SROETQ. 
+ É indiferente a seleção (sim ou não) para o item que questiona se você 
+ deseja que seus aplicativos para Windows usem esta impressora como padrão.</font></span> 
+ </p>
+
+<p class=PdfParaStyle37
+	style="margin-top: 47px;
+			margin-left: 51px;
+			text-indent: 0px;
+			text-align: center;"
+	align=center><img x-orientation="0" src="ManualSROII_41_01.gif" width="338.69px" height="276.42px" border="0" class="img_whs5"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 49 - Informando nome da impressora </p>
+
+<ul>
+	
+	<li style="margin-top: 13px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle28><p class=PdfParaStyle28
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Clique em </font></span><span class=PdfCharStyle11
+													style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Avançar.</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"> <font size=3 style="font-size:12pt;"></font></span></p></li>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle21>
+	<p class=PdfParaStyle21
+		style="font-size: 12pt;"><span class=PdfCharStyle7
+										style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Poderá 
+ ser feita a opção por compartilhar, ou não, a impressora. Para o sistema, 
+ não há </font></span></p>
+	
+	<p class=PdfParaStyle26
+		style="font-size: 12pt;">necessidade de compartilhamento. </p>
+	</li>
+</ul>
+
+<p align="center" class="whs3"><img x-orientation="0" src="ManualSROII_41_02.gif" width="328.64px" height="232.56px" border="0" class="img_whs6"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 50 - Finalização da instalação da impressora </p>
+
+<ul>
+	
+	<li style="margin-top: 13px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle28><p class=PdfParaStyle28
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Clique em </font></span><span class=PdfCharStyle11
+													style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Avançar.</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"> <font size=3 style="font-size:12pt;"></font></span></p></li>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle21><p class=PdfParaStyle21
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">A Impressora </font></span><span class=PdfCharStyle11
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">SROETQ</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> agora está instalada. </font></span></p></li>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle21>
+	<p class=PdfParaStyle21
+		style="font-size: 12pt;"><span class=PdfCharStyle7
+										style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Na janela 
+ </font></span><span class=PdfCharStyle11
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Impressoras</font></span><span class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> verifique, na lista de impressoras do servidor, 
+ a Impressora de </font></span></p>
+	
+	<p class=PdfParaStyle26
+		style="font-size: 12pt;"><span class=PdfCharStyle7
+										style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Etiquetas 
+ como nome </font></span><span class=PdfCharStyle11
+						style="font-size: 12pt;"><font size=3 style="font-size:12pt;">SROETQ</font></span><span class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">. </font></span></p>
+	</li>
+</ul>
+
+<p class=PdfParaStyle26
+	style="margin-top: 34px;
+			margin-left: 51px;
+			text-align: center;"
+	align=center><img x-orientation="0" src="ManualSROII_42_01.gif" width="333.66px" height="160.14px" border="0" class="img_whs7"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 51 - Verificação da instalação </p>
+
+<ul>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle28><p class=PdfParaStyle28
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Não será necessário imprimir a página de testes 
+ nesta instalação. </font></span><span style="margin-top: 260px; margin-left: 50px;">&nbsp;</span></p></li>
+</ul>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">8.5 Verificação do Servidor de Impressão </p>
+
+<p class=PdfParaStyle66
+	style="font-size: 12pt; text-align: justify;">Ao terminar a instalação, 
+ verifique se o servidor de impressão TCP/IP instalado está iniciado e 
+ marcado para inicializar automaticamente. </p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 10px;
+			margin-left: 70px;
+			margin-right: 0px;
+			font-size: 12pt;
+			text-align: justify;">Acesse Painel de Controle &gt; Serviços 
+ e verifique a linha Servidor de Impressão TCP/IP. </p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 10px;
+			margin-left: 70px;
+			margin-right: 0px;
+			text-indent: 0px;">&nbsp;</p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 10px;
+			margin-left: 70px;
+			margin-right: 0px;
+			text-align: center;"
+	align=center><img x-orientation="0" src="ManualSROII_43_02.gif" width="560.79px" height="357.00px" border="0" class="img_whs8"><span class=PdfCharStyle11><br>
+Figura 53 - Verificação do servidor de impressão </span></p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 10px;
+			margin-right: 0px;
+			font-weight: bold;
+			font-size: 12pt;
+			margin-left: 0px;">&nbsp;</p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 10px;
+			margin-right: 0px;
+			font-weight: bold;
+			font-size: 12pt;
+			margin-left: 0px;">&nbsp;<a href="Topicos.htm">Voltar 
+ ao Menu Principal</a> </p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 10px;
+			margin-left: 70px;
+			margin-right: 0px;
+			font-weight: bold;
+			text-align: right;
+			font-size: 12pt;"
+	align=right><a href="Instalacao_da_impressao_LPR_II.htm">&lt;&lt; Tópico 
+ Anterior</a><a href="Topicos.htm"> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a 
+ href="Instalacao_do_Net_Base.htm"
+	style="font-size: 12pt;">&nbsp;</a><a href="Instalacao_do_Net_Base.htm">&nbsp;Próximo 
+ Tópico&gt;&gt;</a> </p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 10px;
+			margin-left: 70px;
+			margin-right: 0px;
+			font-weight: bold;
+			text-align: right;
+			font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 10px;
+			margin-right: 0px;
+			font-weight: bold;
+			font-size: 12pt;
+			text-align: center;
+			margin-left: 0px;"
+	align=center><span style="line-height: 150%;"><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs9"></span> 
+ &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle26
+	style="text-align: right;
+			font-weight: bold;
+			font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

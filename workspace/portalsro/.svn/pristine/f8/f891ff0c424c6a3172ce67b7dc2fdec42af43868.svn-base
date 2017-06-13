@@ -1,0 +1,248 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Opção Static IP</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+img_whs1 { width:409.04px; height:299.88px; border-style:none; }
+img_whs2 { width:397.98px; height:270.30px; border-style:none; }
+p.whs3 { margin-top:14px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs4 { width:419.09px; height:280.50px; border-style:none; }
+img_whs5 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs3 {margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Instalação do Roteador\nOpção Static IP");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle06
+	style="font-size: 12pt;">Opção Static IP: </p>
+
+<p class=PdfParaStyle40
+	style="font-size: 12pt;"><span class=PdfCharStyle7
+									style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Selecione 
+ a opção Static IP e clique no botão </font></span><span class=PdfCharStyle11
+													style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Next&gt;</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">. </font></span></p>
+
+<p class=PdfParaStyle27
+	style="text-align: center;"
+	align=center><img x-orientation="0" src="ManualSROII_33_01.gif" width="409.04px" height="299.88px" border="0" class="img_whs1"><span class=PdfCharStyle11><br>
+Figura 36 - Instalação do roteador - opção Static IP </span></p>
+
+<p class=PdfParaStyle31
+	style="text-align: justify;"><span class=PdfCharStyle7
+										style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Com a 
+ opção Static IP, no passo </font></span><span class=PdfCharStyle6
+										style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Connect 
+ to the Internet</font></span><span class=PdfCharStyle7
+							style="font-size: 12pt;"><font size=3 style="font-size:12pt;">, deverá ser fornecido 
+ ao equipamento diversos endereços de rede. Recomendamos consultar o Administrador 
+ da Rede Local para o preenchimento correto de todos os itens. Encerrado 
+ o preenchimento, pressione </font></span><span class=PdfCharStyle11
+										style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Next</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> para a próxima tela.</font></span><span class=PdfCharStyle7> 
+ </span></p>
+
+<p class=PdfParaStyle07
+	style="text-align: center;"
+	align=center><img x-orientation="0" src="ManualSROII_33_02.gif" width="397.98px" height="270.30px" border="0" class="img_whs2"><span class=PdfCharStyle11><br>
+Figura 37 - Instalação do roteador - conexão com Internet </span></p>
+
+<p class=PdfParaStyle43
+	style="text-align: justify;"><span class=PdfCharStyle7
+										style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Quando 
+ esta tela aparecer, o setup do equipamento estará completo. Ao clicar 
+ no botão </font></span><span class=PdfCharStyle11
+						style="font-size: 12pt;"><font size=3 style="font-size:12pt;">FINISH</font></span><span class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">, o roteador será reinicializado e pronto 
+ para o uso.</font></span><span class=PdfCharStyle7> </span></p>
+
+<p align="center" class="whs3"><img x-orientation="0" src="ManualSROII_34_01.gif" width="419.09px" height="280.50px" border="0" class="img_whs4"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 38 - Instalação do roteador - sumário </p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 80px;
+			margin-left: 50px;
+			margin-right: 0px;
+			text-indent: 40px;
+			text-align: justify;
+			font-size: 12pt;"><span class=PdfCharStyle7
+									style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Importante! 
+ Na primeira vez em que for instalado o roteador deverá ser executado o 
+ </font></span><span class=PdfCharStyle6
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Procedimento Técnico - Firmware 
+ Router. </font></span><span class=PdfCharStyle7
+						style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Documento este que descreve 
+ como realizar a atualização do Firmware do roteador e que se encontra 
+ disponível do CD de instalação. </font></span></p>
+
+<p class=PdfParaStyle09
+	style="margin-left: 50px;
+			margin-right: 0px;
+			text-indent: 40px;
+			text-align: justify;
+			font-size: 12pt;
+			margin-top: 0px;"><span class=PdfCharStyle7
+									style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Terminada 
+ a configuração, retorne os cabos de rede do computador para a rede Corporativa 
+ e proceda novamente com os passos do item </font></span><span class=PdfCharStyle11
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Como 
+ Instalar</font></span><span class=PdfCharStyle7
+						style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> deste capítulo.</font></span></p>
+
+<p class=PdfParaStyle09
+	style="margin-left: 50px;
+			margin-right: 0px;
+			text-indent: 40px;
+			text-align: justify;
+			font-size: 12pt;
+			margin-top: 0px;">&nbsp;</p>
+
+<p class=PdfParaStyle09
+	style="margin-right: 0px;
+			text-indent: -2px;
+			margin-left: 0px;
+			margin-bottom: 0pt;
+			margin-top: 0px;"><span class=PdfCharStyle7>&nbsp;</span><span 
+ class=PdfCharStyle7
+	style="font-weight: bold;
+			font-family: Arial, sans-serif;
+			font-size: 12pt;"><font size=3 style="font-size:12pt;"><B><a href="Topicos.htm">Voltar 
+ ao Menu Principal</a></B></font></span></p>
+
+<p class=PdfParaStyle09
+	style="margin-left: 50px;
+			margin-right: 0px;
+			text-indent: 40px;
+			text-align: right;
+			margin-bottom: 0pt;
+			margin-top: 0px;
+			font-weight: bold;
+			font-family: Arial, sans-serif;
+			font-size: 12pt;"
+	align=right><span class=PdfCharStyle7
+						style="font-weight: bold;
+								font-family: Arial, sans-serif;
+								font-size: 12pt;"><font size=3 style="font-size:12pt;"><B><a href="Opcao_DHCP.htm">&lt;&lt; 
+ Tópico Anterior</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a 
+ href="Instalacao_da_Impressora_de_Relatorios.htm"
+	style="font-family: Arial, sans-serif; font-size: 12pt;">Próximo 
+ Tópico&gt;&gt;</a> </B></font></span></p>
+
+<p class=PdfParaStyle09
+	style="margin-left: 50px;
+			margin-right: 0px;
+			text-indent: 40px;
+			text-align: right;
+			font-weight: bold;
+			font-family: Arial, sans-serif;
+			font-size: 12pt;
+			margin-bottom: 0pt;
+			margin-top: 0px;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle09
+	style="margin-right: 0px;
+			margin-bottom: 0pt;
+			margin-top: 0px;
+			text-align: center;
+			text-indent: -2px;
+			margin-left: 0px;
+			font-weight: bold;
+			font-family: Arial, sans-serif;
+			font-size: 12pt;"
+	align=center><span class=PdfCharStyle7
+						style="font-weight: bold;
+								font-family: Arial, sans-serif;
+								font-size: 12pt;"><font size=3 style="font-size:12pt;"><B><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></font></span></p>
+
+<p class=PdfParaStyle07
+	style="margin-top: 0px; margin-bottom: 0pt;">&nbsp;</p>
+
+<p class=PdfParaStyle07
+	style="margin-top: 0px; margin-bottom: 0pt;">&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Iniciando o SROServer</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:14px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs2 { width:410.04px; height:184.62px; border-style:none; }
+p.whs3 { margin-top:15px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs4 { width:467.33px; height:224.06px; border-style:none; }
+img_whs5 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-right:1pt; }";
+  strNSS += "p.whs3 {margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Manual de Operação do SROServer\nIniciando o SROServer");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle24
+	style="font-size: 12pt;">5.6 Iniciando o SROserver </p>
+
+<p class=PdfParaStyle19
+	style="font-size: 12pt;"><span class=PdfCharStyle7
+									style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Acesse o diretório 
+ SROserver e execute o arquivo de lote </font></span><span class=PdfCharStyle6
+													style="font-size: 12pt;"><font size=3 style="font-size:12pt;">sroserver.bat. 
+ </font></span></p>
+
+<p align="center" class="whs1"><img x-orientation="0" src="ManualSROII_26_01.gif" width="410.04px" height="184.62px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 26 - Inicialização do SROserver </p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt;">Este procedimento iniciará o SROserver. </p>
+
+<p align="center" class="whs3"><img x-orientation="0" src="ManualSROII_26_02.gif" width="467.33px" height="224.06px" border="0" class="img_whs4"></p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">Importante </p>
+
+<p class=PdfParaStyle37
+	style="font-size: 12pt; text-align: justify;">No Concentrador, o usuário 
+ que acionar o servidor não poderá realizar o Logoff, pois isto acarreta 
+ o encerramento do SROserver. Deve-se somente bloquear a estação através 
+ das teclas Ctrl + Alt + Del do computador. </p>
+
+<p class=PdfParaStyle52
+	style="font-size: 12pt; text-align: justify;">5.7 Recomendações </p>
+
+<p class=PdfParaStyle18
+	style="text-align: justify;"><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">O SROserver 
+ requer atenção em relação ao backup de seus aplicativos e garantia de 
+ uso dos arquivos de configuração somente por pessoal autorizado e treinado, 
+ garantido o seu perfeito funcionamento com os cuidados sobre a interconexões 
+ de rede com os coletores e demais dispositivos.</font></span> </p>
+
+<p class=PdfParaStyle18
+	style="text-align: justify;
+			font-size: 12pt;
+			font-weight: bold;"><a href="Topicos.htm">Voltar ao menu principal</a></p>
+
+<p class=PdfParaStyle18
+	style="text-align: right;
+			font-size: 12pt;
+			font-weight: bold;"
+	align=right><a href="Parametros_III.htm">&lt;&lt;Tópico Anterior</a> 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a 
+ href="Instalando_o_Roteador.htm"
+	style="font-size: 12pt; font-weight: bold;">Próximo 
+ Tópico&gt;&gt;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle18
+	style="text-align: right;
+			font-size: 12pt;
+			font-weight: bold;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle18
+	style="font-size: 12pt;
+			font-weight: bold;
+			text-align: center;
+			line-height: 150%;"
+	align=center><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs5"></p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

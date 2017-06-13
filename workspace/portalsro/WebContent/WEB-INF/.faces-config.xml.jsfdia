@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#ultimaTransmissao.jsp"
+  PATH="/ultimaTransmissao.jsp" SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#ultimaTransmissao.jsp:0" NAME="item"
+   PATH="/ultimaTransmissao.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#resultUltimaTransmissao.jsp"
+    NAME="output" PATH="/resultUltimaTransmissao.jsp"
+    TARGET="rules:#resultUltimaTransmissao.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#semTransmissao.jsp"
+  PATH="/semTransmissao.jsp" SHAPE="32,129,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#semTransmissao.jsp:0" NAME="item"
+   PATH="/semTransmissao.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#resultSemTransmissao.jsp"
+    NAME="output" PATH="/resultSemTransmissao.jsp"
+    TARGET="rules:#resultSemTransmissao.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#editorConcentrador.jsp"
+  PATH="/editorConcentrador.jsp" SHAPE="32,241,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#editorConcentrador.jsp:0" NAME="item"
+   PATH="/editorConcentrador.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#cadastroConcentradoresSROII.jsp"
+    NAME="output" PATH="/cadastroConcentradoresSROII.jsp"
+    TARGET="rules:#cadastroConcentradoresSROII.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#controleTransmissao.jsp"
+  PATH="/controleTransmissao.jsp" SHAPE="32,353,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#controleTransmissao.jsp:0" NAME="item"
+   PATH="/controleTransmissao.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#resultControleTransmissao.jsp"
+    NAME="output" PATH="/resultControleTransmissao.jsp"
+    TARGET="rules:#resultControleTransmissao.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pendenciaBaixa.jsp"
+  PATH="/pendenciaBaixa.jsp" SHAPE="32,465,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pendenciaBaixa.jsp:0" NAME="item"
+   PATH="/pendenciaBaixa.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#resultPendenciaBaixa.jsp"
+    NAME="output" PATH="/resultPendenciaBaixa.jsp"
+    TARGET="rules:#resultPendenciaBaixa.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#estacoesDeTrabalho.jsp"
+  PATH="/estacoesDeTrabalho.jsp" SHAPE="32,577,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#estacoesDeTrabalho.jsp:0" NAME="item"
+   PATH="/estacoesDeTrabalho.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#resultEstacoesDeTrabalho.jsp"
+    NAME="output" PATH="/resultEstacoesDeTrabalho.jsp"
+    TARGET="rules:#resultEstacoesDeTrabalho.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#DifusaoWebSROII.jsp"
+  PATH="/DifusaoWebSROII.jsp" SHAPE="32,689,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#DifusaoWebSROII.jsp:0" NAME="item"
+   PATH="/DifusaoWebSROII.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#resultDifusaoWebSROII.jsp"
+    NAME="output" PATH="/resultDifusaoWebSROII.jsp"
+    TARGET="rules:#resultDifusaoWebSROII.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pendenciaBaixa2.jsp"
+  PATH="/pendenciaBaixa2.jsp" SHAPE="32,801,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pendenciaBaixa2.jsp:0" NAME="item"
+   PATH="/pendenciaBaixa2.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#resultPendenciaBaixa2.jsp"
+    NAME="output" PATH="/resultPendenciaBaixa2.jsp"
+    TARGET="rules:#resultPendenciaBaixa2.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#resultPendenciaBaixa.jsp"
+  PATH="/resultPendenciaBaixa.jsp" SHAPE="240,481,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#resultPendenciaBaixa.jsp:0" NAME="item"
+   PATH="/resultPendenciaBaixa.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="detalhe::#detalhePendenciaBaixa.jsp"
+    NAME="output" PATH="/detalhePendenciaBaixa.jsp"
+    TARGET="rules:#detalhePendenciaBaixa.jsp" TITLE="detalhe" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#resultEstacoesDeTrabalho.jsp"
+  PATH="/resultEstacoesDeTrabalho.jsp" SHAPE="240,593,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#resultEstacoesDeTrabalho.jsp:0" NAME="item"
+   PATH="/resultEstacoesDeTrabalho.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="detalhe::#detalheEstacoesDeTrabalho.jsp"
+    NAME="output" PATH="/detalheEstacoesDeTrabalho.jsp"
+    TARGET="rules:#detalheEstacoesDeTrabalho.jsp" TITLE="detalhe" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#arquivosRepetidos.jsp"
+  PATH="/arquivosRepetidos.jsp" SHAPE="32,913,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#arquivosRepetidos.jsp:0" NAME="item"
+   PATH="/arquivosRepetidos.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#resultArquivosRepetidos.jsp"
+    NAME="output" PATH="/resultArquivosRepetidos.jsp"
+    TARGET="rules:#resultArquivosRepetidos.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#objetosIrregulares.jsp"
+  PATH="/objetosIrregulares.jsp" SHAPE="32,1025,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#objetosIrregulares.jsp:0" NAME="item"
+   PATH="/objetosIrregulares.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#resultObjetoIrregular.jsp"
+    NAME="output" PATH="/resultObjetoIrregular.jsp"
+    TARGET="rules:#resultObjetoIrregular.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#faixaCep.jsp" PATH="/faixaCep.jsp"
+  SHAPE="288,1153,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#faixaCep.jsp:0" NAME="item"
+   PATH="/faixaCep.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="inclusao::#incluirFaixaCep.jsp"
+    NAME="output" PATH="/incluirFaixaCep.jsp"
+    TARGET="rules:#incluirFaixaCep.jsp" TITLE="inclusao" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="exclusao::#excluirFaixaCep.jsp"
+    NAME="output1" PATH="/excluirFaixaCep.jsp"
+    TARGET="rules:#excluirFaixaCep.jsp" TITLE="exclusao" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="success::#resultFaixaCep.jsp" NAME="output2"
+    PATH="/resultFaixaCep.jsp" TARGET="rules:#resultFaixaCep.jsp"
+    TITLE="success" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="error::#faixaCep.jsp" NAME="output3"
+    PATH="/faixaCep.jsp" TARGET="rules:#faixaCep.jsp" TITLE="error" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#incluirFaixaCep.jsp"
+  PATH="/incluirFaixaCep.jsp" SHAPE="48,1137,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#incluirFaixaCep.jsp:0" NAME="item"
+   PATH="/incluirFaixaCep.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#faixaCep.jsp" NAME="output"
+    PATH="/faixaCep.jsp" TARGET="rules:#faixaCep.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="error::#incluirFaixaCep.jsp" NAME="output1"
+    PATH="/incluirFaixaCep.jsp" TARGET="rules:#incluirFaixaCep.jsp"
+    TITLE="error" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#excluirFaixaCep.jsp"
+  PATH="/excluirFaixaCep.jsp" SHAPE="544,1137,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#excluirFaixaCep.jsp:0" NAME="item"
+   PATH="/excluirFaixaCep.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#faixaCep.jsp" NAME="output"
+    PATH="/faixaCep.jsp" TARGET="rules:#faixaCep.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="error::#excluirFaixaCep.jsp" NAME="output1"
+    PATH="/excluirFaixaCep.jsp" TARGET="rules:#excluirFaixaCep.jsp"
+    TITLE="error" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:" SHAPE="32,1457,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::0" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="error::#error.jsp" NAME="output"
+    PATH="/error.jsp" TARGET="rules:#error.jsp" TITLE="error" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#resultArquivosRepetidos.jsp"
+  PATH="/resultArquivosRepetidos.jsp" SHAPE="240,929,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#resultFaixaCep.jsp"
+  PATH="/resultFaixaCep.jsp" SHAPE="544,1345,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#resultObjetoIrregular.jsp"
+  PATH="/resultObjetoIrregular.jsp" SHAPE="240,1041,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#resultPendenciaBaixa2.jsp"
+  PATH="/resultPendenciaBaixa2.jsp" SHAPE="240,817,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#resultUltimaTransmissao.jsp"
+  PATH="/resultUltimaTransmissao.jsp" SHAPE="240,33,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#resultSemTransmissao.jsp"
+  PATH="/resultSemTransmissao.jsp" SHAPE="240,145,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#detalhePendenciaBaixa.jsp"
+  PATH="/detalhePendenciaBaixa.jsp" SHAPE="448,465,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#resultDifusaoWebSROII.jsp"
+  PATH="/resultDifusaoWebSROII.jsp" SHAPE="240,705,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#detalheEstacoesDeTrabalho.jsp"
+  PATH="/detalheEstacoesDeTrabalho.jsp" SHAPE="448,577,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#resultControleTransmissao.jsp"
+  PATH="/resultControleTransmissao.jsp" SHAPE="240,369,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#error.jsp" PATH="/error.jsp"
+  SHAPE="240,1473,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#cadastroConcentradoresSROII.jsp"
+  PATH="/cadastroConcentradoresSROII.jsp" SHAPE="240,257,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#ConferenciaLeoc.jsp"
+  PATH="/ConferenciaLeoc.jsp" SHAPE="32,1345,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#ConferenciaLeoc.jsp:0" NAME="item"
+   PATH="/ConferenciaLeoc.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::resultConferenciaLeoc.jsp"
+    NAME="output" PATH="resultConferenciaLeoc.jsp"
+    TARGET="rules:resultConferenciaLeoc.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:resultConferenciaLeoc.jsp"
+  PATH="resultConferenciaLeoc.jsp" SHAPE="240,1697,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>

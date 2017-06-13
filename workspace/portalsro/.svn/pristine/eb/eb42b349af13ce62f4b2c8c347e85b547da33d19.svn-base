@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<ftstdata>
+<topic name="1ª Etapa" url="1__Etapa.htm" />
+<topic name="1ª Etapa II" url="1__Etapa_II.htm" />
+<topic name="1ª Etapa III" url="1__Etapa_III.htm" />
+<topic name="2ª Etapa" url="2__Etapa.htm" />
+<topic name="Ajustes" url="Ajustes.htm" />
+<topic name="Ajustes II" url="Ajustes_II.htm" />
+<topic name="Ambiente" url="Ambiente.htm" />
+<topic name="Arquivos de Configuração" url="Arquivos_de_Configuracao.htm" />
+<topic name="Cenario de Implantacao" url="Cenario_de_Implantacao.htm" />
+<topic name="Estrutura de Diretórios" url="Estrutura_de_Diretorios.htm" />
+<topic name="Iniciando o SROServer" url="Iniciando_o_SROServer.htm" />
+<topic name="Instalação" url="Instalacao.htm" />
+<topic name="Instalação da impressão LPR" url="Instalacao_da_impressao_LPR.htm" />
+<topic name="Instalação da impressão LPR II" url="Instalacao_da_impressao_LPR_II.htm" />
+<topic name="Instalação da Impressora de Etiquetas" url="Instalacao_da_Impressora_de_Etiquetas.htm" />
+<topic name="Instalação da Impressora de Relatórios" url="Instalacao_da_Impressora_de_Relatorios.htm" />
+<topic name="Instalação do Net Base" url="Instalacao_do_Net_Base.htm" />
+<topic name="Instalação Java" url="Instalacao_Java.htm" />
+<topic name="Instalação Java II" url="Instalacao_Java_II.htm" />
+<topic name="Instalação MDAC" url="Instalacao_MDAC.htm" />
+<topic name="Instalando o Roteador" url="Instalando_o_Roteador.htm" />
+<topic name="Instalando o Roteador II" url="Instalando_o_Roteador_II.htm" />
+<topic name="Instalação da impressão LPR III" url="Instala_ao_da_impressao_LPR_III.htm" />
+<topic name="Levar um coletor para outra unidade" url="Levar_um_coletor_para_outra_unidade.htm" />
+<topic name="Opção DHCP" url="Opcao_DHCP.htm" />
+<topic name="Opção Static IP" url="Opcao_Static_IP.htm" />
+<topic name="Parâmetros" url="Parametros.htm" />
+<topic name="Parâmetros III" url="Parametros_III.htm" />
+<topic name="Parâmetros II" url="Par_metros_II.htm" />
+<topic name="Preparando o Ambiente" url="Preparando_o_Ambiente.htm" />
+<topic name="Registro do Backup" url="Registro_do_Backup.htm" />
+<topic name="Reinstalação do Aplicativo" url="Reinstalacao_do_Aplicativo.htm" />
+<topic name="Seja Bem Vindo" url="Seja_Bem_Vindo.htm" />
+<topic name="Tópicos" url="Topicos.htm" />
+
+</ftstdata>  

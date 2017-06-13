@@ -1,0 +1,322 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Instalação MDAC</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:0px; margin-left:0px; margin-right:0px; text-align:center; }
+table.whs2 { x-cell-content-align:top; width:100%; border-spacing:0px; }
+col.whs3 { width:50%; }
+tr.whs4 { x-cell-content-align:top; }
+td.whs5 { padding-right:10px; padding-left:10px; border-bottom-style:none; border-right-style:none; border-left-style:none; border-top-style:none; }
+p.whs6 { font-size:12pt; text-align:center; }
+img_whs7 { width:338.69px; height:145.86px; border-style:none; }
+p.whs8 { text-align:justify; font-size:12pt; }
+td.whs9 { width:50%; padding-right:10px; padding-left:10px; border-bottom-style:none; border-top-style:none; border-right-style:none; }
+p.whs10 { font-size:12pt; text-align:justify; }
+td.whs11 { padding-right:10px; padding-left:10px; border-bottom-style:none; border-right-style:none; border-left-style:none; }
+p.whs12 { font-size:10pt; text-align:center; }
+p.whs13 { font-size:10pt; text-align:center; margin-top:0px; margin-bottom:0pt; }
+img_whs14 { width:315.57px; height:230.52px; border-style:none; }
+td.whs15 { width:50%; padding-right:10px; padding-left:10px; border-bottom-style:none; border-right-style:none; }
+img_whs16 { width:315.57px; height:214.20px; border-style:none; }
+td.whs17 { padding-right:10px; padding-left:10px; border-right-style:none; border-left-style:none; border-bottom-style:none; }
+img_whs18 { width:315.57px; height:115.26px; border-style:none; }
+img_whs19 { width:269.34px; height:195.84px; border-style:none; }
+img_whs20 { width:435.17px; height:313.14px; border-style:none; }
+p.whs21 { text-align:justify; font-size:12pt; margin-left:0px; }
+img_whs22 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-top:1pt;margin-left:1pt;margin-right:1pt; }";
+  strNSS += "p.whs13 {margin-top:1pt;margin-bottom:1pt; }";
+  strNSS += "p.whs21 {margin-left:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Instalação do MDAC\nInstalação MDAC");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p align="center" class="whs1"><span style="font-size: 14pt; text-align: center;"><font size=4 style="font-size:14pt;">Instalação 
+ do MDAC </font></span></p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt; margin-left: 0px;">4.1 Objetivo </p>
+
+<p class=PdfParaStyle18
+	style="font-size: 12pt; text-align: justify;"><span class=PdfCharStyle7
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">O 
+ </font></span><span class=PdfCharStyle11
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">MDAC</font></span><span class=PdfCharStyle7
+															style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> 
+ (</font></span><span class=PdfCharStyle6
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Microsoft Data Access Components</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">) é um conjunto de componentes utilizados 
+ para fornecer conectividade de banco de dados em plataformas Windows. 
+ Para o Sistema SRO, ele realiza a conexão entre o SROserver e o banco 
+ de dados mdb que mantém os pré-alertas. </font></span></p>
+
+<p class=PdfParaStyle40
+	style="font-size: 12pt; text-align: justify;">Este capítulo é destinado 
+ a descrever passo-a-passo a instalação deste componente. </p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt; text-align: justify;">&nbsp;Importante </p>
+
+<p class=PdfParaStyle37
+	style="font-size: 12pt; text-align: justify;">Antes de iniciar este 
+ procedimento esteja certo que nenhum outro aplicativo esteja rodando e 
+ que a conta de usuário tenha privilégio de administrador local. Utilize 
+ somente a versão fornecida e lembre-se de que as telas apresentadas neste 
+ procedimento são ilustrativas, podendo ser acrescidas de outras conforme 
+ a plataforma utilizada. </p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">4.2 Instalação </p>
+
+<p class=PdfParaStyle33
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle33
+	style="font-size: 12pt;">&nbsp;</p>
+
+<table x-use-null-cells cellspacing="0" width="100%" class="whs2">
+<col>
+<col class="whs3">
+
+<tr valign="top" class="whs4">
+<td class="whs5">
+<p align="center" class="whs6"><img x-orientation="0" src="ManualSROII_14_01.gif" width="338.69px" height="145.86px" border="0" class="img_whs7"></p>
+<p align="center" class="whs6"><span style="font-size: 10pt;"><font size=2 style="font-size:10pt;">Figura 11 - Instalação 
+ do MDAC - tela inicial </font></span></p>
+<p class="whs8">&nbsp;</p>
+<p class=pdfparastyle10>&nbsp;</td>
+<td width="50%" class="whs9">
+<p align="center" class="whs6">&nbsp;</p>
+<p class="whs8"><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Na 
+ estrutura de diretórios criada neste &nbsp;documento, 
+ localize o arqu<span class=PdfCharStyle6
+						style="font-size: 12pt;"><font size=3 style="font-size:12pt;">ivo mdac_typ<span class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">.exe na pa<span class=PdfCharStyle6
+											style="font-size: 12pt;"><font size=3 style="font-size:12pt;">sta 
+ \SROserver\install e clique sobre o mesmo duas vezes.</font></span></font></span></font></span></font></span></p>
+<p class="whs10">&nbsp;</p>
+<p class="whs8"><span><font size=3 style="font-size:12pt;"><span class=PdfCharStyle6><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"><span class=PdfCharStyle7
+									style="font-size: 12pt;"><font size=3 style="font-size:12pt;">&nbsp;</font></span>Aguarde 
+ os arquivos de instalação serem extraídos da pasta.</font></span></span></font></span></td></tr>
+
+<tr valign="top" class="whs4">
+<td class="whs11">
+<p align="center" class="whs12">&nbsp;</p>
+<p align="center" class="whs13"><img x-orientation="0" src="ManualSROII_15_01.gif" width="315.57px" height="230.52px" border="0" class="img_whs14"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p class=PdfParaStyle39
+	style="text-align: center;
+			font-size: 10pt;
+			margin-top: 0px;
+			margin-bottom: 0pt;
+			margin-left: 0px;"
+	align=center><span style="font-size: 10pt;"><font size=2 style="font-size:10pt;">Figura 12 - Termos de licenciamento 
+ </font></span></p>
+<p class=pdfparastyle39
+	style="text-align: center;"
+	align=center>&nbsp;</p>
+<p class=pdfparastyle39
+	style="text-align: center; font-size: 10pt;"
+	align=center>&nbsp;</td>
+<td width="50%" class="whs15">
+<p class=PdfParaStyle39
+	style="font-size: 10pt;
+			margin-left: 0px;
+			text-align: justify;">&nbsp;</p>
+<p class=PdfParaStyle39
+	style="font-size: 10pt;
+			margin-left: 0px;
+			text-align: justify;">&nbsp;</p>
+<p class=PdfParaStyle39
+	style="font-size: 10pt;
+			margin-left: 0px;
+			text-align: justify;"><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Aceite 
+ os termos de licenciamento para prosseguir. </font></span>&nbsp;</td></tr>
+
+<tr valign="top" class="whs4">
+<td class="whs11">
+<p align="center" class="whs12"><img x-orientation="0" src="ManualSROII_15_02.gif" width="315.57px" height="214.20px" border="0" class="img_whs16"></p>
+<p align="center" class="whs12">Figura 13 - Instalação - setup </p>
+<p align="center" class="whs12">&nbsp;</td>
+<td width="50%" class="whs15">
+<p class=PdfParaStyle40
+	style="font-size: 12pt;">&nbsp;</p>
+<p class=PdfParaStyle40
+	style="font-size: 12pt;">&nbsp;</p>
+<p class=PdfParaStyle40
+	style="font-size: 12pt;">&nbsp;</p>
+<p class=PdfParaStyle40
+	style="font-size: 12pt;">&nbsp;</p>
+<p class=PdfParaStyle40
+	style="font-size: 12pt; margin-left: 0px;"><span class=PdfCharStyle7
+													style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Clique 
+ em </font></span><span class=PdfCharStyle11
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Avançar </font></span><span class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">para iniciar a instalação. </font></span></p>
+<p class=pdfparastyle40>&nbsp;</td></tr>
+
+<tr valign="top" class="whs4">
+<td colspan="1" rowspan="1" class="whs17">
+<p align="center" class="whs12"><img x-orientation="0" src="ManualSROII_15_03.gif" width="315.57px" height="115.26px" border="0" class="img_whs18"></p>
+<p align="center" class="whs12">Figura 14 - Extração dos arquivos</p>
+<p align="center" class="whs12">&nbsp;</p>
+<p align="center" class="whs12"><img x-orientation="0" src="ManualSROII_16_01.gif" width="269.34px" height="195.84px" border="0" class="img_whs19"></p>
+<p align="center" class="whs12">Figura 15 - Término da instalação </p>
+<p class=pdfparastyle10>&nbsp;</td>
+<td colspan="1" rowspan="1" width="50%" class="whs15">
+<p class="whs8">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs8"><span class=PdfCharStyle7
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Aguarde 
+ a instalação dos componentes e clique em </font></span><span class=PdfCharStyle11
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Concluir 
+ </font></span><span class=PdfCharStyle7
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">para finalizar a instalação do 
+ </font></span><span class=PdfCharStyle11
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">MDAC. </font></span></td></tr>
+
+<tr valign="top" class="whs4">
+<td class="whs17">
+<p align="center" class="whs12">&nbsp;</p>
+<p class=pdfparastyle10
+	style="font-size: 10pt; text-align: center;"
+	align=center><img x-orientation="0" src="ManualSROII_16_02.gif" width="435.17px" height="313.14px" border="0" class="img_whs20"></p>
+<p class=pdfparastyle10
+	style="font-size: 10pt; text-align: center;"
+	align=center>Figura 16 - Reinicializar computador </p>
+<p class=pdfparastyle10>&nbsp;</td>
+<td width="50%" class="whs15">
+<p class="whs10">&nbsp;</p>
+<p class="whs10">&nbsp;</p>
+<p class="whs10">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs21"><span class=PdfCharStyle7
+									style="font-size: 12pt;"><font size=3 style="font-size:12pt;">C</font></span>aso 
+ seja solicitado, reinicie seu computador. </p>
+<p class="whs10">&nbsp;</p>
+<p class="whs8">&nbsp;</p>
+<p class="whs10">&nbsp;</p>
+<p class="whs10">&nbsp;</p>
+<p class="whs10">&nbsp;</td></tr>
+</table>
+
+<p class=PdfParaStyle33
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt;"><a href="Topicos.htm">Voltar ao Menu Principal</a></p>
+
+<p class=PdfParaStyle10
+	style="text-align: right; font-size: 12pt;"
+	align=right><a href="Instalacao_Java_II.htm">&lt;&lt; Tópico Anterior</a> 
+ &nbsp;&nbsp;&nbsp;<a href="Estrutura_de_Diretorios.htm"
+													style="font-size: 12pt;">Próximo 
+ Tópico&gt;&gt;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="text-align: right; font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt;
+			text-align: center;
+			line-height: 150%;"
+	align=center><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs22"></p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

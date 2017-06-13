@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/menu2.css">
+        <link rel="stylesheet" href="styles/basic.css">
+
+	<script type="text/javascript" src="data.js">
+	</script>
+        <title>Portal SRO</title>
+     </head>
+    <body onload="document.getElementById('divMostraData').innerHTML = mostraData();">
+  
+    <!--    <div> -->
+            <div class="menu">            
+                            
+                <img src="images/logo.jpg"  alt="ECT" class="logo" />
+             <div id="divMostraData" class="date"></div>
+            <br>
+                <p ><b>Sistemas</b></p>
+
+				<br>
+                <ul>                    
+					<li><a href="http://sac0170/mir">- MIR - Módulo de Indicadores de Rastreamento</a></li>
+					<li><a href="http://sac0720/sro_monitor">- SRO - Monitor</a></li>
+					<li><a href="http://intranetect/intranet/AEmpresa/Estrutura/Diretorias/Diope/Denco/relatorios_qualidade.cfm 
+">- Qualidade</a></li>					
+					<li><a href="http://websro2.correiosnet.int/rastreamento/">- Rastreamento Unificado</a></li>
+
+                </ul>
+				
+								
+
+                <p>
+                    <a href="http://validator.w3.org/check?uri=referer" class="w3c"><img
+                    src="images/valid-html401.png"
+                    alt="Valid HTML 4.01 Transitional" height="31" width="88" class="w3c"></a>
+                </p>
+            </div>
+            <div class="content" >
+                <br/>
+                
+                <h2>PORTAL SRO </h2>
+				<P align="center"> Versão 1.4.0</P>
+                
+                <table class="home">
+                    <tr>
+                        <td>
+                            <a href="http://portalsro" class="home"><img src="images/Home.gif" alt="HOME" class="home" />P&aacute;gina inicial.</a>                
+                        </td>
+                    </tr>
+                </table>
+                <hr/>                 
+                <br/>
+                
+
+ 
+
+                
+            </div>
+        <!--</div>-->
+        
+    </body>
+</html>

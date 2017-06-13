@@ -1,0 +1,216 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Cenario de Implantacao</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:0px; margin-left:51px; margin-right:0px; text-indent:15px; font-size:12pt; text-align:center; }
+img_whs2 { width:544.02px; height:221.98px; border-style:none; }
+img_whs3 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-top:1pt;margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Implantação do Ambiente\nCenario de Implantacao");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle06
+	style="text-align: center; font-size: 18pt;"
+	align=center>&nbsp;Implantação 
+ do Ambiente </p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">1.1 Objetivo </p>
+
+<p class=PdfParaStyle18
+	style="font-size: 12pt;">Fornecer à equipe especializada em tecnologia 
+ da informação os subsídios necessários para reconhecer os componentes 
+ do SRO, identificar as interconexões e realizar a implantação destes, 
+ através deste documento. </p>
+
+<p class=PdfParaStyle18
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">1.2 Cenário de Implantação </p>
+
+<p class=PdfParaStyle19
+	style="font-size: 12pt;">A figura esquemática abaixo representa um 
+ dos possîveis cenários de implantação: </p>
+
+<p class=PdfParaStyle20
+	style="margin-top: 20px;
+			margin-left: 270px;
+			margin-right: 0px;
+			text-indent: 0px;"><span class=PdfCharStyle15
+									style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Switch / Hub 
+ Corporativo</font></span><span class=PdfCharStyle4> </span></p>
+
+<p align="center" class="whs1"><img x-orientation="0" src="ManualSROII_06_02.gif" width="544.02px" height="221.98px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle07
+	style="font-size: 10pt; text-align: center;"
+	align=center>Figura 1 - Cenários de implantação </p>
+
+<p class=PdfParaStyle07
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">1.2.1 Descrição </p>
+
+<p class=PdfParaStyle18
+	style="font-size: 12pt;">Seguindo a representação, da esquerda para 
+ a direita, identificamos os seguintes componentes: </p>
+
+<ul>
+	
+	<li style="margin-top: 14px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle21><p class=PdfParaStyle21
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Impressora de Etiquetas</font></span><span class=PdfCharStyle7
+	style="font-size: 12pt;"> <font size=3 style="font-size:12pt;">&#8211; 
+ Easy Code 3400CD ou modelo disponîvel na unidade. Está conectada via cabo 
+ serial de 11 vias, conectado DB9 e DB25 ao concentrador; </font></span></p></li>
+	
+	<li style="margin-top: 0px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Concentrador (servidor)</font></span><span class=PdfCharStyle7
+	style="font-size: 12pt;"> <font size=3 style="font-size:12pt;">&#8211; 
+ recebe o aplicativo Sroserver. Este servidor faz parte da rede corporativa 
+ (Switch) e deve manter um endereço fixo (IP estático); </font></span></p></li>
+	
+	<li style="margin-top: 1px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Roteador</font></span><span class=PdfCharStyle7
+													style="font-size: 12pt;"> 
+ <font size=3 style="font-size:12pt;">&#8211; reúne 
+ todas as docas de uma unidade e faz a comunicação entre os coletores e 
+ o concentrador; </font></span></p></li>
+	
+	<li style="margin-top: 0px; margin-left: 73px;"
+		class=kadov-p-CPdfParaStyle22><p class=PdfParaStyle22
+										style="font-size: 12pt;"><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Impressora de Relatórios</font></span><span class=PdfCharStyle7
+	style="font-size: 12pt;"> <font size=3 style="font-size:12pt;">&#8211; 
+ é conectada diretamente ao roteador através de um cabo paralelo e conector 
+ DB25/Centronics. </font></span></p></li>
+</ul>
+
+<p class=PdfParaStyle22
+	style="text-align: right;
+			font-weight: bold;
+			font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle22
+	style="text-align: right;
+			font-weight: bold;
+			font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle22
+	style="font-weight: bold; font-size: 12pt;"><a href="Topicos.htm">Voltar 
+ ao Menu Principal</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle22
+	style="font-weight: bold;
+			font-size: 12pt;
+			text-align: right;"
+	align=right><a href="Ambiente.htm">Próximo Tópico&gt;&gt;</a> &nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle22
+	style="font-weight: bold;
+			font-size: 12pt;
+			text-align: right;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle22
+	style="font-weight: bold;
+			font-size: 12pt;
+			text-align: center;
+			line-height: 150%;"
+	align=center><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs3"></p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

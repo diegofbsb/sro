@@ -1,0 +1,571 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="pt-br"><head>
+
+
+<!-- base href="http://www.guiadohardware.net/comunidade/" --><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="tutorial,postar,pacotes,metisse,kde,gnome,enfiando,aventurando,3d">
+<meta name="description" content="&#9658; Gnome e KDE 3D !!! :-D (tutorial) [Linux: Aplicativos, produtividade e multimídia] #274758">
+<link rel="stylesheet" type="text/css" href="Gnome_e_KDE_3D_ficheiros/style-c30e3f7a-00002.css" id="vbulletin_css"><script type="text/javascript" src="Gnome_e_KDE_3D_ficheiros/vs.js"></script><title>Gnome e KDE 3D !!! :-D (tutorial)</title></head><body>
+
+<div align="center">
+<div class="page" style="width: 100%; text-align: left;">
+<div style="padding: 0px 12px;">
+
+<!-- google_ad_section_start(weight=ignore) -->
+<br>
+<div id="sheader" class="tborder">
+<div id="slogin" class="alt2">
+<script type="text/javascript">
+<!--
+userlg();
+// -->
+</script><br><br><form action="login.php?do=login" method="post"><table align="center" border="0" cellpadding="0" cellspacing="3"><tbody><tr><td class="smallfont">Usuário</td><td><input class="bginput" style="font-size: 11px;" name="vb_login_username" id="navbar_username" size="10" accesskey="u" type="text"></td><td class="smallfont" colspan="2" nowrap="nowrap"><input name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" accesskey="c" type="checkbox">Lembrar?</td></tr><tr><td class="smallfont">Senha</td><td><input class="bginput" style="font-size: 11px;" name="vb_login_password" id="navbar_password" size="10" tabindex="102" type="password"></td><td><input class="button" value="Logar" tabindex="104" title="Entre com seu login e senha nas caixas de login, ou clique em registrar para criar um novo registro." accesskey="s" type="submit"></td></tr></tbody></table><input name="s" value="" type="hidden"><input name="do" value="login" type="hidden"><input name="vb_login_md5password" type="hidden"><input name="vb_login_md5password_utf" type="hidden"></form>
+
+</div>
+<div id="slogo" class="alt1">&nbsp;</div>
+<div id="stoolbox" class="vbmenu_control">
+<a href="http://www.guiadohardware.net/comunidade/">FórumGdH</a>
+<a href="http://www.guiadohardware.net/comunidade/register.php" rel="nofollow">Registrar</a>
+<a rel="nofollow" href="http://www.guiadohardware.net/comunidade/calendar.php">Calendário</a>
+<a href="http://www.guiadohardware.net/comunidade/search.php" rel="nofollow">Pesquisar</a>
+</div>
+</div>
+<br>
+<!-- google_ad_section_end -->
+<!-- google_ad_section_start(weight=1.0) -->
+
+<h1 id="navh1"><a href="http://www.guiadohardware.net/comunidade/gnome-tutorial/274758/">Gnome e KDE 3D !!! :-D (tutorial)</a></h1><!-- google_ad_section_end -->
+<h2 id="navh2"><a rel="nofollow" href="http://www.guiadohardware.net/comunidade/v-f/56">Linux: Aplicativos, produtividade e multimídia</a></h2>
+
+
+<div id="fssrelated"><table style="width: 100%;"><tbody><tr><td id="head">
+<b>1.</b> <a href="http://www.guiadohardware.net/comunidade/dropline-gnome/217732/" rel="nofollow">Dropline gnome: tutorial...</a><br><b>2.</b> <a href="http://www.guiadohardware.net/comunidade/arrumei-gnome/243039/" rel="nofollow">Arrumei uma coisa danei outra!?</a><br><b>3.</b> <a href="http://www.guiadohardware.net/comunidade/gnome-debian/251855/" rel="nofollow">Gnome 2.12 no Debian GNU/Linux 3.1</a></td><td><b>4.</b> <a href="http://www.guiadohardware.net/comunidade/tutorial-dapper/286826/" rel="nofollow">Tutorial XGL ( Dapper, Gnome e Nvidia )</a>
+</td></tr></tbody></table></div><br>
+
+<div id="postdiv" class="tborder">
+<div id="stcat" class="tcat"></div>
+<div class="thead"><span class="stdate">12-02-2006</span></div>
+<div class="postrow">
+<div class="postauthor">
+Linius Torovoltis
+</div>
+<div class="postmessage"><div class="stsubject">Gnome e KDE 3D !!! :-D (tutorial)</div> ae pessoal.<br>
+<br>
+<br>
+eu tava me aventurando no metisse, e acabei enfiando o gnome nele sem querer.<br>
+<br>
+E vou postar o tutorial aqui :-D<br>
+<br>
+<br>
+é muito simples.<br>
+<br>
+<br>
+1 - VOCÊ TEM QUE TER O DRIVER 3D DA TUA PLACA FUNCIOANDO.<br>
+2 - MINIMO DE 256 MB DE RAM PRA TER UM DESEMPENHO SATISFATORIO OU PELO MENOS NÃO IRRITANTE<br>
+<br>
+<br>
+3 - ESTE TUTORIAL É PRA DEBIAN/UBUNTU/KURUMIN , já que só tenho os pacotes .deb<br>
+<br>
+Tem este tutorial do vivolinux.com.br que pode ajudar as outras
+pessoas, que usam RPM ou Slackware
+http://www.vivaolinux.com.br/artigos/verArtigo.php?codigo=1845&amp;pagina=4<br>
+<br>
+<br>
+Vamos começar. Primeiro, Screenshots :-D <br>
+<br>
+http://download.thetragedychannel.com/metisse/tuto/<br>
+<br>
+1 - baixando os pacotes:<br>
+<br>
+Metisse : http://download.thetragedychannel.com/metisse/metisse_0.3.3-3_i386.deb<br>
+<br>
+Núcleo: http://download.thetragedychannel.com/metisse/nucleo_0.1-2_i386.deb<br>
+<br>
+XV : http://download.thetragedychannel.com/metisse/xv_3.10a-14_i386.deb<br>
+<br>
+E, por ultimo, o pacote wm-icons<br>
+<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 34px;"><div dir="ltr" style="text-align: left;">apt-get install wm-icons</div></pre>
+</div><br>
+Agora, baixa todos os pacotes dentro de uma pasta e instala:<br>
+<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 50px;"><div dir="ltr" style="text-align: left;">cd pasta/ondebaixou/
+dpkg -i *</div></pre>
+</div>ps.: esse comando é pra quem usa DEBIAN. se você NÃO usa debian
+ou alguma distro derivada dele (ubuntu/kurumin/kalango..etc.), terá que
+procurar outra maneira de instalar.<br>
+<br>
+Agora vamos as configurações.<br>
+<br>
+Primeiro, vamos fazer 2 scripts, um pra inciar o metisse, e outro pra encaixar o gnome nele.<br>
+<br>
+pra iniciar o metisse:<br>
+<br>
+(FAÇAM SEMPRE COMO ROOT)<br>
+1 - criem o arquivo /usr/bin/metisse<br>
+2 - coloquem o seguinte conteudo dentro ele:<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 50px;"><div dir="ltr" style="text-align: left;">Xwnc -ac -geometry 1024x768 :1 &amp; #-&gt; Aqui voce coloca sua resolução... eu pus 1024x768.. ésó trocar o valor pela resolução que quiser
+metisse-start-fvwm &amp;</div></pre>
+</div>(salva)<br>
+3 - agora dê permissão de execussão pro arquivo:<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 34px;"><div dir="ltr" style="text-align: left;">chmod +x /usr/bin/metisse</div></pre>
+</div>Agora, pra encaixar o gnome nele:<br>
+<br>
+1 - crie o arquivo /usr/bin/metisse-gnome<br>
+2 - coloca o seguinte conteudo nele:<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 34px;"><div dir="ltr" style="text-align: left;">gnome-session&amp;</div></pre>
+</div>(salva)<br>
+<br>
+3 -  Agora dê permissão de execussão pro arquivo<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 34px;"><div dir="ltr" style="text-align: left;">chmod +x /usr/bin/metisse-gnome</div></pre>
+</div>Pronto, agora seu sistema está pronto para inciar.<br>
+<br>
+pra abrir o KDE, é só fazer outro script:<br>
+<br>
+1 - cria o arquivo /usr/bin/metisse-kde<br>
+<br>
+dentro dele coloca:<br>
+<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 34px;"><div dir="ltr" style="text-align: left;">startkde &amp;</div></pre>
+</div>3 - dar permissão de execussão pra ele e mandar ver :wink:<br>
+<br>
+<br>
+ps.: LEMBRE-SE DE FAZER TODOS OS PASSOS ACIMA COMO ROOT. A partir de agora faça tudo como usuário NORMAL.<br>
+<br>
+# Iniciando<br>
+<br>
+uma dica legal é iniciar ele por um terminal 'failsafe' gráfico. No
+caso do Ubuntu/Debian (que usam o GDM) é só abrir 'terminal failsafe'..
+no KDM eu não sei.. =( se alguém souber ;-)<br>
+<br>
+Bom, agora vamos iniciar eles: abre o terminal de segurança ou algúm desktop beeem leve.<br>
+<br>
+Se abrir um terminal, simplesmente executa o comando<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 34px;"><div dir="ltr" style="text-align: left;">metisse</div></pre>
+</div>Se abrir um gerenciador de janelas, abre um terminal e executa o mesmo comando.<br>
+Depois que o metisse abrir, você vai fazer ele 'descarregar' (ou descartar) o painel dele. Pra isso, abra o arquivo <div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 34px;"><div dir="ltr" style="text-align: left;">~/.fvwm-metisse/ametistarc</div></pre>
+</div>E procure pelas linhas:<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Citação:</div>
+	<table border="0" cellpadding="6" cellspacing="0" width="100%">
+	<tbody><tr>
+		<td class="alt2" style="border: 1px inset ;">
+			
+				# ---------------------------------------------------------------------------<br>
+# start function(s)<br>
+# ---------------------------------------------------------------------------<br>
+<br>
+# define the background: AFuncSetBackground<br>
+read background<br>
+<br>
+<br>
+DestroyFunc StartFunction<br>
+AddToFunc   StartFunction<br>
+# set the root bg<br>
++ I AFuncSetBackground<br>
+# start the event handler<br>
++ I ModuleSynchronous FvwmEvent FvwmEvent-EventsHandler<br>
+# start our panel<br>
++ I AFuncStartFuncStartPanel
+			
+		</td>
+	</tr>
+	</tbody></table>
+</div><br>
+E comenta essa última linha,  + I AFuncStartFuncStartPanel .<br>
+<br>
+Agora clica com o botão esquerdo do mouse no desktop e manda ele
+reiniciar (RESTART) e agora abre um terminal e executa o comando<br>
+<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 34px;"><div dir="ltr" style="text-align: left;">metisse-gnome</div></pre>
+</div>Espera ele carregar e felicidades :-D<br>
+<br>
+Se quiser carregar o KDE, é só rodar o comando:<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 34px;"><div dir="ltr" style="text-align: left;">metisse-kde</div></pre>
+</div>Bom, pra mecher nele, leiam esse mini-tutorial. Ele está em
+inglês.. não tenho tempo de traduzir agora, quem quiser colaborar e
+traduzir ;-)<br>
+<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Citação:</div>
+	<table border="0" cellpadding="6" cellspacing="0" width="100%">
+	<tbody><tr>
+		<td class="alt2" style="border: 1px inset ;">
+			
+				Using<br>
+<br>
+      Do not forget that Metisse is an experimental software!<br>
+<br> First, just try it. There is a menu "Ametista Config" which allows
+to setup some parameters (e.g., move transparency), to enter special
+mode (e.g., auto scale), to change the windows look, to change the
+colours and to setup the panels.<br>
+<br> For more customization you need to edit some text files. To setup
+the applications you want to play with, edit applications (the programs
+menu and the functions which are used by the panels to start
+applications). If you are not happy with the fonts, edit fonts. If you
+want more (or less) than 4 desks, edit desks. To change the menus look
+and feel, edit menustyles. To change the root and the window operations
+menu, edit menus. If you want to change the backgrounds, edit
+background. For global feel or specific window look and feel, edit
+styles. It is not recommended to edit ametistarc, try to edit extra
+first. It is not so easy to edit modules (the panels definitions).
+After you have edited a file just restart (or read the appropriate
+file(s) and run the appropriate fvwm function(s) if you know what you
+do).<br>
+<br> For colours copy colours/Cyan_Grey_Gradient.theme to
+colours/your_colors_theme.theme, then reload the current colours theme
+(so that your_colors_theme appear in the ametista config menu). Then,
+edit colours/your_colors_theme.theme and apply the changes by selecting
+your_colors_theme in the config menu. For window look and the window
+buttons copy window/Vectors.theme to window/your_window_theme.theme
+then reload the current window theme and edit
+window/your_window_theme.theme and (re)load via the config menu (take a
+look at the others window theme and use the functions in
+bindings-functions). Note that the best place to add images (in users
+space) is ~/.fvwm-metisse/images as it is in the fvwm image path.<br>
+<br> The default Mouse and Key bindings follow. For customization, try
+first to edit bindings-functions and if needed edit bindings. The main
+problem with bindings is that some bindings can be intercepted by your
+regular window manager and that if you define a binding this binding
+will not be passed to the applications which are displayed in
+FvwmAmetista (pause). For example, if you press "Atl-Tab" when you use
+FvwmAmetista, "the window list" menu of your running window manager (or
+desktop) pop up and not the fvwm FvwmAmetista window list. This is the
+reason why FvwmAmetista uses (for some bindings) complex modifiers
+sequence (mainly Atl-Shift and Ctl-Shift). This can be not enough, you
+may have to configure your running window manager and FvwmAmetista so
+that there is no bindings interferences (this concerns, mainly, key
+bindings and some special mouse bindings with modifier(s)). For
+changing the modifiers used by fvwm with FvwmAmetista edit the first
+section of bindings-functions. An other solution is to run FvwmAmetista
+without any window manager (and then you can simplify the bindings).<br>
+<br>
+      Root Mouse Bindings:<br>
+            - Mouse 1: the root menu, you can start programs via this menu<br>
+            - Mouse 2: the list of 'normal' windows<br>
+            - Mouse 3: window operations menu<br>
+            - Mouse 4: Previous Desk<br>
+            - Mouse 5: Next Desk<br>
+<br> If you press Alt and Shift the same bindings are valids inside a
+window or on the title bar. If you use a desktop application (as Rox,
+kdesktop or the Nautilus desktop), these bindings are valids only if
+you press Alt and Shift in addition of the mouse buttons. <br>
+<br>
+      Window Buttons Bindings:<br>
+            Menu button:<br>
+                  - Mouse 1 click: window operations menu<br>
+                  - Mouse 1 double click: close<br>
+                  - Mouse 2 click: move window to an other desk menu<br>
+                  - Mouse 3 click: extanded window operations menu (Not yet implemeted)<br>
+            Maximize button:<br>
+                  - Mouse 1 click: (toggle) Maximize<br>
+                  - Mouse 1 hold or drag: Zoom out<br>
+                  - Mouse 1 double click: a maximize/Zoom menu<br>
+                  - Mouse 2 and 3 click: zoom out<br>
+                  - Mouse 4 click: Unmaximize<br>
+                  - Mouse 5 click: Maximize Vertically<br>
+            Minimize button:<br>
+                  - Mouse 1 click: Iconify<br>
+                  - Mouse 1 hold or drag: Zoom in<br>
+                  - Mouse 1 double click: a Zoom menu<br>
+                  - Mouse 2 and 3 click: Zoom in<br>
+                  - Mouse 4 click: Zoom in<br>
+                  - Mouse 5 click: Iconify<br>
+            Close button (Only in Redmond window theme):<br>
+                  - Mouse 1 click: Delete<br>
+                  - Mouse 1 double click or mouse 2 click: Close<br>
+                  - Mouse 3 click: Destroy<br>
+            Stick button (Only in Vectors window theme):<br>
+                  Mouse 1, 2 or 3 click: Stick (toggle)<br>
+            Inclined arrow button (Devel window theme only):<br>
+                  - Mouse 1 drag: controled Z rotation<br>
+                  - Mouse 2 click: a smale clockwise Z rotation<br>
+                  - Mouse 3 click: a smale counterclockwise Z rotation Up-Down arrow button (Devel window theme only):<br>
+                  As the Inclined arrow for X rotation Left-Right arrow button (Devel window theme only):<br>
+                  As the Inclined arrow for Y rotation <br>
+<br>
+      Window Title Bindings:<br>
+            - Mouse 1 drag or hold: Move<br>
+            - Mouse 1 double click: Window shade (toggle)<br>
+            - Mouse 2 click: Raise/Lower<br>
+            - Mouse 3 click: Reset all 3D transformations<br>
+            - Mouse 4 click: Zoom in<br>
+            - Mouse 5 click: Zoom out<br>
+<br>
+      Window Borders Bindings:<br>
+            - Mouse 1 drag: Peeling (or folding)<br>
+            - Mouse 1 drag + Shift: Resize<br>
+            - Mouse 1 drag + Alt-Shift: Move<br>
+            - Mouse 1 double click: Directional window shade<br>
+            - Mouse 2 click: Window ops menu<br>
+            - Mouse 3 drag: Resizing<br>
+<br>
+      Key Bindings:<br>
+            Ctl-Shift F1: reset all the 3D transformation<br>
+            Ctl-Shift F2/F3: Z rotations<br>
+            Ctl-Shift F4/F5: Y rotations<br>
+            Ctl-Shift F6/F7: X rotations<br>
+            Ctl-Shift F8/F9: zoom in/out the full desktop<br>
+Ctl-Shift PageDown/PageUp: zoom in/out the full desktop Ctl-Shift
+Left/Right/Up/Down: Move the full desktop (if zoomed)<br>
+            Ctl-Shift e: very weak expose mode (à la Mac OSX), then press Esc or click on a window<br>
+            Ctl-Shift z: zoom out the selected window<br>
+            Ctl-Shift s: zoom in the selected window<br>
+            Ctl-Shift c: corp to circulate (toggle)<br>
+            Ctl-Shift a: Animate the window (toggle)<br>
+            Ctl-Shift o: XY roation<br>
+            Ctl-Shift F12: less transparency<br>
+            Ctl-Shift F11: more transparency<br>
+            Ctl-Shift t: toggle transparency (1 &lt;-&gt; 0.7)<br>
+            Ctl-Shift i: toggle animated zoom in/out ("AmetistaIconify")<br>
+Ctl-Shift f: take a screenshot capture.jpg. New in 0.3.1 add
+'AFuncPointerKeyAmetistaCmd f A "sma SaveFrame"' in bindings or use the
+0.3.1 bindings file<br>
+<br>
+            Atl-Shift F1: the root menu<br>
+            Atl-Shift F2: Windows list<br>
+            Alt-Shift F3: Window Ops menu<br>
+            Alt-Shift F4: Close the window under the pointer<br>
+            Alt-Shift F5: Raise or Lower the window under the pointer<br>
+            Alt-Shift F6: Restore progressively (Iconify AmetistaIconify Shade Maximize)<br>
+            Alt-Shift F7: Move<br>
+            Alt-Shift F8: Resize<br>
+            Alt-Shift F9: Iconify<br>
+            Alt-Shift F10: Maximize vertically<br>
+            Alt-Shift F11: Maximize horizontally<br>
+            Alt-Shift F12: Start a FvwmConsole<br>
+<br>
+            Alt-Shift Tab: the list of 'normal' windows<br>
+            Alt-Shift w: idem<br>
+            Alt-Shift n: Next Desk<br>
+            Alt-Shift p: Previous Desk<br>
+            Alt-Shift h,j,k or l: Move the cursor à la vi
+			
+		</td>
+	</tr>
+	</tbody></table>
+</div><br>
+Agora vamos ajeitar o tema, que cá pra nós é horrivel :-P <br>
+<br>
+Eu criei um tema, que ao meu ver, é lido :-P pra ele.<br>
+<br>
+http://download.thetragedychannel.com/metisse/tuto/muni-theme.tar.gz<br>
+<br>
+Baixa ele, descompacta e copia os arquivos:<br>
+<br>
+1 - a pasta 'muni' , copia pra essa pasta : ~/.fvwm-metisse/<br>
+<br>
+2 - o arquivo Muni.theme : ~/.fvwm-metisse/window/<br>
+<br>
+3 - o arquivo Muni-color.theme : ~/.fvwm-metisse/colours/<br>
+<br>
+<br>
+Pra voltar ao Metisse 'puro', abre um terminal e digita :<br>
+<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 50px;"><div dir="ltr" style="text-align: left;">killall nautilus
+killall gnome-panel</div></pre>
+</div>Pra selecionar os temas, é só ir no desktop do Metisse 'puro'
+(seom o gnome) e clicar com o botão direito &gt;&gt; Ametista Config
+&gt;&gt; Window Theme (e escolhe o 'Muni' ) e depois vai em 'color
+theme' e escolhe 'muni-color'.<br>
+<br>
+RESUMINDO:<br>
+<br>
+Depois de ter configurado, é bem simples pra iniciar ele.. basta abrir
+um terminal de segurança ou gerenciador de janelas leve e rodar os dois
+comandos:<br>
+<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 50px;"><div dir="ltr" style="text-align: left;">metisse
+metisse-desktop</div></pre>
+</div>onde desktop vai ser ou kde ou gnome..<br>
+<br>
+Bom pessoal, é isso ;-)<br>
+Caso encontrem alguma duvida, podem me adicionar no MSN: muni@thetragedychannel.com</div>
+</div>
+<div class="thead"><span class="stdate">13-02-2006</span></div>
+<div class="postrow">
+<div class="postauthor">
+Linius Torovoltis
+</div>
+<div class="postmessage">ae povo, alguém conseguiu ?</div>
+</div>
+<div class="thead"><span class="stdate">13-02-2006</span></div>
+<div class="postrow">
+<div class="postauthor">
+joaonadal
+</div>
+<div class="postmessage">Porcaria! Eu estou louco pra testar isso, mas tenho que sair pro trabalho daqui a pouco!<br>
+<br>
+Nadal</div>
+</div>
+<div class="thead"><span class="stdate">13-02-2006</span></div>
+<div class="postrow">
+<div class="postauthor">
+Linius Torovoltis
+</div>
+<div class="postmessage">Ae pessoal !<br>
+<br>
+consegui colocar no KDE também !<br>
+<br>
+ps.: stzack, comigo abriu normal... ;-)<br>
+<br>
+<br>
+pra abrir o KDE, é só fazer outro script:<br>
+<br>
+1 - cria o arquivo /usr/bin/metisse-kde<br>
+<br>
+dentro dele coloca:<br>
+<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Código:</div>
+	<pre class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px; overflow: auto; width: 640px; height: 50px;"><div dir="ltr" style="text-align: left;">kicker &amp;
+kdesktop &amp;</div></pre>
+</div>3 - dar permissão de execussão pra ele e mandar ver ;-)</div>
+</div>
+<div class="thead"><span class="stdate">13-02-2006</span></div>
+<div class="postrow">
+<div class="postauthor">
+JUNIM
+</div>
+<div class="postmessage"><font color="#ce0000">Edite o título para minúsculas, pelas regras do fórum não pode escrever em CAIXA ALTA</font><br>
+<br>
+<div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Citação:</div>
+	<table border="0" cellpadding="6" cellspacing="0" width="100%">
+	<tbody><tr>
+		<td class="alt2" style="border: 1px inset ;">
+			
+				<div>
+					Postado Originalmente por <strong>regras de conduta</strong>
+					
+				</div>
+				<div style="font-style: italic;">2-
+Não poste mensagens com palavras em maiúsculas no título, tampouco no
+texto todo, isto é extremamente desagradável, equivale a GRITAR. Também
+será proibida a inclusão de caracteres especiais no título. <b>Além de ser desagradável de ler, é injusto, pois faz com que sua mensagem tenha mais destaque que as demais.</b></div>
+			
+		</td>
+	</tr>
+	</tbody></table>
+</div><img src="Gnome_e_KDE_3D_ficheiros/23_29_109p.gif" alt="" border="0"></div>
+</div>
+<div class="thead"><span class="stdate">13-02-2006</span></div>
+<div class="postrow">
+<div class="postauthor">
+Linius Torovoltis
+</div>
+<div class="postmessage">ae pessoal, alguém conseguiu usar rodar???</div>
+</div>
+<div class="thead"><span class="stdate">02-03-2006</span></div>
+<div class="postrow">
+<div class="postauthor">
+Linius Torovoltis
+</div>
+<div class="postmessage">up :|</div>
+</div>
+<div class="thead"><span class="stdate">02-03-2006</span></div>
+<div class="postrow">
+<div class="postauthor">
+Sezaru
+</div>
+<div class="postmessage">tipo me diz uma coisa linius.. tu que já usou
+ou usa o metisse quais as vantagens que ele traz? porque é legal ter o
+desk em 3D etc.. mas ficar só mudando o angulo da janela não ajuda em
+nada no sentido pratico da coisa.. agora se para fazer outras coisas
+mais interessantes ai sim daria mais vontade de testar <img src="Gnome_e_KDE_3D_ficheiros/biggrin.gif" alt="" title="Big Grin" class="inlineimg" border="0"><br>
+Abraços</div>
+</div>
+<div class="thead"><span class="stdate">03-03-2006</span></div>
+<div class="postrow">
+<div class="postauthor">
+Linius Torovoltis
+</div>
+<div class="postmessage">cara, ele tem alguns recursos interessantes..
+A usabilidade dele é ótima.. por exemplo, você pode iconificaruma
+janela presionando ' ctrl + i ' ..ai ela vira um iconezinho.. isso é
+bem util quando se tem várias janelas abertas.. pode dar zoom na mesma,
+ou diminuir o zoom.. pode ver o conteudo que ta atras dela puxando como
+se fosse uma folha de papel.. tem muitas coisas ;-)<br>
+<br>
+só usando mesmo pra saber..hehe</div>
+</div>
+<div class="thead"><span class="stdate">03-03-2006</span></div>
+<div class="postrow">
+<div class="postauthor">
+Sezaru
+</div>
+<div class="postmessage">interessante :P vou tentar no debian amanha.. se gostar ja boto no gentoo  <img src="Gnome_e_KDE_3D_ficheiros/biggrin.gif" alt="" title="Big Grin" class="inlineimg" border="0"></div>
+</div>
+<div class="thead"><span class="stdate">27-05-2006</span></div>
+<div class="postrow">
+<div class="postauthor">
+MaphDelic
+</div>
+<div class="postmessage"><div style="margin: 5px 20px 20px;">
+	<div class="smallfont" style="margin-bottom: 2px;">Citação:</div>
+	<table border="0" cellpadding="6" cellspacing="0" width="100%">
+	<tbody><tr>
+		<td class="alt2" style="border: 1px inset ;">
+			
+				<div>
+					Postado Originalmente por <strong>Linius Torovoltis</strong>
+					
+				</div>
+				<div style="font-style: italic;">Ae pessoal !<br>
+<br>
+consegui colocar no KDE também !<br>
+<br>
+ps.: stzack, comigo abriu normal... ;-)<br>
+<br>
+<br>
+pra abrir o KDE, é s...</div>
+			
+		</td>
+	</tr>
+	</tbody></table>
+</div>Cara, aqui tá dando umas bixeiras no mouse... conflitos do cursor
+com os efeitos do kde... nos icones, nos menus, tudo... é como se toda
+reação do ambiente ao mouse estivesse encobrindo o cursor.<br>
+<br>
+Alguma idéia de como resolver?</div>
+</div>
+
+</div>
+
+</div></div></div>
+
+<div class="footertime">&nbsp;</div>
+<div id="sfooter" class="tfoot">
+<a href="http://www.guiadohardware.net/">Guia do Hardware</a>
+<a href="http://www.guiadohardware.net/comunidade/sendmessage.php" rel="nofollow">Fale Conosco</a>
+<a href="http://www.guiadohardware.net/comunidade/v-b/">Melhores Tópicos</a>
+</div>
+<img src="Gnome_e_KDE_3D_ficheiros/copyright.gif">
+
+</body></html>

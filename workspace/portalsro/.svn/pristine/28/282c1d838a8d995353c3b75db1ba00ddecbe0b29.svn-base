@@ -1,0 +1,164 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Levar um coletor para outra unidade</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+img_whs1 { width:242.21px; height:201.96px; border-style:none; }
+img_whs2 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Recomendações Finais\nMover o coletor para outra unidade");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class=PdfParaStyle06
+	style="font-size: 14pt; text-align: center;"
+	align=center>&nbsp;Levar 
+ um coletor para outra unidade. </p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt; text-align: justify;">Quando houver a necessidade 
+ de uma unidade receber um ou mais coletores de outras, será executado 
+ este processo. Isto deve ser executado pelo administrador, ou pessoa habilitada. 
+ </p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt; text-align: justify;"><span class=PdfCharStyle7
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Ao 
+ receber o coletor na nova unidade efetue um RESET, pressionando as teclas 
+ </font></span><span class=PdfCharStyle11
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">CTRL + SFT</font></span><span class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">, simultaneamente por 8 segundos; </font></span></p>
+
+<p class=PdfParaStyle16
+	style="text-align: justify;"><span class=PdfCharStyle7
+										style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Ao receber 
+ a tela de LOGON, pressione as teclas </font></span><span class=PdfCharStyle11
+													style="font-size: 12pt;"><font size=3 style="font-size:12pt;">ATL 
+ + i</font></span><span class=PdfCharStyle7
+				style="font-size: 12pt;"><font size=3 style="font-size:12pt;">, simultaneamente;</font></span><span 
+ class=PdfCharStyle7> </span></p>
+
+<p class=PdfParaStyle07
+	style="text-align: center;"
+	align=center><span class=PdfCharStyle7><img x-orientation="0" src="ManualSROII_65_01.gif" width="242.21px" height="201.96px" border="0" class="img_whs1"></span></p>
+
+<p class=PdfParaStyle07>&nbsp;</p>
+
+<p class=PdfParaStyle07
+	style="font-size: 12pt; text-align: justify;"><span class=PdfCharStyle11
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Nota</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">: a mudança de coletores entre unidades esta 
+ implementada no SRO a partir da versão 4.0 do SRO.exe (tela acima). Confirme 
+ no inferior da tela a versão do SRO.exe. </font></span></p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt; text-align: justify;">Na nova unidade o coletor 
+ receberá o próximo ID. Isto ocorre automaticamente e poderá ser verificado 
+ através do arquivo IDreg que se encontra no servidor, sob o folder \SROserver. 
+ </p>
+
+<p class=PdfParaStyle16
+	style="text-align: justify;"><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Todos os 
+ arquivos serão atualizados automaticamente logo após acionada a tecla 
+ de LOGIN e informado a Matricula e Senha. Portanto, aguarde todo o processo 
+ sem interrupções.</font></span> </p>
+
+<p class=PdfParaStyle16
+	style="text-align: justify;">&nbsp;</p>
+
+<p class=PdfParaStyle16
+	style="text-align: justify;
+			font-size: 12pt;
+			font-weight: bold;"><a href="Topicos.htm">Voltar ao Menu Principal</a></p>
+
+<p class=PdfParaStyle16
+	style="text-align: right;
+			font-size: 12pt;
+			font-weight: bold;"
+	align=right><a href="Registro_do_Backup.htm">&lt;&lt;Tópico Anterior 
+ </a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle16
+	style="text-align: right;
+			font-size: 12pt;
+			font-weight: bold;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle16
+	style="font-size: 12pt;
+			font-weight: bold;
+			text-align: center;
+			margin-left: 0px;"
+	align=center><span style="line-height: 150%;"><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs2"></span> 
+ &nbsp;&nbsp;&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

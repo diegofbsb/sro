@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<fts>
+<chunkinfo url="whfwdata0.xml" first="00" last="c"/>
+<chunkinfo url="whfwdata1.xml" first="c43sx" last="easycode"/>
+<chunkinfo url="whfwdata2.xml" first="edição" last="interconectar"/>
+<chunkinfo url="whfwdata3.xml" first="interconexão" last="primeira"/>
+<chunkinfo url="whfwdata4.xml" first="principal" last="tia"/>
+<chunkinfo url="whfwdata5.xml" first="time" last="zone"/>
+
+<tchunkinfo first="0" last="33" url="whftdata0.xml" />
+
+</fts>

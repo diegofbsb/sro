@@ -1,0 +1,301 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Parâmetros III</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:0px; margin-left:0px; margin-right:0px; text-indent:5px; }
+table.whs2 { width:100%; x-border-left:1px table-solid; x-border-top:1px table-solid; x-border-right:1px table-solid; x-border-bottom:1px table-solid; border-collapse:separate; }
+td.whs3 { background-color:#ffffff; x-cell-content-align:top; border-left-width:1px; border-right-width:1px; border-bottom-width:1px; border-top-width:1px; }
+td.whs4 { background-color:#ffffff; x-cell-content-align:top; border-left-width:1px; border-right-width:1px; border-bottom-width:0px; border-top-width:1px; }
+td.whs5 { background-color:#ffffff; x-cell-content-align:top; border-left-width:1px; border-right-width:1px; border-bottom-width:1px; border-top-width:0px; }
+img_whs6 { width:312.56px; height:320.28px; border-style:none; }
+img_whs7 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-top:1pt;margin-left:1pt;margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Manual de Operação do SROServer\nParâmetros III");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class="whs1">&nbsp;</p>
+
+<table x-use-null-cells width="100%" border="1" class="whs2">
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48><span class=PdfCharStyle7>Valida carteiro</span><span 
+ class=PdfCharStyle7> </span></td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Indica para o sistema se existe validação 
+ de matrícula de carteiro </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48>Valida item </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Indica para o sistema se existe validação 
+ de código de item </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48>Valida recipiente </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Indica para o sistema se existe validação 
+ de código de recipiente </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48>Valida nota </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Indica para o sistema se existe validação 
+ de código de nota de <br>
+despacho </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48>Pré - alerta de registro </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Indica para o sistema se existe busca 
+ de pré-alertas no <br>
+concentrador; </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48>Pré - alerta de despacho </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs4">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Indica para o sistema se existe busca 
+ de pré-alertas no <br>
+concentrador; </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs5">
+<p class=PdfParaStyle57>Dias de retenção </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs5">
+<p class=PdfParaStyle57
+	style="text-align: justify;">Indica para o sistema por quantos dias 
+ os dados suspensos devem <br>
+ficar armazenados no coletor; </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48>Max. Itens no spool </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Indica para o sistema o número máximo 
+ de listas armazenadas em <br>
+spool; </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48>Fixar AR </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Indica para o sistema se deve fixar o 
+ campo AR ou não </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48>Fila Imp. etiqueta </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Fila de impressão para etiquetas. Permite 
+ definir várias filas de <br>
+impressão apontando para impressoras de etiquetas diferentes. </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48>Fila Imp. relatórios </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48
+	style="text-align: justify;"><span class=PdfCharStyle7>Fila de impressão 
+ para relatórios. Permite definir uma impressora <br>
+de rede que utilize impressão TCP/IP, ou um computador com este <br>
+serviço, onde se encontra uma impressora local. </span><span class=PdfCharStyle11>Nota</span><span 
+ class=PdfCharStyle7>: caso a <br>
+impressora de relatório esteja conectada ao roteador o nome desta <br>
+fila obrigatoriamente deverá ser L1. </span></td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48>LPD etiqueta </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Tipo de sistema que oferece o serviço 
+ de impressão TCP/IP. Caso </p>
+<ul>
+	
+	<li style="margin-left: 7px; margin-top: 0px;"
+		class=kadov-p-CPdfParaStyle48><p class=PdfParaStyle48
+										style="text-align: justify;">computador 
+ em que a impressora de etiquetas esteja conectada </p></li>
+</ul>
+<p class=PdfParaStyle48
+	style="text-align: justify;">seja Windows marque esta opção. </td></tr>
+
+<tr>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48>LPD relatório </td>
+<td colspan="1" rowspan="1" valign="top" bgcolor="#FFFFFF" class="whs3">
+<p class=PdfParaStyle48
+	style="text-align: justify;">Tipo de sistema que oferece o serviço 
+ de impressão TCP/IP. Caso </p>
+<ul>
+	
+	<li style="margin-left: 7px; margin-top: 0px;"
+		class=kadov-p-CPdfParaStyle48><p class=PdfParaStyle48
+										style="text-align: justify;">computador 
+ em que a impressora de relatorios esteja conectada </p></li>
+</ul>
+<p class=PdfParaStyle48
+	style="text-align: justify;">seja Windows marque esta opção. </td></tr>
+</table>
+
+<p class="whs1">&nbsp;</p>
+
+<p class=PdfParaStyle55
+	style="text-align: center;"
+	align=center>Tabela 2 - Arquivo PARA </p>
+
+<p class=PdfParaStyle55>&nbsp;</p>
+
+<p class=PdfParaStyle29
+	style="margin-top: 10px;
+			margin-left: 10px;
+			margin-right: 0px;
+			text-indent: 0px;
+			font-size: 12pt;">Importante </p>
+
+<p class=PdfParaStyle29
+	style="margin-top: 10px;
+			margin-left: 0px;
+			margin-right: 0px;
+			text-indent: 50px;"><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Nos campos 
+ que recebem valores booleanos (verdadeiro / falso), eles devem ser preenchidos 
+ com true ou false, escritas exatamente desta forma (em minúsculas)</font></span> 
+ </p>
+
+<p class=PdfParaStyle29
+	style="margin-top: 34px;
+			margin-left: 51px;
+			margin-right: 0px;
+			text-align: center;"
+	align=center><img x-orientation="0" src="ManualSROII_25_01.gif" width="312.56px" height="320.28px" border="0" class="img_whs6"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 25 - Editando parâmetros - valores booleanos </p>
+
+<p class=PdfParaStyle10>&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt;"><a href="Topicos.htm">Voltar ao Menu Principal</a> 
+ </p>
+
+<p class=PdfParaStyle10
+	style="text-align: right; font-size: 12pt;"
+	align=right><a href="Par_metros_II.htm">&lt;&lt;Tópico Anterior</a> 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Iniciando_o_SROServer.htm">Próximo 
+ Tópico &gt;&gt;</a> &nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="text-align: right; font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt; text-align: center;"
+	align=center><span style="line-height: 150%;"><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs7"></span> 
+ &nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="text-align: right; font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=pdfparastyle10>&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Instalação Java</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:0px; margin-left:0px; margin-right:0px; text-indent:51px; }
+p.whs2 { margin-top:0px; margin-left:51px; margin-right:0px; text-indent:146px; font-size:12pt; text-align:center; }
+img_whs3 { width:280.40px; height:213.18px; border-style:none; }
+img_whs4 { width:235.17px; height:111.18px; border-style:none; }
+img_whs5 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-top:1pt;margin-left:1pt;margin-right:1pt; }";
+  strNSS += "p.whs2 {margin-top:1pt;margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Instalação Java Run Time\nInstalação Java");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p class="whs1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle06
+	style="font-size: 14pt; text-align: center;"
+	align=center>&nbsp;Instalação 
+ do Java Run Time </p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">3.1 Objetivo </p>
+
+<p class=PdfParaStyle19
+	style="font-size: 12pt;">Descrever os procedimentos necessários para 
+ a instalação do aplicativo Java Run Time. O Java Run Time é uma máquina 
+ virtual Java, ou seja, permite que o equipamento </p>
+
+<p class=PdfParaStyle33
+	style="font-size: 12pt;">processe programas escritos em Java. Funciona 
+ como um interpretador de Java. </p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">&nbsp;Importante </p>
+
+<p class=PdfParaStyle37
+	style="font-size: 12pt;">Antes de proceder à instalação do Java Run 
+ Time certifique-se de que não há nenhum aplicativo em execução. Feche 
+ todas as janelas de aplicativos. O driver de vîdeo dever estar corretamente 
+ configurado no computador em que este será instalado, pois a falha neste 
+ item poderá abortar a instalação! </p>
+
+<p class=PdfParaStyle17
+	style="font-size: 12pt;">3.2 Instalação </p>
+
+<p class=PdfParaStyle18
+	style="font-size: 12pt;"><span class=PdfCharStyle7
+									style="font-size: 12pt;"><font size=3 style="font-size:12pt;">No diretório 
+ criado no capîtulo 02 deste documento, localize a pasta de instalação 
+ do concentrador </font></span><span class=PdfCharStyle6
+								style="font-size: 12pt;"><font size=3 style="font-size:12pt;">SROserver\install</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> e clique duas vezes sobre o aplicativo </font></span><span 
+ class=PdfCharStyle6
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">j2re-1_4_2_03-windows-i586-p.exe. </font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">A janela abaixo será demonstrada no seu monitor: 
+ </font></span></p>
+
+<p class=PdfParaStyle18
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p align="center" class="whs2"><span class=PdfCharStyle7
+						style="font-size: 12pt;"><font size=3 style="font-size:12pt;"><img x-orientation="0" src="ManualSROII_11_01.gif" width="280.40px" height="213.18px" border="0" class="img_whs3"></font></span></p>
+
+<p class=PdfParaStyle10
+	style="font-size: 10pt; text-align: center;"
+	align=center>Figura 5 - Instalação Java Run Time - tela inicial <span 
+ style="font-size: 12pt;"><font size=3 style="font-size:12pt;"><img x-orientation="0" src="ManualSROII_11_02.gif" width="235.17px" height="111.18px" border="0" class="img_whs4"></font></span></p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt;">&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt;"><a href="Topicos.htm">Voltar ao Menu Principal</a></p>
+
+<p class=PdfParaStyle10
+	style="text-align: right; font-size: 12pt;"
+	align=right>&nbsp;&nbsp;<a href="Instalacao.htm">&nbsp;&nbsp;&lt;&lt; 
+ Tópico Anterior</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a 
+ href="Instalacao_Java_II.htm"
+	style="font-size: 12pt;">Próximo Tópico 
+ &nbsp;&gt;&gt;</a> 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="text-align: right; font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle10
+	style="font-size: 12pt;
+			text-align: center;
+			line-height: 150%;"
+	align=center><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs5"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: right; font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

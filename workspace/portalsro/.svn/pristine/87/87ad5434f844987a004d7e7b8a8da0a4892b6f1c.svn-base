@@ -1,0 +1,201 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>Instalando o Roteador II</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="m_ManualSROII_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='m_ManualSROII.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { margin-top:34px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs2 { width:391.95px; height:250.92px; border-style:none; }
+p.whs3 { margin-top:14px; margin-left:51px; margin-right:0px; text-align:center; }
+img_whs4 { width:573.86px; height:375.36px; border-style:none; }
+img_whs5 { width:362.81px; height:244.80px; border-style:none; }
+img_whs6 { width:444.21px; height:325.38px; border-style:none; }
+img_whs7 { border:none; width:732px; height:106px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {margin-right:1pt; }";
+  strNSS += "p.whs3 {margin-right:1pt; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Instalação do Roteador\nComo Instalar II");
+addButton("show",BTN_TEXT,"Mostrar","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Coletor_HHP.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<p align="center" class="whs1"><img x-orientation="0" src="ManualSROII_29_01.gif" width="391.95px" height="250.92px" border="0" class="img_whs2"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 29 - Configuração do roteador - user e senha </p>
+
+<p class=PdfParaStyle09
+	style="margin-top: 50px;
+			margin-left: 70px;
+			margin-right: 0px;
+			text-indent: 40px;
+			font-size: 12pt;
+			text-align: justify;">Ao ser apresentada a tela de configuração, 
+ o Wizard será iniciado para o Setup Rápido do equipamento. Em algumas 
+ vezes o Wizard não é acionado automaticamente. Caso isto ocorra, outra 
+ tela será apresentada onde o usuário deverá clicar em Quick Start Wizard. 
+ Como apresentado a seguir: </p>
+
+<p align="center" class="whs3"><img x-orientation="0" src="ManualSROII_29_03.gif" width="573.86px" height="375.36px" border="0" class="img_whs4"></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 30 - Configuração do roteador - menu principal 
+ </p>
+
+<p class=PdfParaStyle07
+	style="font-size: 12pt;">Informando o Wizard </p>
+
+<p class=PdfParaStyle63
+	style="text-align: center;"
+	align=center><span class=PdfCharStyle7
+						style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Mantenha a password em 
+ branco. Nunca a Altere! Siga para a próxima tela com a tecla</font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> Next.</font></span><span class=PdfCharStyle11> <img x-orientation="0" src="ManualSROII_30_01.gif" width="362.81px" height="244.80px" border="0" class="img_whs5"></span></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 31 - Instalação do roteador - senha </p>
+
+<p class=PdfParaStyle31
+	style="text-align: justify; font-size: 12pt;"><span class=PdfCharStyle7
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Informe 
+ a zona do fuso horário de sua localização. Na maioria dos estados brasileiros 
+ utilize a opção (GMT -03:00 Brasîlia). Feita a opção, pressione </font></span><span 
+ class=PdfCharStyle11
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Next</font></span><span class=PdfCharStyle7
+												style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> 
+ para a próxima tela.</font></span></p>
+
+<p class=PdfParaStyle31
+	style="text-align: center;"
+	align=center><span class=PdfCharStyle7>&nbsp;<img x-orientation="0" src="ManualSROII_30_02.gif" width="444.21px" height="325.38px" border="0" class="img_whs6"></span></p>
+
+<p class=PdfParaStyle10
+	style="text-align: center;"
+	align=center>Figura 32 - Instalação do roteador - time zone </p>
+
+<p class=PdfParaStyle31
+	style="font-size: 12pt; text-align: justify;"><span class=PdfCharStyle7
+														style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Configure 
+ o tipo de conexão apropriada para a rede existente. Poderá ser utilizada 
+ dentre as opções apresentadas o DHCP ou Static IP. Não utilize as opções 
+ PPPoE ou PPTP pois estas referenciam tipos de redes não usadas no ambiente 
+ das unidades. Pressione </font></span><span class=PdfCharStyle11
+										style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Next</font></span><span 
+ class=PdfCharStyle7
+	style="font-size: 12pt;"><font size=3 style="font-size:12pt;"> para a próxima tela. </font></span></p>
+
+<p class=PdfParaStyle34
+	style="text-align: justify;"><span style="font-size: 12pt;"><font size=3 style="font-size:12pt;">Lembre-se! 
+ Se optado por DHCP nenhuma outra configuração será necessária e o Wizard 
+ lhe encaminhará para o item Sumário. Se optado por IPStatic, obtenha o 
+ endereço IP com o administrador da rede e informe na tela conforme demonstrado 
+ a seguir.</font></span> </p>
+
+<p class=PdfParaStyle34
+	style="text-align: right;
+			font-style: normal;
+			font-size: 12pt;"
+	align=right>&nbsp;</p>
+
+<p class=PdfParaStyle34
+	style="font-style: normal; font-size: 12pt;"><a href="Topicos.htm">Voltar 
+ ao Menu Principal</a></p>
+
+<p class=PdfParaStyle34
+	style="text-align: right;
+			font-style: normal;
+			font-size: 12pt;"
+	align=right><a href="Instalando_o_Roteador.htm">&lt;&lt;Tópico &nbsp;Anterior</a> 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Opcao_DHCP.htm">Próximo 
+ Tópico&gt;&gt;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class=PdfParaStyle34
+	style="font-style: normal;
+			font-size: 12pt;
+			text-align: center;
+			line-height: 150%;
+			text-indent: -2px;
+			margin-left: 0px;"
+	align=center><img src="Rodap__hhp.bmp" x-maintain-ratio="TRUE" width="732px" height="106px" border="0" class="img_whs7"></p>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+sql=\
+select e.evt_itemcode  \
+    , e.evt_code \
+    , e.evt_createtime \
+    , e.evt_hitunitcep \
+    , u.uni_name  \
+from sro.event e, sro.unit u \
+where e.evt_createtime between trunc(sysdate) and sysdate \
+    and e.evt_hitunitcep in ( \
+        select uni_cep \
+        from sro.unit \
+        where uni_rdcode = ? \
+    ) \
+    and length(evt_itemcode) < 11 \
+    and e.evt_recordtype = 1 \
+    and e.evt_hitunitcep = u.uni_cep \
